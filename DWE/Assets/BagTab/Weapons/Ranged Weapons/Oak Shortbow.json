@@ -1,0 +1,11 @@
+{
+  "ItemData": "g7aQPfflM0q63qyJZyWI8w",
+  "name": "Oak Shortbow",
+  "max_stack": 1,
+  "icon": "Oak Shortbow.png",
+  "description": "An agile shortbow carved from oak wood.",
+  "VitalShield": 0,
+  "BaseDurability": 1050,
+  "PowerLevel": 3,
+  "Weight": 10.0
+}

@@ -1,0 +1,12 @@
+{
+  "ItemData": "wQPcKK1XV0iF1_CADXUwEw",
+  "name": "Bronze Platelegs",
+  "max_stack": 1,
+  "icon": "Bronze Platelegs.png",
+  "description": "Heavy platelegs made from bronze. ",
+  "Equipment": "Legs",
+  "VitalShield": 0,
+  "BaseDurability": 1250,
+  "PowerLevel": 3,
+  "Weight": 12.0
+}

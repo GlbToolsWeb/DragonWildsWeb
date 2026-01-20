@@ -1,0 +1,11 @@
+{
+  "ItemData": "ALn1jUyxkFwgIHmHAGkoxg",
+  "name": "Draconic Staff",
+  "max_stack": 1,
+  "icon": "Draconic Staff.png",
+  "description": "An ancient Dragonkin staff used by the mages of old.",
+  "VitalShield": 0,
+  "BaseDurability": 1100,
+  "PowerLevel": 4,
+  "Weight": 15.0
+}

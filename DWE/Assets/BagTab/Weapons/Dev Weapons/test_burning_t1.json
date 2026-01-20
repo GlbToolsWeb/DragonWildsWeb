@@ -1,0 +1,11 @@
+{
+  "ItemData": "P4DqJ03JPXW9Uf-z9vf9cA",
+  "name": "test_burning_t1",
+  "max_stack": 1,
+  "icon": "test_burning_t1.png",
+  "description": "A rudimentary dagger, handy in close combat.",
+  "VitalShield": 0,
+  "BaseDurability": 300,
+  "PowerLevel": 1,
+  "Weight": 3.0
+}

@@ -1,0 +1,12 @@
+{
+  "ItemData": "g9vfX7KsMkurrMZa7z1aPg",
+  "name": "Apprentice Robe",
+  "max_stack": 1,
+  "icon": "Apprentice Robe.png",
+  "description": "Provides basic protection for trainees in the magical arts.",
+  "Equipment": "Body",
+  "VitalShield": 0,
+  "BaseDurability": 1000,
+  "PowerLevel": 2,
+  "Weight": 8.0
+}

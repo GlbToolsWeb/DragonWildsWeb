@@ -1,0 +1,9 @@
+{
+  "ItemData": "ZBZGmUwRoHleCpi1KISp-g",
+  "name": "Steel Arrow",
+  "max_stack": 999,
+  "icon": "Steel Arrow.png",
+  "description": "Arrows with tips forged from Steel.",
+  "VitalShield": 0,
+  "PowerLevel": 5
+}

@@ -1,0 +1,9 @@
+{
+  "ItemData": "1-eS15sb9UW_8kRzIMyV6g",
+  "name": "Iron Arrow",
+  "max_stack": 999,
+  "icon": "Iron Arrow.png",
+  "description": "Arrows with tips forged from iron.",
+  "VitalShield": 0,
+  "PowerLevel": 4
+}

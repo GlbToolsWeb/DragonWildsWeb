@@ -1,0 +1,11 @@
+{
+  "ItemData": "yte2PUYaqeYZH02J_aviEg",
+  "name": "Granite Maul",
+  "max_stack": 1,
+  "icon": "Granite Maul.png",
+  "description": "The power of this warhammer should not be taken for granite.",
+  "VitalShield": 0,
+  "BaseDurability": 1050,
+  "PowerLevel": 3,
+  "Weight": 25.0
+}

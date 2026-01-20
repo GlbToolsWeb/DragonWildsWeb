@@ -1,0 +1,11 @@
+{
+  "ItemData": "lJqTrE_r-nkdhwyoPhfsAA",
+  "name": "Bronze Mace",
+  "max_stack": 1,
+  "icon": "Bronze Mace.png",
+  "description": "Crush your foes with this heavy, spiked bronze mace.",
+  "VitalShield": 0,
+  "BaseDurability": 1050,
+  "PowerLevel": 3,
+  "Weight": 6.0
+}

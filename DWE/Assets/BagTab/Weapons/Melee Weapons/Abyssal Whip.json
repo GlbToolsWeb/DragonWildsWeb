@@ -1,0 +1,11 @@
+{
+  "ItemData": "P3_Aq0nAXu5dlFuBNGgyaw",
+  "name": "Abyssal Whip",
+  "max_stack": 1,
+  "icon": "Abyssal Whip.png",
+  "description": "A brutal weapon crafted from the spine of a terrifying Abyssal Demon.",
+  "VitalShield": 0,
+  "BaseDurability": 1300,
+  "PowerLevel": 4,
+  "Weight": 4.5
+}

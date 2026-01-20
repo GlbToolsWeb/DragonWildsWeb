@@ -1,0 +1,11 @@
+{
+  "ItemData": "wKLbQE45kY_FG3CqMpInFw",
+  "name": "test_poison_t1",
+  "max_stack": 1,
+  "icon": "test_poison_t1.png",
+  "description": "A rudimentary dagger, handy in close combat.",
+  "VitalShield": 0,
+  "BaseDurability": 300,
+  "PowerLevel": 1,
+  "Weight": 3.0
+}

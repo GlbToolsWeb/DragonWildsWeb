@@ -1,0 +1,11 @@
+{
+  "ItemData": "x8-RhkKqeWm0aTeFQB7tFQ",
+  "name": "Inspiring Amulet of Magic",
+  "max_stack": 1,
+  "icon": "Inspiring Amulet of Magic.png",
+  "description": "+5% Increased MAGIC XP",
+  "Equipment": "Jewellery",
+  "VitalShield": 0,
+  "BaseDurability": 18000,
+  "Weight": 2.0
+}

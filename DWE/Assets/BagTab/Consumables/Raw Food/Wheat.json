@@ -1,0 +1,9 @@
+{
+  "ItemData": "1PhTmE-FuOrQnFSxSVMfUQ",
+  "name": "Wheat",
+  "max_stack": 99,
+  "icon": "Wheat.png",
+  "description": "A sheaf of wheat.",
+  "PowerLevel": 2,
+  "Weight": 0.4
+}

@@ -1,0 +1,9 @@
+{
+  "ItemData": "HwM2_HvXZUyt8FmT4F2iYQ",
+  "name": "Potato",
+  "max_stack": 99,
+  "icon": "Potato.png",
+  "description": "Definitely not a carrot.",
+  "PowerLevel": 2,
+  "Weight": 0.2
+}

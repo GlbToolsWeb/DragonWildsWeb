@@ -1,0 +1,11 @@
+{
+  "ItemData": "Xs6AJ0up43qfLeG1fRqk4g",
+  "name": "Bone Pickaxe",
+  "max_stack": 1,
+  "icon": "Bone Pickaxe.png",
+  "description": "A basic mining tool made from tough animal bone. It is hard enough to mine Copper and Tin deposits.",
+  "VitalShield": 0,
+  "BaseDurability": 1350,
+  "PowerLevel": 2,
+  "Weight": 5.0
+}

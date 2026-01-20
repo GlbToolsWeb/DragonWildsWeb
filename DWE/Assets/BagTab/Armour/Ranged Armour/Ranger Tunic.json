@@ -1,0 +1,12 @@
+{
+  "ItemData": "IalNEUbWy5_alu6a4ffmUw",
+  "name": "Ranger Tunic",
+  "max_stack": 1,
+  "icon": "Ranger Tunic.png",
+  "description": "Ranger armour that's as dangerous as it is dapper!",
+  "Equipment": "Body",
+  "VitalShield": 0,
+  "BaseDurability": 1250,
+  "PowerLevel": 5,
+  "Weight": 12.0
+}

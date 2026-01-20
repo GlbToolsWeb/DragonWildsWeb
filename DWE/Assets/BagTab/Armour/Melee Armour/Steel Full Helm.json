@@ -1,0 +1,12 @@
+{
+  "ItemData": "vD5BTU75YhilvnGtFX3L0Q",
+  "name": "Steel Full Helm",
+  "max_stack": 1,
+  "icon": "Steel Full Helm.png",
+  "description": "A full helm forged from Steel for Melee users.",
+  "Equipment": "Head",
+  "VitalShield": 0,
+  "BaseDurability": 1500,
+  "PowerLevel": 5,
+  "Weight": 8.0
+}

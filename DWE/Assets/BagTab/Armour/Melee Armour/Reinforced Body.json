@@ -1,0 +1,12 @@
+{
+  "ItemData": "mkaB7UQN1fBbSkGNVTVRZw",
+  "name": "Reinforced Body",
+  "max_stack": 1,
+  "icon": "Reinforced Body.png",
+  "description": "A heavy chestplate made from Leather and Bone.",
+  "Equipment": "Body",
+  "VitalShield": 0,
+  "BaseDurability": 1000,
+  "PowerLevel": 2,
+  "Weight": 16.0
+}

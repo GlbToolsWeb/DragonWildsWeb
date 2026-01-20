@@ -1,0 +1,12 @@
+{
+  "ItemData": "5PEcXkJHZY9PDqKb9Skqww",
+  "name": "Paladin's Helm",
+  "max_stack": 1,
+  "icon": "Paladin's Helm.png",
+  "description": "A metal helm, worn by paladins in service to the church of Saradomin.",
+  "Equipment": "Head",
+  "VitalShield": 0,
+  "BaseDurability": 1400,
+  "PowerLevel": 4,
+  "Weight": 8.0
+}

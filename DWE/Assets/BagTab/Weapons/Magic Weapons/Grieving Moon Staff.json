@@ -1,0 +1,11 @@
+{
+  "ItemData": "hS_GuEyi70Xf932m1rq7PA",
+  "name": "Grieving Moon Staff",
+  "max_stack": 1,
+  "icon": "Grieving Moon Staff.png",
+  "description": "This staff is dedicated to Lougrim, the fallen Garou goddess of the Moon.",
+  "VitalShield": 0,
+  "BaseDurability": 1050,
+  "PowerLevel": 3,
+  "Weight": 15.0
+}

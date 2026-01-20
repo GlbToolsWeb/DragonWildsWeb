@@ -1,0 +1,9 @@
+{
+  "ItemData": "Ttc6u0zyAi-JMaOjrxwtNQ",
+  "name": "Raw Farm Meat",
+  "max_stack": 99,
+  "icon": "Raw Farm Meat.png",
+  "description": "Raw meat from farm animals, it can be cooked on a campfire.",
+  "PowerLevel": 2,
+  "Weight": 0.5
+}

@@ -1,0 +1,12 @@
+{
+  "ItemData": "VC09I0jpA170BKygkhJ2UQ",
+  "name": "Necromancer's Robe Top",
+  "max_stack": 1,
+  "icon": "Necromancer's Robe Top.png",
+  "description": "Magical robes for those who believe that death is only the beginning.",
+  "Equipment": "Body",
+  "VitalShield": 0,
+  "BaseDurability": 1500,
+  "PowerLevel": 5,
+  "Weight": 8.0
+}

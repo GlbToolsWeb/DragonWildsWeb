@@ -1,0 +1,12 @@
+{
+  "ItemData": "t4RxskBsdSppCcuzclu5dw",
+  "name": "Green Dragonhide Chaps",
+  "max_stack": 1,
+  "icon": "Green Dragonhide Chaps.png",
+  "description": "Agile Ranged leg armour crafted from Green Dragonhide.",
+  "Equipment": "Legs",
+  "VitalShield": 0,
+  "BaseDurability": 1250,
+  "PowerLevel": 5,
+  "Weight": 9.0
+}

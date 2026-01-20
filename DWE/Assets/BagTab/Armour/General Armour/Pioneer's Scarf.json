@@ -1,0 +1,11 @@
+{
+  "ItemData": "TNwe-UTLT1bxEPKBM9GnAQ",
+  "name": "Pioneer's Scarf",
+  "max_stack": 1,
+  "icon": "Pioneer's Scarf.png",
+  "description": "A scarf worn by Ashenfall's first explorers.",
+  "Equipment": "Head",
+  "VitalShield": 0,
+  "BaseDurability": 1000,
+  "Weight": 2.0
+}

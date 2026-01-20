@@ -1,0 +1,12 @@
+{
+  "ItemData": "h3G7NqBW-0i6TrNRlBD6Sg",
+  "name": "Apprentice Hat",
+  "max_stack": 1,
+  "icon": "Apprentice Hat.png",
+  "description": "A comfortable hat made from linen, perfect for adventurers who are practicing magic.",
+  "Equipment": "Head",
+  "VitalShield": 0,
+  "BaseDurability": 1000,
+  "PowerLevel": 2,
+  "Weight": 4.0
+}

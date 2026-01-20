@@ -1,0 +1,12 @@
+{
+  "ItemData": "TASgGUjnZPDyV6arZ72Yhg",
+  "name": "Splitbark Body",
+  "max_stack": 1,
+  "icon": "Splitbark Body.png",
+  "description": "Magical armour crafted from Fine Cloth and Hollow Bark. It has strange magical properties.",
+  "Equipment": "Body",
+  "VitalShield": 0,
+  "BaseDurability": 1500,
+  "PowerLevel": 5,
+  "Weight": 8.0
+}

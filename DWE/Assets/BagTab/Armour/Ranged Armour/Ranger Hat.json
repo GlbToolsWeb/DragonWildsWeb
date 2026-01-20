@@ -1,0 +1,12 @@
+{
+  "ItemData": "G3PQn0IrK3xN_KiFGiK1XA",
+  "name": "Ranger Hat",
+  "max_stack": 1,
+  "icon": "Ranger Hat.png",
+  "description": "Ranger head gear. Wearing this gives you the urge to rob from the rich to help the poor for some reason.",
+  "Equipment": "Head",
+  "VitalShield": 0,
+  "BaseDurability": 1250,
+  "PowerLevel": 5,
+  "Weight": 6.0
+}

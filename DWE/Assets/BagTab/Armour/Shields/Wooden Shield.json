@@ -1,0 +1,11 @@
+{
+  "ItemData": "XiatxUToDUaswQb3Xrz6NQ",
+  "name": "Wooden Shield",
+  "max_stack": 1,
+  "icon": "Wooden Shield.png",
+  "description": "Basic protection for those seeking to more efficiently block and parry.",
+  "VitalShield": 0,
+  "BaseDurability": 500,
+  "PowerLevel": 1,
+  "Weight": 10.0
+}

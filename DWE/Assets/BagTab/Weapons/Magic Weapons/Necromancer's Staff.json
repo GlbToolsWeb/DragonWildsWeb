@@ -1,0 +1,11 @@
+{
+  "ItemData": "6khNUkAOBBavR761Jxbj3g",
+  "name": "Necromancer's Staff",
+  "max_stack": 1,
+  "icon": "Necromancer's Staff.png",
+  "description": "Necromantic essence still eminates from this staff.",
+  "VitalShield": 0,
+  "BaseDurability": 1050,
+  "PowerLevel": 5,
+  "Weight": 15.0
+}

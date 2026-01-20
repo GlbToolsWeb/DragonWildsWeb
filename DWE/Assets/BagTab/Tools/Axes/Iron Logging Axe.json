@@ -1,0 +1,11 @@
+{
+  "ItemData": "YvBVZjzx_UKN9z1wIPzlrA",
+  "name": "Iron Logging Axe",
+  "max_stack": 1,
+  "icon": "Iron Logging Axe.png",
+  "description": "A durable tool for chopping trees, ideal for budding lumberjacks.",
+  "VitalShield": 0,
+  "BaseDurability": 2400,
+  "PowerLevel": 4,
+  "Weight": 5.0
+}

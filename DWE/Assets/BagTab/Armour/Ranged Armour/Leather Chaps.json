@@ -1,0 +1,12 @@
+{
+  "ItemData": "Q6DUGmTWNkG5S1Ki_5Nz1w",
+  "name": "Leather Chaps",
+  "max_stack": 1,
+  "icon": "Leather Chaps.png",
+  "description": "Protective armour made from leather.",
+  "Equipment": "Legs",
+  "VitalShield": 0,
+  "BaseDurability": 1000,
+  "PowerLevel": 2,
+  "Weight": 9.0
+}

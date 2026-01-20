@@ -1,0 +1,11 @@
+{
+  "ItemData": "-OI9N0GCWiJtKNqmlBmAfw",
+  "name": "Steel Mace",
+  "max_stack": 1,
+  "icon": "Steel Mace.png",
+  "description": "A brutal crush weapon forged from high quality Steel.",
+  "VitalShield": 0,
+  "BaseDurability": 1300,
+  "PowerLevel": 5,
+  "Weight": 6.0
+}

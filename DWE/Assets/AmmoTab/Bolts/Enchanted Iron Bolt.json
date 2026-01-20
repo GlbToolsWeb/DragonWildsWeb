@@ -1,0 +1,9 @@
+{
+  "ItemData": "HMZvK0ItELqUlmm4i5HqSQ",
+  "name": "Enchanted Iron Bolt",
+  "max_stack": 999,
+  "icon": "Enchanted Iron Bolt.png",
+  "description": "Iron crossbow bolts tipped with enchanted Jade, that have a chance of dealing Water magic damage and slowing your target. ",
+  "VitalShield": 0,
+  "PowerLevel": 4
+}

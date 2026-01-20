@@ -1,0 +1,9 @@
+{
+  "ItemData": "vmEIW09ztuDtLmGpyzQBbQ",
+  "name": "Stone Arrow",
+  "max_stack": 999,
+  "icon": "Stone Arrow.png",
+  "description": "Arrows with tips of splintered stone.",
+  "VitalShield": 0,
+  "PowerLevel": 1
+}

@@ -1,0 +1,11 @@
+{
+  "ItemData": "CN1GVEgi8t_uRs-yFmH_FQ",
+  "name": "test_burning_t4",
+  "max_stack": 1,
+  "icon": "test_burning_t4.png",
+  "description": "A sharp, compact weapon, perfect for quick strikes in close combat.",
+  "VitalShield": 0,
+  "BaseDurability": 525,
+  "PowerLevel": 4,
+  "Weight": 3.5
+}

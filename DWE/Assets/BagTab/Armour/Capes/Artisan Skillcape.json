@@ -1,0 +1,9 @@
+{
+  "ItemData": "YE5XYUqrSVkPXp6byr7VMw",
+  "name": "Artisan Skillcape",
+  "max_stack": 1,
+  "icon": "Artisan Skillcape.png",
+  "description": "The cape worn by master craftworkers.",
+  "Equipment": "Cape",
+  "VitalShield": 0
+}

@@ -1,0 +1,11 @@
+{
+  "ItemData": "qFp5MUMthbeEIx6vWCRNJA",
+  "name": "Dragoncurse Shield",
+  "max_stack": 1,
+  "icon": "Dragoncurse Shield.png",
+  "description": "The Spirit of Imaru lives on within this shield. ",
+  "VitalShield": 0,
+  "BaseDurability": 1300,
+  "PowerLevel": 5,
+  "Weight": 10.0
+}

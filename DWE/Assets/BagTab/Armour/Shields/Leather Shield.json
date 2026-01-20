@@ -1,0 +1,11 @@
+{
+  "ItemData": "xPzvUUSCo45hlMKe0e53vw",
+  "name": "Leather Shield",
+  "max_stack": 1,
+  "icon": "Leather Shield.png",
+  "description": "A slightly more refined and durable shield made from wood and tanned animal hide.",
+  "VitalShield": 0,
+  "BaseDurability": 900,
+  "PowerLevel": 2,
+  "Weight": 10.0
+}
