@@ -1,0 +1,11 @@
+{
+  "ItemData": "VVq58NyN8EKOk3WUg2130Q",
+  "name": "Adventurer's Longbow",
+  "max_stack": 1,
+  "icon": "Adventurer's Longbow.png",
+  "description": "The bane of deer everywhere.",
+  "VitalShield": 0,
+  "BaseDurability": 850,
+  "PowerLevel": 2,
+  "Weight": 15.0
+}

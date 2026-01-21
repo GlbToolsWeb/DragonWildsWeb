@@ -1,0 +1,11 @@
+{
+  "ItemData": "IJILMByu-kCq_0feZkzKBw",
+  "name": "Stone Club",
+  "max_stack": 1,
+  "icon": "Stone Club.png",
+  "description": "A primitive weapon made from stone, perfect for early adventurers.",
+  "VitalShield": 0,
+  "BaseDurability": 700,
+  "PowerLevel": 1,
+  "Weight": 4.5
+}

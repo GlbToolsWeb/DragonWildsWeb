@@ -1,0 +1,11 @@
+{
+  "ItemData": "eqrPvUI8qhvjnbGRoIxNug",
+  "name": "Bronze Sword",
+  "max_stack": 1,
+  "icon": "Bronze Sword.png",
+  "description": "A well-balanced bronze blade.",
+  "VitalShield": 0,
+  "BaseDurability": 1050,
+  "PowerLevel": 3,
+  "Weight": 15.0
+}

@@ -1,0 +1,11 @@
+{
+  "ItemData": "RyuOEkWEWdGcvQqo2dPOgA",
+  "name": "Dragonblight Shield",
+  "max_stack": 1,
+  "icon": "Dragonblight Shield.png",
+  "description": "The Spirit of Velgar lives on within this shield corrupting your enemies.",
+  "VitalShield": 0,
+  "BaseDurability": 1300,
+  "PowerLevel": 4,
+  "Weight": 10.0
+}

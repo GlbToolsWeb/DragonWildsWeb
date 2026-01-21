@@ -1,0 +1,11 @@
+{
+  "ItemData": "gFA3V8-Y5UGLPAtJKYNnTw",
+  "name": "Iron Sword",
+  "max_stack": 1,
+  "icon": "Iron Sword.png",
+  "description": "A well-crafted iron blade for skilled combatants.",
+  "VitalShield": 0,
+  "BaseDurability": 1300,
+  "PowerLevel": 4,
+  "Weight": 15.0
+}

@@ -1,0 +1,11 @@
+{
+  "ItemData": "z1aZS0oEXuZ69Xe2iJ1A0A",
+  "name": "Bronze Shield",
+  "max_stack": 1,
+  "icon": "Bronze Shield.png",
+  "description": "Block and parry attacks steadily with this basic, dependable bronze shield.",
+  "VitalShield": 0,
+  "BaseDurability": 1050,
+  "PowerLevel": 3,
+  "Weight": 10.0
+}

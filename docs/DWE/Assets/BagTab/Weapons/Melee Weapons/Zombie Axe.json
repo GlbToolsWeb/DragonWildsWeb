@@ -1,0 +1,11 @@
+{
+  "ItemData": "z0Cq8kyZGceXi3KE508GDg",
+  "name": "Zombie Axe",
+  "max_stack": 1,
+  "icon": "Zombie Axe.png",
+  "description": "Made in the style of an ancient axe often found in the hands of zombies, it is capable of dealing both Crush and Slash damage at the same time. There seems to be more to this axe though...",
+  "VitalShield": 0,
+  "BaseDurability": 1300,
+  "PowerLevel": 5,
+  "Weight": 6.0
+}

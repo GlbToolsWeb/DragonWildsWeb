@@ -1,0 +1,8 @@
+{
+  "ItemData": "A8Lx3sZhHEeG4GXsl4ZLZw",
+  "name": "Copper Ore",
+  "max_stack": 99,
+  "icon": "Copper Ore.png",
+  "description": "Mined from Copper deposits, it can be smelted at a Furnace.",
+  "Weight": 2.3
+}

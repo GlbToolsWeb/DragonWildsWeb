@@ -1,0 +1,11 @@
+{
+  "ItemData": "djB3Z0qsYhwDyyS0xxKMuQ",
+  "name": "Willow Shortbow",
+  "max_stack": 1,
+  "icon": "Willow Shortbow.png",
+  "description": "An agile Shortbow crafted from Willow.",
+  "VitalShield": 0,
+  "BaseDurability": 1300,
+  "PowerLevel": 5,
+  "Weight": 10.0
+}

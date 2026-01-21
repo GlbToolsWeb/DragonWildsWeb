@@ -1,0 +1,12 @@
+{
+  "ItemData": "GJGz00NubkS7VNGcOcqFdA",
+  "name": "Fallen Hoplite's Tassets",
+  "max_stack": 1,
+  "icon": "Fallen Hoplite's Tassets.png",
+  "description": "Melee leg armour once belonging to a long dead Saradomin Hoplite.",
+  "Equipment": "Legs",
+  "VitalShield": 0,
+  "BaseDurability": 1500,
+  "PowerLevel": 5,
+  "Weight": 12.0
+}

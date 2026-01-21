@@ -1,0 +1,9 @@
+{
+  "ItemData": "KdTx0k1z9bKZ6EeFI_R9NA",
+  "name": "Wooden Watering Can",
+  "max_stack": 1,
+  "icon": "Wooden Watering Can.png",
+  "description": "{HeldContainerDescription}\r\n\r\nA Watering Can made from Ash Wood. Can be filled at any water source. Used for watering crops in Farming Plots.",
+  "VitalShield": 0,
+  "Weight": 4.5
+}

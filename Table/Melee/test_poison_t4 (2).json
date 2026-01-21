@@ -1,0 +1,11 @@
+{
+  "ItemData": "3LufGUl5SzS2zV2Vj7QCPg",
+  "name": "test_poison_t4",
+  "max_stack": 1,
+  "icon": "test_poison_t4 (2).png",
+  "description": "A sharp, compact weapon, perfect for quick strikes in close combat.",
+  "VitalShield": 0,
+  "BaseDurability": 525,
+  "PowerLevel": 4,
+  "Weight": 3.5
+}

@@ -1,0 +1,12 @@
+{
+  "ItemData": "FlnNkilo_EyfB0gbqf32AQ",
+  "name": "Wizard Robe Legs",
+  "max_stack": 1,
+  "icon": "Wizard Robe Legs.png",
+  "description": "Lightweight magical armour.",
+  "Equipment": "Legs",
+  "VitalShield": 0,
+  "BaseDurability": 1250,
+  "PowerLevel": 3,
+  "Weight": 6.0
+}

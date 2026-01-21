@@ -1,0 +1,9 @@
+{
+  "ItemData": "IRhYFE04RuHPriOUTWp4Sg",
+  "name": "Bronze Watering Can",
+  "max_stack": 1,
+  "icon": "Bronze Watering Can.png",
+  "description": "{HeldContainerDescription}\r\n\r\nA bronze watering can. Can be filled at any water source.Used for watering crops in Farming Plots.",
+  "VitalShield": 0,
+  "Weight": 5.0
+}

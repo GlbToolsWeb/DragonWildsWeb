@@ -1,0 +1,12 @@
+{
+  "ItemData": "uRgtu0xFj-2S1suM_JFJoQ",
+  "name": "Ranger Tights",
+  "max_stack": 1,
+  "icon": "Ranger Tights.png",
+  "description": "Ranger leg gear that makes you feel both agile and slightly rebellious.",
+  "Equipment": "Legs",
+  "VitalShield": 0,
+  "BaseDurability": 1250,
+  "PowerLevel": 5,
+  "Weight": 9.0
+}

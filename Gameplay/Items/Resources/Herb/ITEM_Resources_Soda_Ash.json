@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Soda_Ash",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.0"
+      },
+      "Name": {
+        "TableId": "/Game/Gameplay/Items/ST_ItemNames.ST_ItemNames",
+        "Key": "SodaAsh",
+        "SourceString": "Soda Ash",
+        "LocalizedString": "Soda Ash"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "E2EE046443C0DA524E74C582F58425A6",
+        "SourceString": "One of the ingredients for making glass, obtained from cooking Swamp Weed.",
+        "LocalizedString": "One of the ingredients for making glass, obtained from cooking Swamp Weed."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Resources_Soda_Ash'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resources_Soda_Ash.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Soda_Ash/SM_Soda_Ash_01.SM_Soda_Ash_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 50,
+      "Weight": 0.5,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.ProcessedMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Stone.Light"
+      },
+      "RepairCostRatios": [
+        0.5
+      ],
+      "PersistenceID": "dc0Cf0G0LytXhf6V-KtM2g",
+      "InternalName": "res_soda_ash"
+    }
+  }
+]

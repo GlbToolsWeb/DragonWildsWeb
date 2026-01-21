@@ -1,0 +1,12 @@
+{
+  "ItemData": "lhrErX7MF0q9XlhdPdhCrA",
+  "name": "Bronze Helmet",
+  "max_stack": 1,
+  "icon": "Bronze Helmet.png",
+  "description": "A helmet forged from bronze. ",
+  "Equipment": "Head",
+  "VitalShield": 0,
+  "BaseDurability": 1250,
+  "PowerLevel": 3,
+  "Weight": 8.0
+}

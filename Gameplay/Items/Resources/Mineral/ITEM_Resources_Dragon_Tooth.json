@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Dragon_Tooth",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.0"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "0C6F219E46796A8B88A1C5BFCCB7222C",
+        "SourceString": "Dragon Tooth",
+        "LocalizedString": "Dragon Tooth"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "BD0B419341ACEB17D229E495EF39BD46",
+        "SourceString": "A piece of dragon tooth, mined from the dragon skull found in the highlands.",
+        "LocalizedString": "A piece of dragon tooth, mined from the dragon skull found in the highlands."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Resource_Dragon_Tooth'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/Resources_ConceptArt/T_Icon_Resource_Dragon_Tooth.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resources/Dragon_Tooth/SM_Dragon_Tooth_01.SM_Dragon_Tooth_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 25,
+      "bCanBeDestroyed": false,
+      "Weight": 5.0,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
+      "ItemFilterTags": [
+        "ItemFilter.Material.BasicMaterial"
+      ],
+      "AudioSwitchTag": {
+        "TagName": "Audio.Stone.Dust"
+      },
+      "bDropOnDeath": false,
+      "PersistenceID": "qelCL0cKP9oFmYaJkKg6wA",
+      "InternalName": "res_dragon_tooth"
+    }
+  }
+]

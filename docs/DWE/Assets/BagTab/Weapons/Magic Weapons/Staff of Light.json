@@ -1,0 +1,11 @@
+{
+  "ItemData": "Hcq0C0UjvN3n8q-X2uqa7w",
+  "name": "Staff of Light",
+  "max_stack": 1,
+  "icon": "Staff of Light.png",
+  "description": "A mystical weapon humming with power, wielded by powerful Saradominist Wizards ages past.",
+  "VitalShield": 0,
+  "BaseDurability": 1300,
+  "PowerLevel": 4,
+  "Weight": 15.0
+}

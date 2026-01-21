@@ -1,0 +1,11 @@
+{
+  "ItemData": "pmx4j0E3SP9r4gmY38QrYA",
+  "name": "test_shock_t1",
+  "max_stack": 1,
+  "icon": "test_shock_t1 (2).png",
+  "description": "A rudimentary dagger, handy in close combat.",
+  "VitalShield": 0,
+  "BaseDurability": 300,
+  "PowerLevel": 1,
+  "Weight": 3.0
+}

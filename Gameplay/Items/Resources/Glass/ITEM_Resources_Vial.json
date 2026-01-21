@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "ItemData",
+    "Name": "ITEM_Resources_Vial",
+    "Class": "UScriptClass'ItemData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkillUsed": {
+        "ObjectName": "SkillData'SKILL_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Artisan.0"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "B8F131704D05569486FD65BEC5DE70B1",
+        "SourceString": "Vial",
+        "LocalizedString": "Vial"
+      },
+      "FlavourText": {
+        "Namespace": "",
+        "Key": "715826134E0197FCE80DD1B2846C2A49",
+        "SourceString": "An empty glass vial.",
+        "LocalizedString": "An empty glass vial."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'T_Icon_Resources_Vial'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Icons/T_Icon_Resources_Vial.0"
+      },
+      "StaticMesh": {
+        "AssetPathName": "/Game/Art/Item/Resource/Magic/SM_UnfinishedPotion_Health_01.SM_UnfinishedPotion_Health_01",
+        "SubPathString": ""
+      },
+      "bShowNotificationOnFirstPickup": true,
+      "bGoIntoHotbarOnPickup": false,
+      "MaxStackSize": 20,
+      "Weight": 0.1,
+      "Category": {
+        "TagName": "Item.BuildingResource"
+      },
+      "AudioSwitchTag": {
+        "TagName": "Audio.Glass.EmptyVial"
+      },
+      "PersistenceID": "fliBkkBZfNJwhpej98Q2xA",
+      "InternalName": "res_vial"
+    }
+  }
+]

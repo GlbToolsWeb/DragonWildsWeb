@@ -1,0 +1,11 @@
+{
+  "ItemData": "GO-fJEIf4N7Y0EeG5D0YSw",
+  "name": "test_burning_t2",
+  "max_stack": 1,
+  "icon": "test_burning_t2 (2).png",
+  "description": "A sinister weapon, crafted from the bones of fallen creatures.",
+  "VitalShield": 0,
+  "BaseDurability": 375,
+  "PowerLevel": 2,
+  "Weight": 2.5
+}

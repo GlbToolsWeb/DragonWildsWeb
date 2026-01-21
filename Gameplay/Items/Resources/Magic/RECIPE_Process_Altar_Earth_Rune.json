@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "RecipeData",
+    "Name": "RECIPE_Process_Altar_Earth_Rune",
+    "Class": "UScriptClass'RecipeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemsConsumed": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Rune_Essence'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Essence.0"
+          },
+          "Count": 1
+        }
+      ],
+      "ItemsCreated": [
+        {
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Rune_Earth'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Earth.0"
+          },
+          "Count": 10
+        }
+      ],
+      "ChanceToProduceExtraItems": 0.05,
+      "AudioTag": {
+        "TagName": "Audio.Magic.Rune"
+      },
+      "SkillUsedToCraft": {
+        "ObjectName": "SkillData'SKILL_Runecrafting'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Skills/SKILL_Runecrafting.0"
+      },
+      "OnCraftXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Crafting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Crafting.0"
+        },
+        "RowName": "Craft_Rune_Altar_Recipe"
+      },
+      "MinProcessingTime": 10.0,
+      "MaxProcessingTime": 10.0,
+      "PersistenceID": "d0pVPEWA3tQ2dOKc5Jsn6g",
+      "InternalName": "recipe_process_altar_rune_earth"
+    }
+  }
+]

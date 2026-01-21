@@ -1,0 +1,12 @@
+{
+  "ItemData": "ayHkBEYv_2a4B12L34FYzg",
+  "name": "White Platebody",
+  "max_stack": 1,
+  "icon": "White Platebody.png",
+  "description": "White Platelegs worn by a member of the Holy Order of White Knights.",
+  "Equipment": "Body",
+  "VitalShield": 0,
+  "BaseDurability": 1500,
+  "PowerLevel": 5,
+  "Weight": 16.0
+}

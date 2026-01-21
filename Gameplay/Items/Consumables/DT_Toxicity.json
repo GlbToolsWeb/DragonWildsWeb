@@ -1,0 +1,88 @@
+[
+  {
+    "Type": "GridlyDataTable",
+    "Name": "DT_Toxicity",
+    "Class": "UScriptClass'GridlyDataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'ToxicityTableRow'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "small_wardstone": {
+        "StatText": {
+          "Namespace": "",
+          "Key": "D183C69045F1DF61221DE38875A9D584",
+          "SourceString": "Substantial",
+          "LocalizedString": "Substantial"
+        },
+        "Toxicity": 25.0
+      },
+      "dirty_water": {
+        "StatText": {
+          "Namespace": "",
+          "Key": "4334761A454CCA124AF3B4815823B604",
+          "SourceString": "Minimal",
+          "LocalizedString": "Minimal"
+        },
+        "Toxicity": 15.0
+      },
+      "+20": {
+        "StatText": {
+          "Namespace": "",
+          "Key": "407ED20D4C2E552BE87AF2B7061D56F4",
+          "SourceString": "+20",
+          "LocalizedString": "+20"
+        },
+        "Toxicity": 20.0
+      },
+      "+25": {
+        "StatText": {
+          "Namespace": "",
+          "Key": "0366B91147485BC4666AADBD6DBED5E8",
+          "SourceString": "+25",
+          "LocalizedString": "+25"
+        },
+        "Toxicity": 0.0
+      },
+      "+30": {
+        "StatText": {
+          "Namespace": "",
+          "Key": "89EF2EF045DFDC433BCC10BE1D925115",
+          "SourceString": "+30",
+          "LocalizedString": "+30"
+        },
+        "Toxicity": 0.0
+      },
+      "+35": {
+        "StatText": {
+          "Namespace": "",
+          "Key": "F0A40CC0472AF9AC906FAEAEA6CA9D5C",
+          "SourceString": "+35",
+          "LocalizedString": "+35"
+        },
+        "Toxicity": 35.0
+      },
+      "+40": {
+        "StatText": {
+          "Namespace": "",
+          "Key": "0E506BAE445B44358E6A05972661FC73",
+          "SourceString": "+40",
+          "LocalizedString": "+40"
+        },
+        "Toxicity": 35.0
+      },
+      "+45": {
+        "StatText": {
+          "Namespace": "",
+          "Key": "64C040B9478FE6A1DB69A59A9FB30FDF",
+          "SourceString": "+45",
+          "LocalizedString": "+45"
+        },
+        "Toxicity": 35.0
+      }
+    }
+  }
+]

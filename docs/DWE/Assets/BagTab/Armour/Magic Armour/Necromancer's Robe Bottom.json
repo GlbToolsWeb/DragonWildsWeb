@@ -1,0 +1,12 @@
+{
+  "ItemData": "gA4ukk_Adi1spMuag9Tkow",
+  "name": "Necromancer's Robe Bottom\r\n",
+  "max_stack": 1,
+  "icon": "Necromancer's Robe Bottom.png",
+  "description": "Magical robe bottoms for Sorcerer's that have no concept of ethics.",
+  "Equipment": "Legs",
+  "VitalShield": 0,
+  "BaseDurability": 1500,
+  "PowerLevel": 5,
+  "Weight": 6.0
+}

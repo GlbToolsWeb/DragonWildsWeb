@@ -1,0 +1,9 @@
+{
+  "ItemData": "rRqyCURhyronhl-sJzypDQ",
+  "name": "Egg",
+  "max_stack": 99,
+  "icon": "Egg.png",
+  "description": "A nutritious ingredient.",
+  "PowerLevel": 1,
+  "Weight": 0.9
+}

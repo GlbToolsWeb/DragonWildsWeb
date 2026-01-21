@@ -1,0 +1,9 @@
+{
+  "ItemData": "sPbq7UpGgQcvbduqbSGJOg",
+  "name": "Enchanted Steel Bolt",
+  "max_stack": 999,
+  "icon": "Enchanted Steel Bolt.png",
+  "description": "Steel crossbow bolts tipped with enchanted Red Topaz. Has a chance to create a necrotic bolt that heals your lifeward for a proportion of the damage dealt.",
+  "VitalShield": 0,
+  "PowerLevel": 5
+}

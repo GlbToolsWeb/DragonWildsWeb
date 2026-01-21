@@ -1,0 +1,12 @@
+{
+  "ItemData": "uRhtpkdkwxqA1tih10PgbQ",
+  "name": "Steel Platebody",
+  "max_stack": 1,
+  "icon": "Steel Platebody.png",
+  "description": "A strong set of well crafted Steel Platemail for Melee users.",
+  "Equipment": "Body",
+  "VitalShield": 0,
+  "BaseDurability": 1500,
+  "PowerLevel": 5,
+  "Weight": 16.0
+}

@@ -1,0 +1,9 @@
+{
+  "ItemData": "9FOjcUsCSkwoL6i8ln6M9g",
+  "name": "Steel Watering Can",
+  "max_stack": 1,
+  "icon": "Steel Watering Can.png",
+  "description": "{HeldContainerDescription}\r\n\r\nA Steel watering can. Can be filled at any water source. Used for watering crops in Farming Plots.",
+  "VitalShield": 0,
+  "Weight": 5.5
+}

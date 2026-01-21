@@ -1,0 +1,11 @@
+{
+  "ItemData": "OJSTGEEY6uNu4beRiM4Qvw",
+  "name": "Goblin \"Swingslash\"",
+  "max_stack": 1,
+  "icon": "Goblin _Swingslash_.png",
+  "description": "A surprisingly nasty little axe. Popular with goblin warriors.",
+  "VitalShield": 0,
+  "BaseDurability": 850,
+  "PowerLevel": 2,
+  "Weight": 4.5
+}

@@ -1,0 +1,12 @@
+{
+  "ItemData": "hWGilEcAZgtX2JWejH4ncA",
+  "name": "Dark Mage Robe Legs",
+  "max_stack": 1,
+  "icon": "Dark Mage Robe Legs.png",
+  "description": "Lightweight magical armour for edgier spellcasters.",
+  "Equipment": "Legs",
+  "VitalShield": 0,
+  "BaseDurability": 1500,
+  "PowerLevel": 4,
+  "Weight": 6.0
+}

@@ -1,0 +1,8 @@
+{
+  "ItemData": "S7Kk_ZA9OEKZ8qwU9ciKCA",
+  "name": "Copper Bar",
+  "max_stack": 50,
+  "icon": "Copper Bar.png",
+  "description": "Smelted from Copper Ore, this metal can be mixed with Tin to create Bronze if you have a Crucible.",
+  "Weight": 5.0
+}

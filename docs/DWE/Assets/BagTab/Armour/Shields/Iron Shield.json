@@ -1,0 +1,11 @@
+{
+  "ItemData": "tkzekFdbDkCd-7MwOjfbnQ",
+  "name": "Iron Shield",
+  "max_stack": 1,
+  "icon": "Iron Shield.png",
+  "description": "A reliable, durable shield crafted from iron, perfect for tanking big hits.",
+  "VitalShield": 0,
+  "BaseDurability": 1300,
+  "PowerLevel": 4,
+  "Weight": 10.0
+}

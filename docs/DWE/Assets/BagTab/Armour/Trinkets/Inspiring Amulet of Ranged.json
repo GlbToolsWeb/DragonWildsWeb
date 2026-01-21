@@ -1,0 +1,11 @@
+{
+  "ItemData": "oO9ajk1av01ia2yV89in8g",
+  "name": "Inspiring Amulet of Ranged",
+  "max_stack": 1,
+  "icon": "Inspiring Amulet of Ranged.png",
+  "description": "+5% Increased RANGED XP",
+  "Equipment": "Jewellery",
+  "VitalShield": 0,
+  "BaseDurability": 18000,
+  "Weight": 2.0
+}

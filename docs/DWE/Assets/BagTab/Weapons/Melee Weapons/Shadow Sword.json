@@ -1,0 +1,11 @@
+{
+  "ItemData": "Ewe_yEPwqy4Bx0ajfHlwvw",
+  "name": "Shadow Sword",
+  "max_stack": 1,
+  "icon": "Shadow Sword.png",
+  "description": "This Greatsword exsists between the realms of the living and the dead.",
+  "VitalShield": 0,
+  "BaseDurability": 1300,
+  "PowerLevel": 5,
+  "Weight": 25.0
+}

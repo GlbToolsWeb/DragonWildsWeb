@@ -1,0 +1,11 @@
+{
+  "ItemData": "aNR2BUvdBFibOMGlrhZQ3Q",
+  "name": "weap_crossbow_test",
+  "max_stack": 1,
+  "icon": "weap_crossbow_test (2).png",
+  "description": "",
+  "VitalShield": 0,
+  "BaseDurability": 850,
+  "PowerLevel": 2,
+  "Weight": 10.0
+}

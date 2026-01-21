@@ -1,0 +1,11 @@
+{
+  "ItemData": "mXFVTke_27MjRnGxbcyATw",
+  "name": "test_bleed_t1",
+  "max_stack": 1,
+  "icon": "test_bleed_t1 (2).png",
+  "description": "A rudimentary dagger, handy in close combat.",
+  "VitalShield": 0,
+  "BaseDurability": 300,
+  "PowerLevel": 1,
+  "Weight": 3.0
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "Type": "GridlyDataTable",
+    "Name": "DT_Wither",
+    "Class": "UScriptClass'GridlyDataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'WitherTableRow'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "withered_water": {
+        "StatText": {
+          "Namespace": "",
+          "Key": "97F5E7BB430BB65D1EAF1D8E288A7A97",
+          "SourceString": "Minimal",
+          "LocalizedString": "Minimal"
+        },
+        "Wither": 20.0
+      }
+    }
+  }
+]

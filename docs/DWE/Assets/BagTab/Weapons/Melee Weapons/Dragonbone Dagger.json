@@ -1,0 +1,11 @@
+{
+  "ItemData": "4bMdm0gvxNqxKSaQjGtFmQ",
+  "name": "Dragonbone Dagger",
+  "max_stack": 1,
+  "icon": "Dragonbone Dagger.png",
+  "description": "A ferocious blade, filled with primal draconic rage. ",
+  "VitalShield": 0,
+  "BaseDurability": 1300,
+  "PowerLevel": 4,
+  "Weight": 5.0
+}

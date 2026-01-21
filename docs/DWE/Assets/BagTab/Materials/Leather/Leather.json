@@ -1,0 +1,8 @@
+{
+  "ItemData": "KejxKZhqBEy2BmyMUMidlA",
+  "name": "Leather",
+  "max_stack": 50,
+  "icon": "Leather.png",
+  "description": "A basic crafting material created from animal hide and commonly used for making equipment.",
+  "Weight": 0.3
+}

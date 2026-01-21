@@ -1,0 +1,11 @@
+{
+  "ItemData": "NqTlRkd7Zw4BE9GM_mDbtw",
+  "name": "Wild Scout's Shortbow",
+  "max_stack": 1,
+  "icon": "Wild Scout's Shortbow.png",
+  "description": "A bow used by Wild Knight scout. Maintaining balance, one arrow at a time.",
+  "VitalShield": 0,
+  "BaseDurability": 1050,
+  "PowerLevel": 3,
+  "Weight": 10.0
+}

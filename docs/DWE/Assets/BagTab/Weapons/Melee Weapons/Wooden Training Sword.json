@@ -1,0 +1,11 @@
+{
+  "ItemData": "fLnzAkbRMzh0TW-4zuBoLQ",
+  "name": "Wooden Training Sword",
+  "max_stack": 1,
+  "icon": "Wooden Training Sword.png",
+  "description": "Causes damage to their self esteem more than anything really.",
+  "VitalShield": 0,
+  "BaseDurability": 850,
+  "PowerLevel": 2,
+  "Weight": 15.0
+}

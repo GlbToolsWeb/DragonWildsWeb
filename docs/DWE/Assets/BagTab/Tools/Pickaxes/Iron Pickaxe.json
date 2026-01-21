@@ -1,0 +1,11 @@
+{
+  "ItemData": "VfaynRGcAkammV5YUusfbA",
+  "name": "Iron Pickaxe",
+  "max_stack": 1,
+  "icon": "Iron Pickaxe.png",
+  "description": "Essential for mining hard, valuable rocks, this iron pickaxe is a miner's best friend.",
+  "VitalShield": 0,
+  "BaseDurability": 2100,
+  "PowerLevel": 4,
+  "Weight": 5.0
+}

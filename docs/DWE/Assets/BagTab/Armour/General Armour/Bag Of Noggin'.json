@@ -1,0 +1,12 @@
+{
+  "ItemData": "U3WG60uJFgZl-BWJIj6_Iw",
+  "name": "Bag Of Noggin'",
+  "max_stack": 1,
+  "icon": "Bag Of Noggin'.png",
+  "description": "The only thing this protects is your identity.",
+  "Equipment": "Head",
+  "VitalShield": 0,
+  "BaseDurability": 500,
+  "PowerLevel": 1,
+  "Weight": 2.0
+}

@@ -1,0 +1,11 @@
+{
+  "ItemData": "VBJg2XpMOEGTd6Qk9lB4Kw",
+  "name": "Bronze Logging Axe",
+  "max_stack": 1,
+  "icon": "Bronze Logging Axe.png",
+  "description": "A woodcutter's tool, forged from bronze.",
+  "VitalShield": 0,
+  "BaseDurability": 1800,
+  "PowerLevel": 3,
+  "Weight": 5.0
+}

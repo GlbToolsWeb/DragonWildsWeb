@@ -1,0 +1,12 @@
+{
+  "ItemData": "h7tqvcgrDk2iGdD7TYwiSA",
+  "name": "Hard Leather Body",
+  "max_stack": 1,
+  "icon": "Hard Leather Body.png",
+  "description": "Durable armour crafted from hard leather.",
+  "Equipment": "Body",
+  "VitalShield": 0,
+  "BaseDurability": 1250,
+  "PowerLevel": 3,
+  "Weight": 12.0
+}
