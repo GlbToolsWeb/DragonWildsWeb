@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RSD.TOOLS - NPC Drop Tables</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./DWE/UI/Landing/ico/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./DWE/UI/Landing/ico/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./DWE/UI/Landing/ico/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./DWE/UI/Landing/ico/site.webmanifest" />
+    <link rel="icon" href="./DWE/UI/Landing/ico/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="drop-page">
+    <div class="background-layer layer-1"></div>
+    <div class="background-layer layer-2"></div>
+    <div class="background-layer layer-3"></div>
+
+    <header class="top-header">
+      <a class="top-header__home" href="./index.html">
+        <img src="./DWE/UI/Landing/icon.png" alt="Dragonwilds Home" />
+      </a>
+      <div class="top-header__text">RSD.TOOLS</div>
+    </header>
+
+    <header class="logo-layer">
+      <img src="./DWE/UI/Logo/Logo.png" alt="Dragonwilds logo background" />
+      <img src="./DWE/UI/Logo/Logo_BG.png" alt="Dragonwilds logo" />
+      <div class="logo-text">DROP TABLES</div>
+    </header>
+
+    <main class="drop-page__content">
+      <section class="drop-hero">
+        <p class="drop-hero__subtitle">
+          Search for an NPC to view its loot drops.
+        </p>
+
+        <div class="drop-search" aria-label="Search enemies">
+          <img
+            class="drop-search__icon"
+            src="./DWE/UI/Search/SearchIcon.png"
+            alt=""
+          />
+          <input
+            class="drop-search__input"
+            id="enemy-search"
+            type="text"
+            placeholder="Type an NPC name..."
+            autocomplete="off"
+          />
+          <button
+            class="drop-search__clear is-hidden"
+            id="enemy-search-clear"
+            type="button"
+            aria-label="Clear search"
+          >
+            <img src="./DWE/UI/Search/ClearIcon.png" alt="" />
+          </button>
+          <ul
+            class="drop-search__suggestions"
+            id="enemy-suggestions"
+            role="listbox"
+            aria-label="Enemy suggestions"
+          ></ul>
+        </div>
+      </section>
+
+      <section class="drop-results" aria-live="polite">
+        <div class="drop-results__header is-hidden" hidden>
+          <span class="drop-results__title" id="drop-enemy-name">
+            Select an NPC
+          </span>
+          <span class="drop-results__subtitle" id="drop-enemy-subtitle"></span>
+        </div>
+
+        <div class="drop-results__body">
+          <div class="drop-empty" id="drop-empty">
+            Start typing to see loot drops.
+          </div>
+          <table class="drop-table is-hidden" id="drop-table" hidden>
+            <thead>
+              <tr>
+                <th scope="col">Item</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Rarity</th>
+              </tr>
+            </thead>
+            <tbody id="drop-table-body"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <script src="./drop-tables.js"></script>
+  </body>
+</html>

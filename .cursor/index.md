@@ -5,3 +5,4 @@
 - `scratchpad.md` - Planning, status tracking, and lessons learned
 - `AssetUpdate.md` - Asset update pipeline and script order
 - `CharacterSave.md` - What the editor writes on save
+- `DropTableUpdate.md` - Drop table update steps and data locations

@@ -149,6 +149,13 @@ Planner update: GitHub Pages hosting question raised; publish structure pending.
 Planner update: user confirmed Option B and wants migration plan.
 Executor update: moved web app and assets into docs/ and rewrote paths for Pages.
 Executor update: restarted local Python server bound to IPv4 for localhost testing.
+Executor update: generated `LootDropTable/DT_LootDropTable_EnemyNames.json` with internal enemy names for drop tables.
+Executor update: generated `LootDropTable/DT_LootDropTable_ItemNames.json` with unique item IDs from loot tables.
+Executor update: resolved item display names for all loot table items from `Gameplay/Items` and `Gameplay/Character`.
+Executor update: added drop table page (`docs/drop-tables.html`) and script (`docs/drop-tables.js`) with autocomplete search and loot rendering.
+Executor update: copied loot table data into `docs/data/` for web consumption.
+Executor update: documented drop table update process in `.cursor/DropTableUpdate.md`.
+Executor update: added `tools/update_drop_tables.py` to regenerate name lists and sync `docs/data/`.
 
 ## Executor's Feedback or Assistance Requests
 - Please confirm where the `.cursor/` documentation should live if not at the workspace root.

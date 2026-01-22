@@ -60,7 +60,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 36px;
+  padding-top: 30px;
 }
 
 .logo-layer img {
@@ -121,6 +121,30 @@ body {
   color: #f5f1e8;
   text-transform: uppercase;
   text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+.top-header__nav {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.top-header__link {
+  color: #f5f1e8;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border: 1px solid rgba(146, 132, 112, 0.5);
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: rgba(12, 12, 18, 0.6);
+}
+
+.top-header__link:hover {
+  border-color: rgba(180, 164, 140, 0.9);
+  background: rgba(255, 255, 255, 0.08);
 }
 
 
@@ -970,3 +994,210 @@ body {
   }
 }
 
+.drop-page .top-header {
+  margin-bottom: 16px;
+}
+
+.top-header__home {
+  display: inline-flex;
+  align-items: center;
+}
+
+.drop-page__content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  width: min(980px, 92vw);
+  margin: 24px auto 80px;
+}
+
+.drop-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  text-align: center;
+}
+
+.drop-hero__title {
+  font-family: "Crimson Pro", serif;
+  font-size: clamp(30px, 4vw, 44px);
+  letter-spacing: 1px;
+}
+
+.drop-hero__subtitle {
+  color: #d8d0c1;
+  font-size: 16px;
+}
+
+.drop-search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: min(520px, 90vw);
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: rgba(12, 12, 18, 0.82);
+  border: 1px solid rgba(146, 132, 112, 0.6);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35);
+}
+
+.drop-search__icon {
+  height: 18px;
+  width: 18px;
+}
+
+.drop-search__input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #f5f1e8;
+  font-size: 16px;
+}
+
+.drop-search__clear {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.drop-search__clear img {
+  height: 16px;
+  width: 16px;
+}
+
+.drop-search__suggestions {
+  list-style: none;
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  right: 0;
+  background: rgba(14, 14, 20, 0.96);
+  border: 1px solid rgba(146, 132, 112, 0.6);
+  border-radius: 14px;
+  padding: 8px 0;
+  max-height: 280px;
+  overflow-y: auto;
+  display: none;
+  z-index: 5;
+}
+
+.drop-search__suggestions.is-visible {
+  display: block;
+}
+
+.drop-search__suggestion {
+  padding: 10px 16px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.drop-search__suggestion:hover,
+.drop-search__suggestion:focus {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.drop-search__suggestion.is-active {
+  background: rgba(255, 255, 255, 0.14);
+}
+
+.drop-results {
+  padding: 24px;
+  border-radius: 18px;
+  background: rgba(12, 12, 18, 0.85);
+  border: 1px solid rgba(146, 132, 112, 0.5);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.4);
+}
+
+.drop-results__header {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.drop-results__title {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.drop-results__subtitle {
+  color: #b7ad9b;
+  font-size: 13px;
+}
+
+.drop-results__subtitle a {
+  color: #f0e5d2;
+  text-decoration: none;
+}
+
+.drop-results__subtitle a:hover {
+  text-decoration: underline;
+  color: #fff6e1;
+}
+
+.drop-empty {
+  text-align: center;
+  color: #c8c0b0;
+  padding: 24px 0;
+}
+
+.drop-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+
+.drop-table th,
+.drop-table td {
+  text-align: left;
+  padding: 12px 10px;
+  border-bottom: 1px solid rgba(140, 128, 112, 0.35);
+}
+
+.drop-table th {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 12px;
+  color: #d7cebf;
+}
+
+.drop-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.drop-item__icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(146, 132, 112, 0.5);
+  object-fit: cover;
+}
+
+.drop-item__icon.is-missing {
+  opacity: 0.5;
+  object-fit: contain;
+  padding: 4px;
+}
+
+.drop-item__name {
+  font-weight: 500;
+  color: #f5f1e8;
+  text-decoration: none;
+}
+
+.drop-item__name:hover {
+  text-decoration: underline;
+  color: #fff6e1;
+}
+
+.drop-table tr:hover {
+  background: rgba(255, 255, 255, 0.04);
+}
