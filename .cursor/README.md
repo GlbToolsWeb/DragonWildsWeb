@@ -11,6 +11,7 @@ This workspace contains exported game content and a sample character file. The g
 - `DWE/Assets/`: Curated item catalogs for Bag/Rune/Ammo/Quest tabs.
 - `DWE/UI/`: UI assets for the web interface (inventory, logo, landing).
 - `web/`: Static web UI scaffold (HTML/CSS/JS).
+- `docs/page-template.html`: Base template for new static pages.
 
 ## Character File Notes
 - Empty slots are omitted from JSON; only occupied slots are stored.

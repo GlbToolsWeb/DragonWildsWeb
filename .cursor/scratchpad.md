@@ -12,6 +12,7 @@ Planner update: user reports `ERR_EMPTY_RESPONSE` when hitting `http://localhost
 Planner update: requested review of `.cursor/` docs to identify any relevant info before further action.
 Planner update: new homepage work will replace site `index.html` using `HomePage/ExampleIndex.html` as the starting point, with local copies of hosted images/assets where feasible.
 Planner update: create a fidelity-focused rebuild plan for a hand-written HTML/CSS/JS version of the homepage.
+Planner update: build a reusable Framer-based template page from `HomePage/ExamplePage.html`, applying the same localization and cleanup steps used for `docs/index.html`.
 
 ## Key Challenges and Analysis
 - Inventory slot ranges differ by section and enforce item types.
@@ -30,6 +31,8 @@ New constraint: large inline/minified CSS and JS blocks make manual editing risk
 New constraint: third-party scripts (Cookiebot, GTM, Cloudflare, Framer analytics) may not be desired for the self-hosted site.
 New constraint: hand-written rebuild must preserve visual fidelity across breakpoints and animations without Framer runtime.
 New constraint: we should lock a reference viewport and compare before expanding to other breakpoints.
+New constraint: `HomePage/ExamplePage.html` includes tracking scripts, external fonts, and remote Framer assets (icons/OG/preview images) that must be localized or removed.
+New constraint: future pages should be created from a single template to reduce divergence; template should be documented and reusable.
 
 ## High-level Task Breakdown
 1. Inspect character file structure and confirm slot rules.
@@ -51,6 +54,19 @@ New constraint: we should lock a reference viewport and compare before expanding
 17. Validate homepage works in a static host environment.
 18. Define fidelity targets and acceptance criteria for a hand-written rebuild.
 19. Rebuild the homepage in static HTML/CSS/JS with progressive parity checks.
+20. Inspect `HomePage/ExamplePage.html` for external dependencies and template structure.
+21. Define a standard page template structure and asset path conventions for future pages.
+22. Localize ExamplePage assets, scripts, and metadata into `docs/`.
+23. Publish the first template-based page and document the workflow.
+
+## Page Template Plan (Planner)
+1. Inventory external URLs in `HomePage/ExamplePage.html` (scripts, fonts, images, search index).
+2. Decide which scripts to strip (tracking/consent) and which Framer runtime modules to keep.
+3. Mirror required images/icons/og assets into `docs/homepage/assets/` and rewrite references.
+4. Mirror required fonts (Framer + Google) into `docs/homepage/assets/fonts/` and update CSS.
+5. Define a template HTML file location in `docs/` for reuse (e.g., `docs/page-template.html`).
+6. Parameterize page-specific metadata (title, description, og/twitter image) and content slots.
+7. Document the template usage steps in `.cursor/DeveloperGuide.md` or a new doc.
 
 ## Web UI Build Plan (Planner)
 1. Choose a static web stack (plain HTML/CSS/JS or minimal framework) and create base layout split: left ItemBrowser, right Inventory.
@@ -113,6 +129,10 @@ New constraint: we should lock a reference viewport and compare before expanding
 - [ ] Build static HTML/CSS scaffold for homepage
 - [ ] Re-implement hover/animation states
 - [ ] Validate parity across desktop/tablet/mobile
+- [ ] Review `HomePage/ExamplePage.html` external dependencies
+- [ ] Define reusable page template and asset conventions
+- [ ] Localize ExamplePage assets and metadata into `docs/`
+- [ ] Document template page workflow
 
 ## Current Status / Progress Tracking
 Planning phase: documentation initialized, slot rules documented, and item table approach drafted. Initial GUID format analysis completed. Item table plan pending. Familiarization pass started in Planner mode.
@@ -223,6 +243,11 @@ Executor update: adjusted hero watch/play sizing and footer link density for clo
 Executor update: refined hero vertical alignment and footer spacing for closer baseline match.
 Executor update: refined CTA sizing and spacing for closer hero parity.
 Executor update: restored Framer homepage as live `docs/index.html` and added durable override system (`docs/homepage/overrides.js` + `overrides.json` + `overrides.md`).
+Executor update: reviewed `.cursor` documentation (index, README, DeveloperGuide, scratchpad) to align with current project scope.
+Executor update: replaced the remaining external hero video URL with a local image poster/source in the Framer module.
+Executor update: removed homepage override files now that Framer is edited locally.
+Executor update: documented the no-overrides Framer workflow in `.cursor/DeveloperGuide.md`.
+Executor update: created `docs/page-template.html` from ExamplePage, localized assets/modules, and removed tracking scripts.
 
 ## Executor's Feedback or Assistance Requests
 - Please confirm where the `.cursor/` documentation should live if not at the workspace root.

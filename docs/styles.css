@@ -32,6 +32,11 @@ body {
   overflow-x: hidden;
 }
 
+body.item-editor-page {
+  background: url("./homepage/assets/wRCp6WWIvVBrLPnGPgxE7adJ6U.jpg") center/cover
+    no-repeat fixed;
+}
+
 .background-layer {
   position: fixed;
   inset: 0;

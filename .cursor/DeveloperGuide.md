@@ -42,3 +42,13 @@ When adding items:
 - Enforce slot range by inventory section.
 - Enforce item type (runes/arrows/quest) for restricted slots.
 - Keep empty slots omitted from the JSON output.
+
+## Homepage Framer Workflow
+- Edit Framer output locally (e.g., `docs/index.html` and `docs/homepage/framer-modules/`).
+- Do not use runtime override scripts; keep changes in the generated Framer files.
+
+## Page Template Workflow
+- Use `docs/page-template.html` as the base for new static pages.
+- Copy the template into `docs/` with a new filename and update title/description/OG/Twitter metadata.
+- Keep page assets under `docs/homepage/assets/` and page modules under `docs/homepage/framer-modules/`.
+- Avoid runtime overrides; edit the HTML and Framer module files directly.
