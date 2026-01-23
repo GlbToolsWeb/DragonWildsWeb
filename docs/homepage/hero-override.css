@@ -1,0 +1,15 @@
+/* Override hero background image */
+/* Target the hero section and force background */
+[data-framer-component-type="RichContainer"] > div:first-child {
+  background-image: url('assets/hammer_anvil.png') !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+/* Hide the original Framer hero image */
+[data-framer-component-type="RichContainer"] > div:first-child img[alt*="Dragon"],
+[data-framer-component-type="RichContainer"] > div:first-child img[src*="8RzVR9zlSp4bWadQKQQ76XDkU"],
+[data-framer-component-type="RichContainer"] > div:first-child img[src*="4IfspFmWHMtorBXlGrTMHimLk"] {
+  opacity: 0 !important;
+  pointer-events: none !important;
+}

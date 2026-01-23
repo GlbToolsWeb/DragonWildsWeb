@@ -10,6 +10,8 @@ Planner update: assess GitHub Pages readiness and required folders for static ho
 Planner update: migrate web app into `docs/` for GitHub Pages Option B and update asset paths.
 Planner update: user reports `ERR_EMPTY_RESPONSE` when hitting `http://localhost:8000/`; likely local dev server binding/firewall/port issue to confirm in Executor mode.
 Planner update: requested review of `.cursor/` docs to identify any relevant info before further action.
+Planner update: new homepage work will replace site `index.html` using `HomePage/ExampleIndex.html` as the starting point, with local copies of hosted images/assets where feasible.
+Planner update: create a fidelity-focused rebuild plan for a hand-written HTML/CSS/JS version of the homepage.
 
 ## Key Challenges and Analysis
 - Inventory slot ranges differ by section and enforce item types.
@@ -23,6 +25,11 @@ New constraint: `docs/` will become the working web root; all web assets and cat
 Additional analysis: documentation indicates content-driven item metadata and string tables under `Gameplay/Items/`, so item lookup and display naming will likely require a join step between item definition files and `ST_*.json` tables.
 New constraints: item tabs map to inventory slot ranges (BagTab, RuneTab, AmmoTab, QuestTab), and PersonalInventory is a separate UI section that accepts BagTab items.
 Observed in `DWE/Assets/`: each item is a paired `.json` + `.png` with a consistent schema (`ItemData`, `name`, `max_stack`, `icon`, `description`). Tabs are already organized into `BagTab/`, `RuneTab/`, `AmmoTab/`, and `QuestTab/` with deeper category folders for Bag/Ammo.
+New constraint: `HomePage/ExampleIndex.html` is a Framer export with many remote assets (images, fonts, scripts) that need localization for self-hosting.
+New constraint: large inline/minified CSS and JS blocks make manual editing risky; we should automate asset URL extraction and rewrites.
+New constraint: third-party scripts (Cookiebot, GTM, Cloudflare, Framer analytics) may not be desired for the self-hosted site.
+New constraint: hand-written rebuild must preserve visual fidelity across breakpoints and animations without Framer runtime.
+New constraint: we should lock a reference viewport and compare before expanding to other breakpoints.
 
 ## High-level Task Breakdown
 1. Inspect character file structure and confirm slot rules.
@@ -38,6 +45,12 @@ Observed in `DWE/Assets/`: each item is a paired `.json` + `.png` with a consist
 11. Add inventory-only "Dupe" context menu action with section-restricted slot targeting.
 12. Define GitHub Pages publish root and required folders/files for hosting.
 13. Move web app + DWE assets into `docs/` and rewrite paths to be relative.
+14. Inventory homepage export assets and external dependencies.
+15. Decide which third-party scripts/trackers to keep or remove.
+16. Localize homepage images/fonts and update `index.html` references.
+17. Validate homepage works in a static host environment.
+18. Define fidelity targets and acceptance criteria for a hand-written rebuild.
+19. Rebuild the homepage in static HTML/CSS/JS with progressive parity checks.
 
 ## Web UI Build Plan (Planner)
 1. Choose a static web stack (plain HTML/CSS/JS or minimal framework) and create base layout split: left ItemBrowser, right Inventory.
@@ -50,6 +63,29 @@ Observed in `DWE/Assets/`: each item is a paired `.json` + `.png` with a consist
 8. Enable drag/drop from ItemBrowser → Inventory with slot-range validation; show blocked state on invalid targets.
 9. Add item removal and count editing with `max_stack` bounds.
 10. Export updated character `.json`, omitting empty slots.
+
+## Homepage Migration Plan (Planner)
+1. Extract all external URLs from `HomePage/ExampleIndex.html` (images, fonts, scripts, CSS, preloads).
+2. Categorize URLs: essential runtime vs. media assets vs. analytics/consent/telemetry.
+3. Mirror media assets into a local folder (e.g., `docs/homepage/assets/`) and define a consistent path scheme.
+4. Replace image/icon/og URLs with local paths; update `link rel="icon"` and social preview metadata.
+5. Decide on fonts: download and self-host needed fonts or replace with existing local fonts.
+6. Evaluate Framer runtime dependencies (modulepreloads, events script) and decide if we keep Framer output intact or rebuild a static layout.
+7. Update canonical/og URLs to the new domain or relative site root.
+8. Test locally and in the static hosting environment (GitHub Pages or equivalent).
+
+## Homepage Rebuild Plan (Fidelity-First, Planner)
+1. Baseline capture: lock a primary viewport (desktop 1440×900) and capture screenshots + element inventory (sections, headings, CTAs, cards, media, footers).
+2. Asset inventory: catalog all images, videos, icons, and fonts currently used; map to local paths in `docs/homepage/assets/`.
+3. Layout extraction: map the DOM into sections and components (hero, CTA rows, media blocks, feature grids, footer) with explicit spacing, typography, and colors.
+4. CSS strategy: consolidate inline styles into structured CSS (variables for colors, spacing scale, typography scale).
+5. HTML scaffold: rebuild semantic HTML for sections and components with minimal JS; ensure tab order and accessibility.
+6. Typography parity: match font families, sizes, weights, line heights; validate against screenshots.
+7. Interaction parity: re-implement hover/active states and simple transitions in CSS; only add JS where required.
+8. Animation parity: reproduce key animations (fade-in, parallax, scroll-triggered) using lightweight JS/CSS; defer complex motion until layout matches.
+9. Responsive parity: implement two additional breakpoints (tablet 1024, mobile 390); adjust spacing and type scale.
+10. Visual diff checks: compare rebuild vs. Framer at each breakpoint and adjust until within tolerance.
+11. Clean-up: remove unused assets, consolidate fonts, and document the new structure for future edits.
 
 ## Project Status Board
 - [ ] Review `Beb.json` structure and required fields
@@ -68,6 +104,15 @@ Observed in `DWE/Assets/`: each item is a paired `.json` + `.png` with a consist
 - [ ] Add inventory-only Dupe action and section-restricted duplication
 - [ ] Plan GitHub Pages publish structure and required folders
 - [ ] Plan migration to `docs/` as web root
+- [x] Review `HomePage/ExampleIndex.html` for external dependencies
+- [x] Decide on third-party scripts and tracking for homepage
+- [ ] Localize homepage images/icons/fonts to repo
+- [x] Replace `index.html` with localized homepage version
+- [ ] Define fidelity targets and acceptance criteria for homepage rebuild
+- [x] Capture reference screenshots + section inventory
+- [ ] Build static HTML/CSS scaffold for homepage
+- [ ] Re-implement hover/animation states
+- [ ] Validate parity across desktop/tablet/mobile
 
 ## Current Status / Progress Tracking
 Planning phase: documentation initialized, slot rules documented, and item table approach drafted. Initial GUID format analysis completed. Item table plan pending. Familiarization pass started in Planner mode.
@@ -156,6 +201,28 @@ Executor update: added drop table page (`docs/drop-tables.html`) and script (`do
 Executor update: copied loot table data into `docs/data/` for web consumption.
 Executor update: documented drop table update process in `.cursor/DropTableUpdate.md`.
 Executor update: added `tools/update_drop_tables.py` to regenerate name lists and sync `docs/data/`.
+Executor update: reviewed `.cursor` documentation (index, README, DeveloperGuide, scratchpad) to align with current project scope.
+Planner update: reviewed `HomePage/ExampleIndex.html` and identified many external assets (Framer assets, Google fonts, analytics scripts) requiring localization decisions.
+Executor update: replaced `docs/index.html` with the ExampleIndex homepage, removed analytics scripts, localized image assets to `docs/homepage/assets/`, and inserted placeholder URLs.
+Executor update: restored Framer runtime markup/scripts in `docs/index.html` to fix missing hover/animation behavior while keeping analytics removed.
+Executor update: localized non-Google fonts from `framerusercontent.com` into `docs/homepage/assets/fonts/` and rewrote font URLs in `docs/index.html`.
+Executor update: captured baseline homepage screenshots at 1440x900 and stored them under `docs/homepage/baseline/`.
+Executor update: section inventory (desktop): hero (logo/title, play button, Buy Now), Welcome to Ashenfall text block, image panels with heading copy (Runescape at its core, Survival through sorcery), and footer/social links.
+Executor update: documented section inventory in `docs/homepage/baseline/section-inventory.md`.
+Executor update: generated `docs/homepage/baseline/asset-inventory.md` with localized image/font lists and note about remaining remote video URL.
+Executor update: created static rebuild scaffold in `docs/homepage/rebuild/` with `index.html`, `styles.css`, and `app.js` using localized assets.
+Executor update: promoted rebuild to live homepage by replacing `docs/index.html` (backup saved as `docs/index.framer.html`).
+Executor update: refined hero overlay/background, typography, and media frame styling for closer visual parity; added footer embers and synced rebuild HTML to `docs/index.html`.
+Executor update: added responsive tuning for tablet/mobile breakpoints and hover transitions for hero CTA/play button.
+Executor update: added styled social link placeholders and synced rebuild HTML to `docs/index.html`.
+Executor update: replaced social placeholders with inline SVG icons and synced rebuild HTML to `docs/index.html`.
+Executor update: added inline Steam-style icon to the hero Buy Now CTA and synced rebuild HTML to `docs/index.html`.
+Executor update: tightened hero spacing, CTA icon sizing, and copy text width for closer alignment to baseline.
+Executor update: refined hero spacing/CTA sizing and reduced social icon size for closer visual match.
+Executor update: adjusted hero watch/play sizing and footer link density for closer parity.
+Executor update: refined hero vertical alignment and footer spacing for closer baseline match.
+Executor update: refined CTA sizing and spacing for closer hero parity.
+Executor update: restored Framer homepage as live `docs/index.html` and added durable override system (`docs/homepage/overrides.js` + `overrides.json` + `overrides.md`).
 
 ## Executor's Feedback or Assistance Requests
 - Please confirm where the `.cursor/` documentation should live if not at the workspace root.
@@ -163,6 +230,9 @@ Executor update: added `tools/update_drop_tables.py` to regenerate name lists an
 - Confirm whether quest/rune/arrow types are explicitly marked in item JSON or inferred by folder.
  - Confirm the authoritative source for item table JSON (prebuilt vs generated from content).
  - Confirm whether DWE `Assets/` is the canonical catalog for items (recommended for UI browsing).
+ - Confirm whether to remove or keep third-party scripts (Cookiebot, GTM, Cloudflare, Framer events) in the new homepage.
+ - Confirm the intended public URL for canonical/og metadata updates.
+ - Confirm target location for homepage assets (e.g., `docs/homepage/assets/` vs `docs/assets/`).
 
 ## Item Table Plan (Proposed)
 - Source data: `Gameplay/Items/**/ITEM_*.json` with `Type: ItemData`.

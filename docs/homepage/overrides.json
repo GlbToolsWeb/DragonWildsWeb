@@ -1,0 +1,14 @@
+{
+  "textReplacements": [],
+  "attributeReplacements": [],
+  "imageReplacements": [
+    {
+      "matchSrcIncludes": "8RzVR9zlSp4bWadQKQQ76XDkU.jpg",
+      "replaceSrc": "homepage/assets/hammer_anvil.png"
+    },
+    {
+      "matchSrcIncludes": "4IfspFmWHMtorBXlGrTMHimLk.png",
+      "replaceSrc": "homepage/assets/hammer_anvil.png"
+    }
+  ]
+}

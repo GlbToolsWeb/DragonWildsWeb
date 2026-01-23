@@ -1,0 +1,14 @@
+320\twww.w3.org
+86\tframerusercontent.com
+54\tfonts.gstatic.com
+40\texample.com
+12\tlegal.jagex.com
+11\tstore.steampowered.com
+4\twww.twitch.tv
+4\ttiktok.com
+4\tbsky.app
+2\tschema.org
+1\tframer.com
+1\tcdn.runescape.com
+1\tdragonwilds.runescape.wiki
+1\tdiscord.gg
