@@ -248,6 +248,8 @@ Executor update: replaced the remaining external hero video URL with a local ima
 Executor update: removed homepage override files now that Framer is edited locally.
 Executor update: documented the no-overrides Framer workflow in `.cursor/DeveloperGuide.md`.
 Executor update: created `docs/page-template.html` from ExamplePage, localized assets/modules, and removed tracking scripts.
+Executor update: swapped the Discord social icon background image(s) to `item_editor_icon.png` in `docs/index.html`.
+Executor update: added a CSS override in `docs/index.html` to force the Discord icon image post-hydration.
 
 ## Executor's Feedback or Assistance Requests
 - Please confirm where the `.cursor/` documentation should live if not at the workspace root.
