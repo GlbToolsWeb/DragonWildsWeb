@@ -178,11 +178,11 @@ body.item-editor-page {
 }
 
 .item-browser::before {
-  background-image: url("./DWE/UI/ItemBrowser/ItemBrowserCard/ItemBrowser_BG_Back.png");
+  background-image: none;
 }
 
 .item-browser::after {
-  background-image: url("./DWE/UI/ItemBrowser/ItemBrowserCard/ItemBrowser_BG_Front.png");
+  background-image: none;
 }
 
 .item-browser > *:not(.corner-overlay) {
@@ -203,12 +203,12 @@ body.item-editor-page {
 
 .item-browser .corner-overlay--tl {
   left: 0;
-  background-image: url("./DWE/UI/ItemBrowser/ItemBrowserCard/ItemBrowser_BG_TopLeft.png");
+  background-image: none;
 }
 
 .item-browser .corner-overlay--tr {
   right: 0;
-  background-image: url("./DWE/UI/ItemBrowser/ItemBrowserCard/ItemBrowser_BG_TopRight.png");
+  background-image: none;
 }
 
 .bag-categories {
@@ -674,11 +674,11 @@ body.item-editor-page {
 }
 
 .inventory-bg--bottom {
-  background-image: url("./DWE/UI/Inventory/InventoryCard/Inventory_BG_Back.png");
+  background-image: none;
 }
 
 .inventory-bg--top {
-  background-image: url("./DWE/UI/Inventory/InventoryCard/Inventory_BG_Front.png");
+  background-image: none;
 }
 
 .inventory-background .corner-overlay {
@@ -694,12 +694,12 @@ body.item-editor-page {
 
 .inventory-background .corner-overlay--tl {
   left: 0;
-  background-image: url("./DWE/UI/Inventory/InventoryCard/Inventory_BG_TopLeft.png");
+  background-image: none;
 }
 
 .inventory-background .corner-overlay--tr {
   right: 0;
-  background-image: url("./DWE/UI/Inventory/InventoryCard/Inventory_BG_TopRight.png");
+  background-image: none;
 }
 
 .action-bar {

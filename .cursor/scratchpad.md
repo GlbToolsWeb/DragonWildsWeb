@@ -250,6 +250,12 @@ Executor update: documented the no-overrides Framer workflow in `.cursor/Develop
 Executor update: created `docs/page-template.html` from ExamplePage, localized assets/modules, and removed tracking scripts.
 Executor update: swapped the Discord social icon background image(s) to `item_editor_icon.png` in `docs/index.html`.
 Executor update: added a CSS override in `docs/index.html` to force the Discord icon image post-hydration.
+Executor update: added a landing logo line with side text flanking the item editor logo on `docs/index.html`.
+Executor update: hid another Framer container class (`framer-1glzj5b-container`) in `docs/shared-header.css`.
+Executor update: removed missing ItemBrowser/Inventory background image refs from `docs/styles.css` to stop 404s.
+Executor update: removed the remaining ItemBrowser background image ref to stop the last 404.
+Executor update: added the editor logo line and tagline to `docs/item-editor.html`.
+Executor update: converted the item editor tagline into a toggleable dropdown.
 
 ## Executor's Feedback or Assistance Requests
 - Please confirm where the `.cursor/` documentation should live if not at the workspace root.
