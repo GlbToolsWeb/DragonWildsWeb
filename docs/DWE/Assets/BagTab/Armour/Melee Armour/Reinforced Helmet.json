@@ -4,7 +4,6 @@
   "max_stack": 1,
   "icon": "Reinforced Helmet.png",
   "description": "Protect your noggin with this basic headgear made from Leather and Bone.",
-  "Equipment": "Head",
   "VitalShield": 0,
   "BaseDurability": 1000,
   "PowerLevel": 2,

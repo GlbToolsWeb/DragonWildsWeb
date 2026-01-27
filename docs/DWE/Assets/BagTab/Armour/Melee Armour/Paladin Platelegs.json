@@ -4,7 +4,6 @@
   "max_stack": 1,
   "icon": "Paladin Platelegs.png",
   "description": "Sturdy leg armour worn by the Paladins of Saradomin.",
-  "Equipment": "Legs",
   "VitalShield": 0,
   "BaseDurability": 1400,
   "PowerLevel": 4,

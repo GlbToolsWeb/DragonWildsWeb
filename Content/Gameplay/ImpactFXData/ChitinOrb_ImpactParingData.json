@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "ImpactPairingData",
+    "Name": "ChitinOrb_ImpactParingData",
+    "Class": "UScriptClass'ImpactPairingData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SourceToImpactFXMap": [
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Default"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_BC_En_Co_AbyssalDemon_ChestOrb_Hit'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/EnemyAI/AbyssalDemon/AbyssalDemon_Foley/MSS_BC_En_Co_AbyssalDemon_ChestOrb_Hit.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_AbyssalDemon_Orb_HitReaction'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/AbyssalDemonFX/Export/AbyssalOrb/NS_AbyssalDemon_Orb_HitReaction.174"
+            },
+            "CritVFX": null
+          }
+        }
+      ],
+      "EffectSoundRule": "ESoundPlayRules::Additive",
+      "EffectToSoundMap": [
+        {
+          "Key": {
+            "TagName": "DamageType.Magical.Fire"
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_FireWeaponImpact'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/MagicWeaponImpacts/FireImpacts/MSS_Co_FireWeaponImpact.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": null,
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "TagName": "DamageType.Magical.Air"
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_AirWeaponImpact'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/MagicWeaponImpacts/AirImpacts/MSS_Co_AirWeaponImpact.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": null,
+            "CritVFX": null
+          }
+        }
+      ]
+    }
+  }
+]

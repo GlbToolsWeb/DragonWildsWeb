@@ -4,7 +4,6 @@
   "max_stack": 1,
   "icon": "Iron Platebody.png",
   "description": "A heavy iron chestplate, providing superior protection in battle.",
-  "Equipment": "Body",
   "VitalShield": 0,
   "BaseDurability": 1500,
   "PowerLevel": 4,

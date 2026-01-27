@@ -1,9 +1,0 @@
-{
-  "ItemData": "8Ftd_kB5cANr16a6Bd8-OQ",
-  "name": "Compost Bucket",
-  "max_stack": 1,
-  "icon": "Compost Bucket.png",
-  "description": "{HeldContainerDescription}\r\n\r\nA wooden bucket used to carry a variety of Compost. Pour it's contents out over a Farming Plot to Fertilize your plants!",
-  "VitalShield": 0,
-  "Weight": 5.5
-}

@@ -5,6 +5,7 @@ This is our first time working on this project. The goal is to build a visual ch
 Planner note: focus this session on becoming familiar with the project structure, data sources, and current planning artifacts before implementation.
 We will build a static, client-only web app (hosted on GitHub) that visually matches the in-game inventory UI and supports drag-and-drop item management.
 Current request: read the `.cursor/` notes, then start the local webpage via Python (plan only in Planner mode; execution will follow once user switches to Executor mode).
+Current request (Executor): get familiarized with the project and `.cursor/` documentation.
 Planner update: add a new context-menu action ("Dupe") for player inventory items to duplicate within the same section only, without spilling into other inventory sections.
 Planner update: assess GitHub Pages readiness and required folders for static hosting.
 Planner update: migrate web app into `docs/` for GitHub Pages Option B and update asset paths.
@@ -256,6 +257,8 @@ Executor update: removed missing ItemBrowser/Inventory background image refs fro
 Executor update: removed the remaining ItemBrowser background image ref to stop the last 404.
 Executor update: added the editor logo line and tagline to `docs/item-editor.html`.
 Executor update: converted the item editor tagline into a toggleable dropdown.
+Executor update: reviewed `.cursor` documentation (index, README, DeveloperGuide, scratchpad) for familiarization.
+Executor update: restored item editor modal markup (count/alert) so double-click quantity dialog works.
 
 ## Executor's Feedback or Assistance Requests
 - Please confirm where the `.cursor/` documentation should live if not at the workspace root.

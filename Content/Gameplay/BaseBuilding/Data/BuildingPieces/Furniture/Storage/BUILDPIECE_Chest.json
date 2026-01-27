@@ -1,0 +1,71 @@
+[
+  {
+    "Type": "BuildingPieceData",
+    "Name": "BUILDPIECE_Chest",
+    "Class": "UScriptClass'BuildingPieceData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces/Furniture/ST_BuildingPieces_Furniture.ST_BuildingPieces_Furniture",
+        "Key": "LargeChest.Name",
+        "SourceString": "Large Chest",
+        "LocalizedString": "Large Chest"
+      },
+      "Description": {
+        "TableId": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces/Furniture/ST_BuildingPieces_Furniture.ST_BuildingPieces_Furniture",
+        "Key": "LargeChest.Description",
+        "SourceString": "A moderately sized chest to store items in,",
+        "LocalizedString": "A moderately sized chest to store items in,"
+      },
+      "DisplayIcon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Furniture_Storage/T_Icon_Storage_Chest_01v2.T_Icon_Storage_Chest_01v2",
+        "SubPathString": ""
+      },
+      "BuildableActor": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding/Actors/Props/BP_BaseBuilding_Chest.BP_BaseBuilding_Chest_C",
+        "SubPathString": ""
+      },
+      "Requirements": [
+        {
+          "Amount": 14,
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Plank_Ash'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Wood/ITEM_Resources_Plank_Ash.0"
+          }
+        },
+        {
+          "Amount": 4,
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Wood_Blightwood'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Blightwood.0"
+          }
+        },
+        {
+          "Amount": 2,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_IronBar'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Metal/ITEM_Resources_IronBar.0"
+          }
+        }
+      ],
+      "PieceTag": {
+        "TagName": "BaseBuilding.PieceType.Prop"
+      },
+      "BuildingStabilityProfile": {
+        "MaxStability": 1.0,
+        "MinStability": 0.9,
+        "VerticalLoss": 0.01,
+        "HorizontalLoss": 0.01
+      },
+      "BuildXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Building'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Building.0"
+        },
+        "RowName": "Build_Storage_Tier2"
+      },
+      "PersistenceID": "pR_Kj7yG40GHbn07sUN5Fg",
+      "InternalName": "buildpiece_chest"
+    }
+  }
+]

@@ -1,0 +1,507 @@
+[
+  {
+    "Type": "ImpactPairingData",
+    "Name": "ADA_Arrow_lightning_ImpactPairingData",
+    "Class": "UScriptClass'ImpactPairingData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SourceToImpactFXMap": [
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Wood"
+            ],
+            "PhysicalMaterials": [
+              {
+                "ObjectName": "DominionPhysicalMaterial'Wood_Boards_Tight'",
+                "ObjectPath": "RSDragonwilds/Content/Audio/PhysMats/Wood_Boards_Tight.0"
+              },
+              {
+                "ObjectName": "DominionPhysicalMaterial'Wood_Log'",
+                "ObjectPath": "RSDragonwilds/Content/Audio/PhysMats/Wood_Log.0"
+              },
+              {
+                "ObjectName": "DominionPhysicalMaterial'Wood_Stairs'",
+                "ObjectPath": "RSDragonwilds/Content/Audio/PhysMats/Wood_Stairs.0"
+              }
+            ]
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_EnchantedBolt_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Enchanted_Impacts/MSS_Co_EnchantedBolt_Impact.0"
+            },
+            "NonInstigatorAudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_EnchantedBolt_Impact_Rem'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Enchanted_Impacts/MSS_Co_EnchantedBolt_Impact_Rem.0"
+            },
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_ArrowShock_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Combat/Ranged/EnchantedBolts/Shock/NS_ArrowShock_Impact.66"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Food.Plant"
+            ],
+            "PhysicalMaterials": [
+              {
+                "ObjectName": "DominionPhysicalMaterial'Leaves'",
+                "ObjectPath": "RSDragonwilds/Content/Audio/PhysMats/Leaves.0"
+              },
+              {
+                "ObjectName": "DominionPhysicalMaterial'Foliage_Brush'",
+                "ObjectPath": "RSDragonwilds/Content/Audio/PhysMats/Foliage_Brush.0"
+              }
+            ]
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_EnchantedBolt_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Enchanted_Impacts/MSS_Co_EnchantedBolt_Impact.0"
+            },
+            "NonInstigatorAudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_EnchantedBolt_Impact_Rem'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Enchanted_Impacts/MSS_Co_EnchantedBolt_Impact_Rem.0"
+            },
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_ArrowShock_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Combat/Ranged/EnchantedBolts/Shock/NS_ArrowShock_Impact.66"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Flesh",
+              "Audio.Cloth",
+              "Audio.Leather"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_EnchantedBolt_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Enchanted_Impacts/MSS_Co_EnchantedBolt_Impact.0"
+            },
+            "NonInstigatorAudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_EnchantedBolt_Impact_Rem'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Enchanted_Impacts/MSS_Co_EnchantedBolt_Impact_Rem.0"
+            },
+            "CritSweetener": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_CriticalHitSuccess'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Melee/MSS_Co_CriticalHitSuccess.0"
+            },
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_ArrowShock_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Combat/Ranged/EnchantedBolts/Shock/NS_ArrowShock_Impact.66"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Stone"
+            ],
+            "PhysicalMaterials": [
+              {
+                "ObjectName": "DominionPhysicalMaterial'Rock'",
+                "ObjectPath": "RSDragonwilds/Content/Audio/PhysMats/Rock.0"
+              },
+              {
+                "ObjectName": "DominionPhysicalMaterial'Stone_Steps'",
+                "ObjectPath": "RSDragonwilds/Content/Audio/PhysMats/Stone_Steps.0"
+              },
+              {
+                "ObjectName": "DominionPhysicalMaterial'Stone_Cobbles'",
+                "ObjectPath": "RSDragonwilds/Content/Audio/PhysMats/Stone_Cobbles.0"
+              }
+            ]
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_EnchantedBolt_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Enchanted_Impacts/MSS_Co_EnchantedBolt_Impact.0"
+            },
+            "NonInstigatorAudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_EnchantedBolt_Impact_Rem'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Enchanted_Impacts/MSS_Co_EnchantedBolt_Impact_Rem.0"
+            },
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_ArrowShock_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Combat/Ranged/EnchantedBolts/Shock/NS_ArrowShock_Impact.66"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [],
+            "PhysicalMaterials": [
+              {
+                "ObjectName": "DominionPhysicalMaterial'Grass_Soft'",
+                "ObjectPath": "RSDragonwilds/Content/Audio/PhysMats/Grass_Soft.0"
+              },
+              {
+                "ObjectName": "DominionPhysicalMaterial'Grass_Dried'",
+                "ObjectPath": "RSDragonwilds/Content/Audio/PhysMats/Grass_Dried.0"
+              },
+              {
+                "ObjectName": "DominionPhysicalMaterial'Moss'",
+                "ObjectPath": "RSDragonwilds/Content/Audio/PhysMats/Moss.0"
+              }
+            ]
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_EnchantedBolt_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Enchanted_Impacts/MSS_Co_EnchantedBolt_Impact.0"
+            },
+            "NonInstigatorAudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_EnchantedBolt_Impact_Rem'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Enchanted_Impacts/MSS_Co_EnchantedBolt_Impact_Rem.0"
+            },
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_ArrowShock_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Combat/Ranged/EnchantedBolts/Shock/NS_ArrowShock_Impact.66"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [],
+            "PhysicalMaterials": [
+              {
+                "ObjectName": "DominionPhysicalMaterial'Dirt_Hard'",
+                "ObjectPath": "RSDragonwilds/Content/Audio/PhysMats/Dirt_Hard.0"
+              },
+              {
+                "ObjectName": "DominionPhysicalMaterial'Mud_Shallow'",
+                "ObjectPath": "RSDragonwilds/Content/Audio/PhysMats/Mud_Shallow.0"
+              },
+              {
+                "ObjectName": "DominionPhysicalMaterial'Dirt_Soft'",
+                "ObjectPath": "RSDragonwilds/Content/Audio/PhysMats/Dirt_Soft.0"
+              }
+            ]
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_EnchantedBolt_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Enchanted_Impacts/MSS_Co_EnchantedBolt_Impact.0"
+            },
+            "NonInstigatorAudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_EnchantedBolt_Impact_Rem'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Enchanted_Impacts/MSS_Co_EnchantedBolt_Impact_Rem.0"
+            },
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_ArrowShock_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Combat/Ranged/EnchantedBolts/Shock/NS_ArrowShock_Impact.66"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [],
+            "PhysicalMaterials": [
+              {
+                "ObjectName": "DominionPhysicalMaterial'Gravel'",
+                "ObjectPath": "RSDragonwilds/Content/Audio/PhysMats/Gravel.0"
+              },
+              {
+                "ObjectName": "DominionPhysicalMaterial'Pebble'",
+                "ObjectPath": "RSDragonwilds/Content/Audio/PhysMats/Pebble.0"
+              }
+            ]
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_EnchantedBolt_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Enchanted_Impacts/MSS_Co_EnchantedBolt_Impact.0"
+            },
+            "NonInstigatorAudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_EnchantedBolt_Impact_Rem'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Enchanted_Impacts/MSS_Co_EnchantedBolt_Impact_Rem.0"
+            },
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_ArrowShock_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Combat/Ranged/EnchantedBolts/Shock/NS_ArrowShock_Impact.66"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Metal"
+            ],
+            "PhysicalMaterials": [
+              {
+                "ObjectName": "DominionPhysicalMaterial'Metal'",
+                "ObjectPath": "RSDragonwilds/Content/Audio/PhysMats/Metal.0"
+              }
+            ]
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_EnchantedBolt_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Enchanted_Impacts/MSS_Co_EnchantedBolt_Impact.0"
+            },
+            "NonInstigatorAudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_EnchantedBolt_Impact_Rem'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Enchanted_Impacts/MSS_Co_EnchantedBolt_Impact_Rem.0"
+            },
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_ArrowShock_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Combat/Ranged/EnchantedBolts/Shock/NS_ArrowShock_Impact.66"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [],
+            "PhysicalMaterials": [
+              {
+                "ObjectName": "DominionPhysicalMaterial'Water_Deep'",
+                "ObjectPath": "RSDragonwilds/Content/Audio/PhysMats/Water_Deep.0"
+              },
+              {
+                "ObjectName": "DominionPhysicalMaterial'Water_Shallow'",
+                "ObjectPath": "RSDragonwilds/Content/Audio/PhysMats/Water_Shallow.0"
+              }
+            ]
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_EnchantedBolt_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Enchanted_Impacts/MSS_Co_EnchantedBolt_Impact.0"
+            },
+            "NonInstigatorAudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_EnchantedBolt_Impact_Rem'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Enchanted_Impacts/MSS_Co_EnchantedBolt_Impact_Rem.0"
+            },
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_ArrowShock_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Combat/Ranged/EnchantedBolts/Shock/NS_ArrowShock_Impact.66"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Default",
+              "Audio.Wood"
+            ],
+            "PhysicalMaterials": [
+              {
+                "ObjectName": "DominionPhysicalMaterial'Default'",
+                "ObjectPath": "RSDragonwilds/Content/Audio/PhysMats/Default.0"
+              }
+            ]
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_EnchantedBolt_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Enchanted_Impacts/MSS_Co_EnchantedBolt_Impact.0"
+            },
+            "NonInstigatorAudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_EnchantedBolt_Impact_Rem'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Enchanted_Impacts/MSS_Co_EnchantedBolt_Impact_Rem.0"
+            },
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_ArrowShock_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Combat/Ranged/EnchantedBolts/Shock/NS_ArrowShock_Impact.66"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Plant.Vine"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_EnchantedBolt_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Enchanted_Impacts/MSS_Co_EnchantedBolt_Impact.0"
+            },
+            "NonInstigatorAudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_EnchantedBolt_Impact_Rem'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Enchanted_Impacts/MSS_Co_EnchantedBolt_Impact_Rem.0"
+            },
+            "CritSweetener": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_CriticalHitSuccess'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Melee/MSS_Co_CriticalHitSuccess.0"
+            },
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_ArrowShock_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Combat/Ranged/EnchantedBolts/Shock/NS_ArrowShock_Impact.66"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Chitin.AbyssalDemon"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_EnchantedBolt_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Enchanted_Impacts/MSS_Co_EnchantedBolt_Impact.0"
+            },
+            "NonInstigatorAudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_EnchantedBolt_Impact_Rem'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Enchanted_Impacts/MSS_Co_EnchantedBolt_Impact_Rem.0"
+            },
+            "CritSweetener": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_CriticalHitSuccess'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Melee/MSS_Co_CriticalHitSuccess.0"
+            },
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_ArrowShock_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Combat/Ranged/EnchantedBolts/Shock/NS_ArrowShock_Impact.66"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Metal.Armour"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_EnchantedBolt_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Enchanted_Impacts/MSS_Co_EnchantedBolt_Impact.0"
+            },
+            "NonInstigatorAudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_EnchantedBolt_Impact_Rem'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Enchanted_Impacts/MSS_Co_EnchantedBolt_Impact_Rem.0"
+            },
+            "CritSweetener": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_CriticalHitSuccess'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Melee/MSS_Co_CriticalHitSuccess.0"
+            },
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_ArrowShock_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Combat/Ranged/EnchantedBolts/Shock/NS_ArrowShock_Impact.66"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Bone.Skeleton"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_EnchantedBolt_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Enchanted_Impacts/MSS_Co_EnchantedBolt_Impact.0"
+            },
+            "NonInstigatorAudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_EnchantedBolt_Impact_Rem'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Enchanted_Impacts/MSS_Co_EnchantedBolt_Impact_Rem.0"
+            },
+            "CritSweetener": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_CriticalHitSuccess'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Melee/MSS_Co_CriticalHitSuccess.0"
+            },
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_ArrowShock_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Combat/Ranged/EnchantedBolts/Shock/NS_ArrowShock_Impact.66"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Splitbark"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_EnchantedBolt_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Enchanted_Impacts/MSS_Co_EnchantedBolt_Impact.0"
+            },
+            "NonInstigatorAudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_EnchantedBolt_Impact_Rem'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Enchanted_Impacts/MSS_Co_EnchantedBolt_Impact_Rem.0"
+            },
+            "CritSweetener": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_CriticalHitSuccess'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Melee/MSS_Co_CriticalHitSuccess.0"
+            },
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_ArrowShock_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Combat/Ranged/EnchantedBolts/Shock/NS_ArrowShock_Impact.66"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Spectral",
+              "Audio.AI.Skeleton.Spectral",
+              "Audio.AI.TerrorBird.Spectral",
+              "Audio.AI.BossDragon.Imaru.Spectral",
+              "Audio.AI.Wolf.Dragon.Spectral",
+              "Audio.AI.Wolf.Spectral",
+              "Audio.AI.Zombie.Spectral"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Spectral_ImpactSmall'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Melee/Impacts_Spectra/MSS_Co_Spectral_ImpactSmall.0"
+            },
+            "NonInstigatorAudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Spectral_ImpactSmall'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Melee/Impacts_Spectra/MSS_Co_Spectral_ImpactSmall.0"
+            },
+            "CritSweetener": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_CriticalHitSuccess'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Melee/MSS_Co_CriticalHitSuccess.0"
+            },
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_VFX_SpectralImpact'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Combat/Melee/NS_VFX_SpectralImpact.47"
+            },
+            "CritVFX": null
+          }
+        }
+      ]
+    }
+  }
+]

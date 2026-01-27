@@ -1,0 +1,154 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_WeatherActor_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_WeatherActor_C:SimpleConstructionScript_0'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/World/Weather/BP_WeatherActor.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'RegionSpecificGlobalWeatherActor'",
+      "ObjectPath": "/Script/Dominion"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_WeatherActor_C'Default__BP_WeatherActor_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/World/Weather/BP_WeatherActor.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_WeatherActor_C",
+    "Name": "Default__BP_WeatherActor_C",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/World/Weather/BP_WeatherActor.BP_WeatherActor_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Weathers": [
+        {
+          "ObjectName": "DynamicRegionalWeather'Default__BP_WeatherActor_C:DynamicRegionalWeather_0'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/World/Weather/BP_WeatherActor.2"
+        },
+        {
+          "ObjectName": "StaticRegionalWeather'Default__BP_WeatherActor_C:StaticRegionalWeather_1'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/World/Weather/BP_WeatherActor.8"
+        },
+        {
+          "ObjectName": "StaticRegionalWeather'Default__BP_WeatherActor_C:StaticRegionalWeather_0'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/World/Weather/BP_WeatherActor.7"
+        }
+      ],
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_WeatherActor_C:Root'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/World/Weather/BP_WeatherActor.4"
+      }
+    }
+  },
+  {
+    "Type": "DynamicRegionalWeather",
+    "Name": "DynamicRegionalWeather_0",
+    "Outer": "Default__BP_WeatherActor_C",
+    "Class": "UScriptClass'DynamicRegionalWeather'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WeatherProfile": {
+        "ObjectName": "DynamicWeatherProfile'DWP_DryDay'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/World/Weather/DWP_DryDay.0"
+      },
+      "AlternativeWeatherProfile": {
+        "ObjectName": "DynamicWeatherProfile'DWP_RainyDay'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/World/Weather/DWP_RainyDay.0"
+      },
+      "DailyChanceOfUsingAlternativeProfile": 0.333333,
+      "MinWeatherDayNumToUseAlternativeProfile": 3,
+      "PersistenceName": "base",
+      "RegionTags": [
+        "UI.Notification.Map.RegionTag.Brynmoor.Swamp",
+        "UI.Notification.Map.RegionTag.Ghornfell.Swamp"
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_WeatherActor_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Root",
+    "Outer": "Default__BP_WeatherActor_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_WeatherActor_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/World/Weather/BP_WeatherActor.3"
+      },
+      "VariableGuid": "9D9A7D0C-4E12CDA4-94CAD3AC-3E391971",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_WeatherActor_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_WeatherActor_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/World/Weather/BP_WeatherActor.5"
+      }
+    }
+  },
+  {
+    "Type": "StaticRegionalWeather",
+    "Name": "StaticRegionalWeather_0",
+    "Outer": "Default__BP_WeatherActor_C",
+    "Class": "UScriptClass'StaticRegionalWeather'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WeatherType": "EWeatherType::Rain_LightningStorm",
+      "RegionTags": [
+        "UI.Notification.Map.RegionTag.Ghornfell.Highlands"
+      ]
+    }
+  },
+  {
+    "Type": "StaticRegionalWeather",
+    "Name": "StaticRegionalWeather_1",
+    "Outer": "Default__BP_WeatherActor_C",
+    "Class": "UScriptClass'StaticRegionalWeather'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WeatherType": "EWeatherType::Sunny",
+      "RegionTags": [
+        "UI.Notification.Map.RegionTag.Fellhollow"
+      ]
+    }
+  }
+]

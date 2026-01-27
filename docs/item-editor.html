@@ -114,7 +114,7 @@
       <a href="./recipe-unlocker.html" aria-label="Recipe Unlocker">
         <img src="homepage/assets/recipe_unlocker.png" alt="" />
       </a>
-      <a href="./drop-table.html" aria-label="Drop Table">
+      <a href="./enemy-drop-tables.html" aria-label="Drop Table">
         <img src="homepage/assets/drop_table.png" alt="" />
       </a>
       <a href="./placeholder-1.html" aria-label="Placeholder 1">
@@ -482,7 +482,7 @@
       </section>
     </main>
 </div>
-<div class="context-menu hidden" id="context-menu" role="menu">
+    <div class="context-menu hidden" id="context-menu" role="menu">
       <button type="button" data-action="add">Add</button>
       <button type="button" data-action="add-max">Add Max</button>
       <button type="button" data-action="set-max">Set Max</button>
@@ -490,16 +490,42 @@
       <button type="button" data-action="repair">Repair</button>
       <button type="button" data-action="remove">Remove</button>
     </div>
-<div class="tooltip hidden" id="tooltip" role="tooltip">
+
+    <div class="tooltip hidden" id="tooltip" role="tooltip">
       <div class="tooltip__name" id="tooltip-name"></div>
-<div class="tooltip__desc" id="tooltip-desc"></div>
-<div class="tooltip__meta" id="tooltip-meta"></div>
-<div class="modal-overlay hidden" id="count-modal">
+      <div class="tooltip__desc" id="tooltip-desc"></div>
+      <div class="tooltip__meta" id="tooltip-meta"></div>
+    </div>
+
+    <div class="modal-overlay hidden" id="count-modal">
       <div class="modal">
         <div class="modal-title">Set Quantity</div>
-<div class="modal-overlay hidden" id="alert-modal">
+        <div class="modal-body">
+          <label>
+            Quantity
+            <input type="number" id="count-input" min="1" />
+          </label>
+          <div class="modal-hint" id="count-hint"></div>
+        </div>
+        <div class="modal-actions">
+          <button type="button" id="count-cancel">Cancel</button>
+          <button type="button" id="count-apply">Apply</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-overlay hidden" id="alert-modal">
       <div class="modal">
         <div class="modal-title">Notice</div>
+        <div class="modal-body">
+          <div class="modal-hint" id="alert-message"></div>
+        </div>
+        <div class="modal-actions">
+          <button type="button" id="alert-ok">OK</button>
+        </div>
+      </div>
+    </div>
+
 <script>
   (() => {
     const selectors = [

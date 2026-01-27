@@ -4,7 +4,6 @@
   "max_stack": 1,
   "icon": "Adventurer's Leggings.png",
   "description": "Basic and comfortable attire fit for a new Adventurer.",
-  "Equipment": "Legs",
   "VitalShield": 0,
   "BaseDurability": 500,
   "PowerLevel": 1,

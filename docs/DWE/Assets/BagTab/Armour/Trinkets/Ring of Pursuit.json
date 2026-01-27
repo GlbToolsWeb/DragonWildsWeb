@@ -1,11 +1,10 @@
 {
-  "ItemData": "3NlCk0PLvMeVQ06pQp2V8g",
+  "ItemData": "mETsn0hsQKyU-h-s1LRQ6g",
   "name": "Ring of Pursuit",
   "max_stack": 1,
   "icon": "Ring of Pursuit.png",
-  "description": "ANIMALS are less AWARE of your PRESENCE",
-  "Equipment": "Jewellery",
+  "description": "A piee of enchanted jewellery that increases carrying capacity.",
   "VitalShield": 0,
-  "BaseDurability": 18000,
-  "Weight": 1.0
+  "BaseDurability": 1000,
+  "Weight": 2.0
 }

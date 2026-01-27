@@ -1,0 +1,57 @@
+[
+  {
+    "Type": "BuildingPieceData",
+    "Name": "BUILDPIECE_PersonalChest",
+    "Class": "UScriptClass'BuildingPieceData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces/Furniture/ST_BuildingPieces_Furniture.ST_BuildingPieces_Furniture",
+        "Key": "BankChest.Name",
+        "SourceString": "Bank Chest",
+        "LocalizedString": "Bank Chest"
+      },
+      "Description": {
+        "TableId": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces/Furniture/ST_BuildingPieces_Furniture.ST_BuildingPieces_Furniture",
+        "Key": "BankChest.Description",
+        "SourceString": "Your own personal storage!",
+        "LocalizedString": "Your own personal storage!"
+      },
+      "DisplayIcon": {
+        "AssetPathName": "/Game/Art/UI/Icons/BuildingIcons/T_Icon_Chest.T_Icon_Chest",
+        "SubPathString": ""
+      },
+      "BuildableActor": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding/Actors/Props/BP_BaseBuilding_PersonalChest.BP_BaseBuilding_PersonalChest_C",
+        "SubPathString": ""
+      },
+      "Requirements": [
+        {
+          "Amount": 10,
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Wood_Oak'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Oak.0"
+          }
+        },
+        {
+          "Amount": 10,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Rune_Astral'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Astral.0"
+          }
+        }
+      ],
+      "PieceTag": {
+        "TagName": "BaseBuilding.PieceType.Prop"
+      },
+      "BuildingStabilityProfile": {
+        "MaxStability": 1.0,
+        "MinStability": 0.9,
+        "VerticalLoss": 0.01,
+        "HorizontalLoss": 0.01
+      },
+      "PersistenceID": "SEZxX0vWAzlYYDGkwphIsw",
+      "InternalName": "buildpiece_personalchest"
+    }
+  }
+]

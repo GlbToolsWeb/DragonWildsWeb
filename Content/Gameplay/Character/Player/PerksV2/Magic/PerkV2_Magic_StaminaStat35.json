@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "GE_MagicAttack_Stamina_Cost_C",
+    "Name": "GE_MagicAttack_Stamina_Cost_C_0",
+    "Outer": "SkillPerkModule_StatBuff_1",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Magic/GE_MagicAttack_Stamina_Cost.GE_MagicAttack_Stamina_Cost_C'",
+    "Template": {
+      "ObjectName": "GE_MagicAttack_Stamina_Cost_C'Default__GE_MagicAttack_Stamina_Cost_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Magic/GE_MagicAttack_Stamina_Cost.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Data": {
+        "StatValueType": "EStatValueType::AddPercent"
+      }
+    }
+  },
+  {
+    "Type": "SkillPerkData",
+    "Name": "PerkV2_Magic_StaminaStat35",
+    "Class": "UScriptClass'SkillPerkData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PerkName": {
+        "CultureInvariantString": "Magic Stamina Stat"
+      },
+      "PerkDescription": {
+        "CultureInvariantString": null
+      },
+      "SkillPerkImage": {
+        "AssetPathName": "/Game/Art/UI/Skills/2025/Skill_Tree_Icons/T_Icon_SkillTree_Magic.T_Icon_SkillTree_Magic",
+        "SubPathString": ""
+      },
+      "PerkModules": [
+        {
+          "ObjectName": "SkillPerkModule_StatBuff'PerkV2_Magic_StaminaStat35:SkillPerkModule_StatBuff_1'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/PerksV2/Magic/PerkV2_Magic_StaminaStat35.2"
+        }
+      ],
+      "PerkUnlockInfo": {
+        "AssociatedSkill": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Skills/SKILL_Magic.SKILL_Magic",
+          "SubPathString": ""
+        },
+        "RequiredSkillLevel": 45
+      },
+      "PersistenceID": "HLEAaELhZdQOU-uv7FM7nw",
+      "InternalName": "perk_magic_staminastat35"
+    }
+  },
+  {
+    "Type": "SkillPerkModule_StatBuff",
+    "Name": "SkillPerkModule_StatBuff_1",
+    "Outer": "PerkV2_Magic_StaminaStat35",
+    "Class": "UScriptClass'SkillPerkModule_StatBuff'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "GameplayEffectData": {
+        "ObjectName": "GE_MagicAttack_Stamina_Cost_C'PerkV2_Magic_StaminaStat35:SkillPerkModule_StatBuff_1.GE_MagicAttack_Stamina_Cost_C_0'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/PerksV2/Magic/PerkV2_Magic_StaminaStat35.0"
+      },
+      "ModifierAmount": -0.01
+    }
+  }
+]

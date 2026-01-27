@@ -4,8 +4,12 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
+DOCS_ASSETS_DIR = ROOT / "docs" / "DWE" / "Assets"
 ASSETS_DIR = ROOT / "DWE" / "Assets"
-OUTPUT_FILE = ROOT / "web" / "data" / "catalog.json"
+OUTPUT_FILES = [
+    ROOT / "web" / "data" / "catalog.json",
+    ROOT / "docs" / "data" / "catalog.json",
+]
 
 TAB_LABELS = {
     "BagTab": "Bag Items",
@@ -15,14 +19,16 @@ TAB_LABELS = {
 }
 
 
-def to_web_path(path: Path) -> str:
-    return "../" + path.as_posix().replace(str(ROOT.as_posix()) + "/", "")
+def to_web_path(path: Path, base_root: Path) -> str:
+    return path.relative_to(base_root).as_posix()
 
 
 def build_catalog():
+    assets_root = DOCS_ASSETS_DIR if DOCS_ASSETS_DIR.exists() else ASSETS_DIR
+    base_root = ROOT / "docs" if assets_root == DOCS_ASSETS_DIR else ROOT
     catalog = {"tabs": {}}
     for tab_name in ["BagTab", "RuneTab", "AmmoTab", "QuestTab"]:
-        tab_dir = ASSETS_DIR / tab_name
+        tab_dir = assets_root / tab_name
         items = []
         for root, _, files in os.walk(tab_dir):
             for filename in files:
@@ -43,8 +49,8 @@ def build_catalog():
                     "name": data.get("name", file_path.stem),
                     "itemData": data.get("ItemData"),
                     "maxStack": data.get("max_stack", 1),
-                    "iconPath": to_web_path(icon_path),
-                    "sourcePath": to_web_path(file_path),
+                    "iconPath": to_web_path(icon_path, base_root),
+                    "sourcePath": to_web_path(file_path, base_root),
                     "category": category,
                 }
                 if data.get("description") is not None:
@@ -69,9 +75,10 @@ def build_catalog():
             "items": items,
         }
 
-    OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
-    with OUTPUT_FILE.open("w", encoding="utf-8") as handle:
-        json.dump(catalog, handle, indent=2)
+    for output_file in OUTPUT_FILES:
+        output_file.parent.mkdir(parents=True, exist_ok=True)
+        with output_file.open("w", encoding="utf-8") as handle:
+            json.dump(catalog, handle, indent=2)
 
 
 if __name__ == "__main__":

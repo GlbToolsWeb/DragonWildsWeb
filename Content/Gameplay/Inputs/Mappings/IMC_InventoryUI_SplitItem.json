@@ -1,0 +1,137 @@
+[
+  {
+    "Type": "DominionPlayerMappableKeySetting",
+    "Name": "DominionPlayerMappableKeySetting_10",
+    "Outer": "IMC_InventoryUI_SplitItem",
+    "Class": "UScriptClass'DominionPlayerMappableKeySetting'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AlternateInputMappingNames": [
+        "InvProcSplitStackGamepad"
+      ],
+      "bHideFromList": true,
+      "InputType": "EKeyMappingSettingsInputType::KeyboardMouse",
+      "Name": "InvProcSplitStack",
+      "DisplayName": {
+        "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+        "Key": "InventorySplit",
+        "SourceString": "Split Stack",
+        "LocalizedString": "Split Stack"
+      }
+    }
+  },
+  {
+    "Type": "DominionPlayerMappableKeySetting",
+    "Name": "DominionPlayerMappableKeySetting_8",
+    "Outer": "IMC_InventoryUI_SplitItem",
+    "Class": "UScriptClass'DominionPlayerMappableKeySetting'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bHideFromList": true,
+      "InputType": "EKeyMappingSettingsInputType::KeyboardMouse",
+      "Name": "InvProcGrantSplitStack",
+      "DisplayName": {
+        "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+        "Key": "InventorySplitGrant",
+        "SourceString": "Grant Split Stack",
+        "LocalizedString": "Grant Split Stack"
+      }
+    }
+  },
+  {
+    "Type": "DominionPlayerMappableKeySetting",
+    "Name": "DominionPlayerMappableKeySetting_9",
+    "Outer": "IMC_InventoryUI_SplitItem",
+    "Class": "UScriptClass'DominionPlayerMappableKeySetting'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AlternateInputMappingNames": [
+        "InvProcSplitStack"
+      ],
+      "InputType": "EKeyMappingSettingsInputType::Gamepad",
+      "Name": "InvProcSplitStackGamepad",
+      "DisplayName": {
+        "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+        "Key": "InventorySplit",
+        "SourceString": "Split Stack",
+        "LocalizedString": "Split Stack"
+      }
+    }
+  },
+  {
+    "Type": "InputMappingContext",
+    "Name": "IMC_InventoryUI_SplitItem",
+    "Class": "UScriptClass'InputMappingContext'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Mappings": [
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_Inventory_GrantSplitStack'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Inputs/Actions/Inventory/IA_Inventory_GrantSplitStack.0"
+          },
+          "Key": {
+            "KeyName": "LeftShift"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::OverrideSettings",
+          "PlayerMappableKeySettings": {
+            "ObjectName": "DominionPlayerMappableKeySetting'IMC_InventoryUI_SplitItem:DominionPlayerMappableKeySetting_8'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_InventoryUI_SplitItem.1"
+          }
+        },
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_Inventory_SplitStack'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Inputs/Actions/Inventory/IA_Inventory_SplitStack.0"
+          },
+          "Key": {
+            "KeyName": "Gamepad_RightShoulder"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::OverrideSettings",
+          "PlayerMappableKeySettings": {
+            "ObjectName": "DominionPlayerMappableKeySetting'IMC_InventoryUI_SplitItem:DominionPlayerMappableKeySetting_9'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_InventoryUI_SplitItem.2"
+          }
+        },
+        {
+          "Triggers": [
+            {
+              "ObjectName": "InputTriggerChordAction'IMC_InventoryUI_SplitItem:InputTriggerChordAction_1'",
+              "ObjectPath": "RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_InventoryUI_SplitItem.4"
+            }
+          ],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_Inventory_SplitStack'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Inputs/Actions/Inventory/IA_Inventory_SplitStack.0"
+          },
+          "Key": {
+            "KeyName": "LeftMouseButton"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::OverrideSettings",
+          "PlayerMappableKeySettings": {
+            "ObjectName": "DominionPlayerMappableKeySetting'IMC_InventoryUI_SplitItem:DominionPlayerMappableKeySetting_10'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_InventoryUI_SplitItem.0"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "InputTriggerChordAction",
+    "Name": "InputTriggerChordAction_1",
+    "Outer": "IMC_InventoryUI_SplitItem",
+    "Class": "UScriptClass'InputTriggerChordAction'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ChordAction": {
+        "ObjectName": "InputAction'IA_Inventory_GrantSplitStack'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Inputs/Actions/Inventory/IA_Inventory_GrantSplitStack.0"
+      }
+    }
+  }
+]

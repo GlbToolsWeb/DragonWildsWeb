@@ -1,0 +1,691 @@
+[
+  {
+    "Type": "ConversationDatabase",
+    "Name": "QF_Death_PostQuestDialogue",
+    "Class": "UScriptClass'ConversationDatabase'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CompilerVersion": 2,
+      "ReachableNodeMap": [
+        {
+          "Key": "125AF10A-44D38FCF-9E01A0B6-D9126073",
+          "Value": {
+            "ObjectName": "ConversationEntryPointNode'QF_Death_PostQuestDialogue:ConversationEntryPointNode_3'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_Death_PostQuestDialogue.1"
+          }
+        },
+        {
+          "Key": "85BEBD65-49EEFEA9-1BA95B98-C528E55A",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Death_PostQuestDialogue:QFT_Blank_C_0'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_Death_PostQuestDialogue.7"
+          }
+        },
+        {
+          "Key": "AB801302-40F5D975-84A439A9-E68DC67E",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Death_PostQuestDialogue:QFT_PromptMessage_C_66'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_Death_PostQuestDialogue.14"
+          }
+        },
+        {
+          "Key": "3091744E-462D14BF-02059EA7-0796ECE6",
+          "Value": {
+            "ObjectName": "ConversationLinkNode'QF_Death_PostQuestDialogue:ConversationLinkNode_2'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_Death_PostQuestDialogue.2"
+          }
+        },
+        {
+          "Key": "428E4F0C-4D270F99-F6FBB8AB-EC911CB3",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Death_PostQuestDialogue:QFT_Blank_C_4'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_Death_PostQuestDialogue.10"
+          }
+        },
+        {
+          "Key": "15AE1424-400728E4-8D4A1AB2-3C55F3D0",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Death_PostQuestDialogue:QFT_Blank_C_12'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_Death_PostQuestDialogue.9"
+          }
+        },
+        {
+          "Key": "2434ACA5-46AB57E3-53C74299-7EED5330",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Death_PostQuestDialogue:QFT_PromptMessage_C_6'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_Death_PostQuestDialogue.13"
+          }
+        },
+        {
+          "Key": "94C499C1-418A859A-FC0225AA-349209CD",
+          "Value": {
+            "ObjectName": "QFT_Blank_C'QF_Death_PostQuestDialogue:QFT_Blank_C_11'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_Death_PostQuestDialogue.8"
+          }
+        },
+        {
+          "Key": "A1EE1263-434778EB-7A509FAD-BC2CC7AE",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Death_PostQuestDialogue:QFT_PromptMessage_C_67'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_Death_PostQuestDialogue.15"
+          }
+        },
+        {
+          "Key": "5DF6E79E-40380789-AE032993-BD0DF2AB",
+          "Value": {
+            "ObjectName": "QFT_TakeItemFromPlayer_C'QF_Death_PostQuestDialogue:QFT_TakeItemFromPlayer_C_0'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_Death_PostQuestDialogue.17"
+          }
+        },
+        {
+          "Key": "0A615A59-4F61D733-716A7E83-634D0FC8",
+          "Value": {
+            "ObjectName": "QFT_GiveItemToPlayer_C'QF_Death_PostQuestDialogue:QFT_GiveItemToPlayer_C_1'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_Death_PostQuestDialogue.11"
+          }
+        },
+        {
+          "Key": "4DCAFCF0-44226C0A-818F868C-62C0015D",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Death_PostQuestDialogue:QFT_PromptMessage_C_68'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_Death_PostQuestDialogue.16"
+          }
+        },
+        {
+          "Key": "85CC94D9-46137792-950FBBB1-46B6BD57",
+          "Value": {
+            "ObjectName": "QFT_PromptMessage_C'QF_Death_PostQuestDialogue:QFT_PromptMessage_C_0'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_Death_PostQuestDialogue.12"
+          }
+        }
+      ],
+      "EntryTags": [
+        {
+          "EntryTag": {
+            "TagName": "QuestFlow.Entry.DeathQuestMain.PostQuestEntry"
+          },
+          "DestinationList": [
+            "125AF10A-44D38FCF-9E01A0B6-D9126073"
+          ]
+        }
+      ],
+      "ExitTags": [
+        "QuestFlow.Entry.DeathQuestMain.Death.AskAboutChoices"
+      ],
+      "InternalNodeIds": [
+        "125AF10A-44D38FCF-9E01A0B6-D9126073",
+        "85BEBD65-49EEFEA9-1BA95B98-C528E55A",
+        "AB801302-40F5D975-84A439A9-E68DC67E",
+        "3091744E-462D14BF-02059EA7-0796ECE6",
+        "428E4F0C-4D270F99-F6FBB8AB-EC911CB3",
+        "15AE1424-400728E4-8D4A1AB2-3C55F3D0",
+        "2434ACA5-46AB57E3-53C74299-7EED5330",
+        "94C499C1-418A859A-FC0225AA-349209CD",
+        "A1EE1263-434778EB-7A509FAD-BC2CC7AE",
+        "5DF6E79E-40380789-AE032993-BD0DF2AB",
+        "0A615A59-4F61D733-716A7E83-634D0FC8",
+        "4DCAFCF0-44226C0A-818F868C-62C0015D",
+        "85CC94D9-46137792-950FBBB1-46B6BD57"
+      ]
+    }
+  },
+  {
+    "Type": "ConversationEntryPointNode",
+    "Name": "ConversationEntryPointNode_3",
+    "Outer": "QF_Death_PostQuestDialogue",
+    "Class": "UScriptClass'ConversationEntryPointNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntryTag": {
+        "TagName": "QuestFlow.Entry.DeathQuestMain.PostQuestEntry"
+      },
+      "OutputConnections": [
+        "428E4F0C-4D270F99-F6FBB8AB-EC911CB3",
+        "85BEBD65-49EEFEA9-1BA95B98-C528E55A"
+      ],
+      "Compiled_NodeGUID": "125AF10A-44D38FCF-9E01A0B6-D9126073"
+    }
+  },
+  {
+    "Type": "ConversationLinkNode",
+    "Name": "ConversationLinkNode_2",
+    "Outer": "QF_Death_PostQuestDialogue",
+    "Class": "UScriptClass'ConversationLinkNode'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RemoteEntryTag": {
+        "TagName": "QuestFlow.Entry.DeathQuestMain.Death.AskAboutChoices"
+      },
+      "Compiled_NodeGUID": "3091744E-462D14BF-02059EA7-0796ECE6",
+      "ParentNode": {
+        "ObjectName": "QFT_PromptMessage_C'QF_Death_PostQuestDialogue:QFT_PromptMessage_C_6'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_Death_PostQuestDialogue.13"
+      }
+    }
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveItem_C",
+    "Name": "QFR_PlayerDoesntHaveItem_C_0",
+    "Outer": "QF_Death_PostQuestDialogue",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Quests/QuestFlow/ItemNodes/QFR_PlayerDoesntHaveItem.QFR_PlayerDoesntHaveItem_C'",
+    "Template": {
+      "ObjectName": "QFR_PlayerDoesntHaveItem_C'Default__QFR_PlayerDoesntHaveItem_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/QuestFlow/ItemNodes/QFR_PlayerDoesntHaveItem.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemData": {
+        "ObjectName": "ItemData'ITEM_Resources_Imaru_Head'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_Resources_Imaru_Head.0"
+      }
+    }
+  },
+  {
+    "Type": "QFR_PlayerDoesntHaveSpaceForItem_C",
+    "Name": "QFR_PlayerDoesntHaveSpaceForItem_C_1",
+    "Outer": "QF_Death_PostQuestDialogue",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Quests/QuestFlow/ItemNodes/QFR_PlayerDoesntHaveSpaceForItem.QFR_PlayerDoesntHaveSpaceForItem_C'",
+    "Template": {
+      "ObjectName": "QFR_PlayerDoesntHaveSpaceForItem_C'Default__QFR_PlayerDoesntHaveSpaceForItem_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/QuestFlow/ItemNodes/QFR_PlayerDoesntHaveSpaceForItem.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemData": {
+        "ObjectName": "ItemData'ITEM_Resources_Imaru_Head'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_Resources_Imaru_Head.0"
+      }
+    }
+  },
+  {
+    "Type": "QFR_PlayerHasItemAmount_C",
+    "Name": "QFR_PlayerHasItemAmount_C_1",
+    "Outer": "QF_Death_PostQuestDialogue",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Quests/QuestFlow/ItemNodes/QFR_PlayerHasItemAmount.QFR_PlayerHasItemAmount_C'",
+    "Template": {
+      "ObjectName": "QFR_PlayerHasItemAmount_C'Default__QFR_PlayerHasItemAmount_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/QuestFlow/ItemNodes/QFR_PlayerHasItemAmount.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemData": {
+        "ObjectName": "ItemData'ITEM_Resources_Imaru_Head'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_Resources_Imaru_Head.0"
+      }
+    }
+  },
+  {
+    "Type": "QFR_PlayerHasSpaceForItem_C",
+    "Name": "QFR_PlayerHasSpaceForItem_C_1",
+    "Outer": "QF_Death_PostQuestDialogue",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Quests/QuestFlow/ItemNodes/QFR_PlayerHasSpaceForItem.QFR_PlayerHasSpaceForItem_C'",
+    "Template": {
+      "ObjectName": "QFR_PlayerHasSpaceForItem_C'Default__QFR_PlayerHasSpaceForItem_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/QuestFlow/ItemNodes/QFR_PlayerHasSpaceForItem.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemData": {
+        "ObjectName": "ItemData'ITEM_Resources_Imaru_Head'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_Resources_Imaru_Head.0"
+      }
+    }
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_0",
+    "Outer": "QF_Death_PostQuestDialogue",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Quests/QuestFlow/ConversationNodes/QFT_Blank.QFT_Blank_C'",
+    "Template": {
+      "ObjectName": "QFT_Blank_C'Default__QFT_Blank_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/QuestFlow/ConversationNodes/QFT_Blank.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SubNodes": [
+        {
+          "ObjectName": "QFR_PlayerDoesntHaveItem_C'QF_Death_PostQuestDialogue:QFR_PlayerDoesntHaveItem_C_0'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_Death_PostQuestDialogue.3"
+        }
+      ],
+      "OutputConnections": [
+        "AB801302-40F5D975-84A439A9-E68DC67E"
+      ],
+      "Compiled_NodeGUID": "85BEBD65-49EEFEA9-1BA95B98-C528E55A",
+      "ParentNode": {
+        "ObjectName": "ConversationEntryPointNode'QF_Death_PostQuestDialogue:ConversationEntryPointNode_3'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_Death_PostQuestDialogue.1"
+      }
+    }
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_11",
+    "Outer": "QF_Death_PostQuestDialogue",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Quests/QuestFlow/ConversationNodes/QFT_Blank.QFT_Blank_C'",
+    "Template": {
+      "ObjectName": "QFT_Blank_C'Default__QFT_Blank_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/QuestFlow/ConversationNodes/QFT_Blank.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SubNodes": [
+        {
+          "ObjectName": "QFR_PlayerHasSpaceForItem_C'QF_Death_PostQuestDialogue:QFR_PlayerHasSpaceForItem_C_1'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_Death_PostQuestDialogue.6"
+        }
+      ],
+      "OutputConnections": [
+        "A1EE1263-434778EB-7A509FAD-BC2CC7AE"
+      ],
+      "Compiled_NodeGUID": "94C499C1-418A859A-FC0225AA-349209CD",
+      "ParentNode": {
+        "ObjectName": "QFT_Blank_C'QF_Death_PostQuestDialogue:QFT_Blank_C_4'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_Death_PostQuestDialogue.10"
+      }
+    }
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_12",
+    "Outer": "QF_Death_PostQuestDialogue",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Quests/QuestFlow/ConversationNodes/QFT_Blank.QFT_Blank_C'",
+    "Template": {
+      "ObjectName": "QFT_Blank_C'Default__QFT_Blank_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/QuestFlow/ConversationNodes/QFT_Blank.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SubNodes": [
+        {
+          "ObjectName": "QFR_PlayerDoesntHaveSpaceForItem_C'QF_Death_PostQuestDialogue:QFR_PlayerDoesntHaveSpaceForItem_C_1'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_Death_PostQuestDialogue.4"
+        }
+      ],
+      "OutputConnections": [
+        "2434ACA5-46AB57E3-53C74299-7EED5330"
+      ],
+      "Compiled_NodeGUID": "15AE1424-400728E4-8D4A1AB2-3C55F3D0",
+      "ParentNode": {
+        "ObjectName": "QFT_Blank_C'QF_Death_PostQuestDialogue:QFT_Blank_C_4'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_Death_PostQuestDialogue.10"
+      }
+    }
+  },
+  {
+    "Type": "QFT_Blank_C",
+    "Name": "QFT_Blank_C_4",
+    "Outer": "QF_Death_PostQuestDialogue",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Quests/QuestFlow/ConversationNodes/QFT_Blank.QFT_Blank_C'",
+    "Template": {
+      "ObjectName": "QFT_Blank_C'Default__QFT_Blank_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/QuestFlow/ConversationNodes/QFT_Blank.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SubNodes": [
+        {
+          "ObjectName": "QFR_PlayerHasItemAmount_C'QF_Death_PostQuestDialogue:QFR_PlayerHasItemAmount_C_1'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_Death_PostQuestDialogue.5"
+        }
+      ],
+      "OutputConnections": [
+        "94C499C1-418A859A-FC0225AA-349209CD",
+        "15AE1424-400728E4-8D4A1AB2-3C55F3D0"
+      ],
+      "Compiled_NodeGUID": "428E4F0C-4D270F99-F6FBB8AB-EC911CB3",
+      "ParentNode": {
+        "ObjectName": "ConversationEntryPointNode'QF_Death_PostQuestDialogue:ConversationEntryPointNode_3'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_Death_PostQuestDialogue.1"
+      }
+    }
+  },
+  {
+    "Type": "QFT_GiveItemToPlayer_C",
+    "Name": "QFT_GiveItemToPlayer_C_1",
+    "Outer": "QF_Death_PostQuestDialogue",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Quests/QuestFlow/ItemNodes/QFT_GiveItemToPlayer.QFT_GiveItemToPlayer_C'",
+    "Template": {
+      "ObjectName": "QFT_GiveItemToPlayer_C'Default__QFT_GiveItemToPlayer_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/QuestFlow/ItemNodes/QFT_GiveItemToPlayer.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemData": {
+        "ObjectName": "ItemData'ITEM_Resources_Visage_Dragon_Imaru'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Animal/ITEM_Resources_Visage_Dragon_Imaru.0"
+      },
+      "OutputConnections": [
+        "4DCAFCF0-44226C0A-818F868C-62C0015D"
+      ],
+      "Compiled_NodeGUID": "0A615A59-4F61D733-716A7E83-634D0FC8",
+      "ParentNode": {
+        "ObjectName": "QFT_TakeItemFromPlayer_C'QF_Death_PostQuestDialogue:QFT_TakeItemFromPlayer_C_0'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_Death_PostQuestDialogue.17"
+      }
+    }
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_0",
+    "Outer": "QF_Death_PostQuestDialogue",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Quests/QuestFlow/ConversationNodes/QFT_PromptMessage.QFT_PromptMessage_C'",
+    "Template": {
+      "ObjectName": "QFT_PromptMessage_C'Default__QFT_PromptMessage_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/QuestFlow/ConversationNodes/QFT_PromptMessage.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SpeakerTag": {
+        "TagName": "QuestFlow.Participant.Death"
+      },
+      "Message": {
+        "TableId": "/Game/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/ST_DeathQuestMain.ST_DeathQuestMain",
+        "Key": "Death.ImaruSlain.HasHead.HasSpace.2",
+        "SourceString": "Now, I have an enormously unpleasant cleanup to do. So you'll forgive me if I get back to work.",
+        "LocalizedString": "Now, I have an enormously unpleasant cleanup to do. So you'll forgive me if I get back to work."
+      },
+      "SpeakerDisplayName": {
+        "TableId": "/Game/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/ST_DeathQuestMain.ST_DeathQuestMain",
+        "Key": "Death.Name",
+        "SourceString": "Death",
+        "LocalizedString": "Death"
+      },
+      "SubNodes": [
+        {
+          "ObjectName": "SEN_PlayBark_C'QF_Death_PostQuestDialogue:SEN_PlayBark_C_3'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_Death_PostQuestDialogue.21"
+        }
+      ],
+      "Compiled_NodeGUID": "85CC94D9-46137792-950FBBB1-46B6BD57",
+      "ParentNode": {
+        "ObjectName": "QFT_PromptMessage_C'QF_Death_PostQuestDialogue:QFT_PromptMessage_C_68'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_Death_PostQuestDialogue.16"
+      }
+    }
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_6",
+    "Outer": "QF_Death_PostQuestDialogue",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Quests/QuestFlow/ConversationNodes/QFT_PromptMessage.QFT_PromptMessage_C'",
+    "Template": {
+      "ObjectName": "QFT_PromptMessage_C'Default__QFT_PromptMessage_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/QuestFlow/ConversationNodes/QFT_PromptMessage.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SpeakerTag": {
+        "TagName": "QuestFlow.Participant.Death"
+      },
+      "Message": {
+        "TableId": "/Game/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/ST_DeathQuestMain.ST_DeathQuestMain",
+        "Key": "Death.ImaruSlain.HasHead.NoSpace.1",
+        "SourceString": "Hrmm, you appear to be a little overburdened. Shed yourself some of thy worldly trappings and then come speak to me again.",
+        "LocalizedString": "Hrmm, you appear to be a little overburdened. Shed yourself some of thy worldly trappings and then come speak to me again."
+      },
+      "SpeakerDisplayName": {
+        "TableId": "/Game/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/ST_DeathQuestMain.ST_DeathQuestMain",
+        "Key": "Death.Name",
+        "SourceString": "Death",
+        "LocalizedString": "Death"
+      },
+      "SubNodes": [
+        {
+          "ObjectName": "SEN_PlayBark_C'QF_Death_PostQuestDialogue:SEN_PlayBark_C_2'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_Death_PostQuestDialogue.20"
+        }
+      ],
+      "OutputConnections": [
+        "3091744E-462D14BF-02059EA7-0796ECE6"
+      ],
+      "Compiled_NodeGUID": "2434ACA5-46AB57E3-53C74299-7EED5330",
+      "ParentNode": {
+        "ObjectName": "QFT_Blank_C'QF_Death_PostQuestDialogue:QFT_Blank_C_12'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_Death_PostQuestDialogue.9"
+      }
+    }
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_66",
+    "Outer": "QF_Death_PostQuestDialogue",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Quests/QuestFlow/ConversationNodes/QFT_PromptMessage.QFT_PromptMessage_C'",
+    "Template": {
+      "ObjectName": "QFT_PromptMessage_C'Default__QFT_PromptMessage_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/QuestFlow/ConversationNodes/QFT_PromptMessage.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SpeakerTag": {
+        "TagName": "QuestFlow.Participant.Death"
+      },
+      "Message": {
+        "TableId": "/Game/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/ST_DeathQuestMain.ST_DeathQuestMain",
+        "Key": "Death.PostQuest.NoHeads.1",
+        "SourceString": "Forgive me, but I must focus my attention elsewhere. There is an enormous backlog in Fellhollow that I need to clear up.",
+        "LocalizedString": "Forgive me, but I must focus my attention elsewhere. There is an enormous backlog in Fellhollow that I need to clear up."
+      },
+      "SpeakerDisplayName": {
+        "TableId": "/Game/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/ST_DeathQuestMain.ST_DeathQuestMain",
+        "Key": "Death.Name",
+        "SourceString": "Death",
+        "LocalizedString": "Death"
+      },
+      "SubNodes": [
+        {
+          "ObjectName": "SEN_PlayBark_C'QF_Death_PostQuestDialogue:SEN_PlayBark_C_0'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_Death_PostQuestDialogue.18"
+        }
+      ],
+      "OutputConnections": [
+        "3091744E-462D14BF-02059EA7-0796ECE6"
+      ],
+      "Compiled_NodeGUID": "AB801302-40F5D975-84A439A9-E68DC67E",
+      "ParentNode": {
+        "ObjectName": "QFT_Blank_C'QF_Death_PostQuestDialogue:QFT_Blank_C_0'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_Death_PostQuestDialogue.7"
+      }
+    }
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_67",
+    "Outer": "QF_Death_PostQuestDialogue",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Quests/QuestFlow/ConversationNodes/QFT_PromptMessage.QFT_PromptMessage_C'",
+    "Template": {
+      "ObjectName": "QFT_PromptMessage_C'Default__QFT_PromptMessage_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/QuestFlow/ConversationNodes/QFT_PromptMessage.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SpeakerTag": {
+        "TagName": "QuestFlow.Participant.Death"
+      },
+      "Message": {
+        "TableId": "/Game/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/ST_DeathQuestMain.ST_DeathQuestMain",
+        "Key": "Death.ImaruSlain.HasHead.1",
+        "SourceString": "Here let me take that dragon head from you.",
+        "LocalizedString": "Here let me take that dragon head from you."
+      },
+      "SpeakerDisplayName": {
+        "TableId": "/Game/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/ST_DeathQuestMain.ST_DeathQuestMain",
+        "Key": "Death.Name",
+        "SourceString": "Death",
+        "LocalizedString": "Death"
+      },
+      "SubNodes": [
+        {
+          "ObjectName": "SEN_PlayBark_C'QF_Death_PostQuestDialogue:SEN_PlayBark_C_1'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_Death_PostQuestDialogue.19"
+        }
+      ],
+      "OutputConnections": [
+        "5DF6E79E-40380789-AE032993-BD0DF2AB"
+      ],
+      "Compiled_NodeGUID": "A1EE1263-434778EB-7A509FAD-BC2CC7AE",
+      "ParentNode": {
+        "ObjectName": "QFT_Blank_C'QF_Death_PostQuestDialogue:QFT_Blank_C_11'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_Death_PostQuestDialogue.8"
+      }
+    }
+  },
+  {
+    "Type": "QFT_PromptMessage_C",
+    "Name": "QFT_PromptMessage_C_68",
+    "Outer": "QF_Death_PostQuestDialogue",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Quests/QuestFlow/ConversationNodes/QFT_PromptMessage.QFT_PromptMessage_C'",
+    "Template": {
+      "ObjectName": "QFT_PromptMessage_C'Default__QFT_PromptMessage_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/QuestFlow/ConversationNodes/QFT_PromptMessage.3"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SpeakerTag": {
+        "TagName": "QuestFlow.Participant.Death"
+      },
+      "Message": {
+        "TableId": "/Game/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/ST_DeathQuestMain.ST_DeathQuestMain",
+        "Key": "Death.ImaruSlain.HasHead.HasSpace.1",
+        "SourceString": "A foul thing, really. Corrupted beyond repair. I almost pity her. Still, you're not interested in that, I feel you'll enjoy this much more.",
+        "LocalizedString": "A foul thing, really. Corrupted beyond repair. I almost pity her. Still, you're not interested in that, I feel you'll enjoy this much more."
+      },
+      "SpeakerDisplayName": {
+        "TableId": "/Game/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/ST_DeathQuestMain.ST_DeathQuestMain",
+        "Key": "Death.Name",
+        "SourceString": "Death",
+        "LocalizedString": "Death"
+      },
+      "OutputConnections": [
+        "85CC94D9-46137792-950FBBB1-46B6BD57"
+      ],
+      "Compiled_NodeGUID": "4DCAFCF0-44226C0A-818F868C-62C0015D",
+      "ParentNode": {
+        "ObjectName": "QFT_GiveItemToPlayer_C'QF_Death_PostQuestDialogue:QFT_GiveItemToPlayer_C_1'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_Death_PostQuestDialogue.11"
+      }
+    }
+  },
+  {
+    "Type": "QFT_TakeItemFromPlayer_C",
+    "Name": "QFT_TakeItemFromPlayer_C_0",
+    "Outer": "QF_Death_PostQuestDialogue",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Quests/QuestFlow/ItemNodes/QFT_TakeItemFromPlayer.QFT_TakeItemFromPlayer_C'",
+    "Template": {
+      "ObjectName": "QFT_TakeItemFromPlayer_C'Default__QFT_TakeItemFromPlayer_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/QuestFlow/ItemNodes/QFT_TakeItemFromPlayer.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemData": {
+        "ObjectName": "ItemData'ITEM_Resources_Imaru_Head'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Key/ITEM_Resources_Imaru_Head.0"
+      },
+      "OutputConnections": [
+        "0A615A59-4F61D733-716A7E83-634D0FC8"
+      ],
+      "Compiled_NodeGUID": "5DF6E79E-40380789-AE032993-BD0DF2AB",
+      "ParentNode": {
+        "ObjectName": "QFT_PromptMessage_C'QF_Death_PostQuestDialogue:QFT_PromptMessage_C_67'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/FH_Quests/DeathQuest_Fellhollow/QF_Death_PostQuestDialogue.15"
+      }
+    }
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_0",
+    "Outer": "QF_Death_PostQuestDialogue",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Quests/QuestFlow/SideEffectNodes/SEN_PlayBark.SEN_PlayBark_C'",
+    "Template": {
+      "ObjectName": "SEN_PlayBark_C'Default__SEN_PlayBark_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/QuestFlow/SideEffectNodes/SEN_PlayBark.1"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BarkRequestData": {
+        "BarkCategory": "EBarkCategory::Generic",
+        "BarkEmotion": {
+          "TagName": "Audio.Dialogue.Misc.Sighing"
+        },
+        "EmotionSettings": {
+          "bAllowNeutralEmotions": false
+        }
+      },
+      "SpeakerTag": {
+        "TagName": "QuestFlow.Participant.Death"
+      }
+    }
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_1",
+    "Outer": "QF_Death_PostQuestDialogue",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Quests/QuestFlow/SideEffectNodes/SEN_PlayBark.SEN_PlayBark_C'",
+    "Template": {
+      "ObjectName": "SEN_PlayBark_C'Default__SEN_PlayBark_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/QuestFlow/SideEffectNodes/SEN_PlayBark.1"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BarkRequestData": {
+        "BarkCategory": "EBarkCategory::Generic",
+        "BarkEmotion": {
+          "TagName": "Audio.Dialogue.Happy.Amused"
+        },
+        "EmotionSettings": {
+          "bAllowNeutralEmotions": false
+        }
+      },
+      "SpeakerTag": {
+        "TagName": "QuestFlow.Participant.Death"
+      }
+    }
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_2",
+    "Outer": "QF_Death_PostQuestDialogue",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Quests/QuestFlow/SideEffectNodes/SEN_PlayBark.SEN_PlayBark_C'",
+    "Template": {
+      "ObjectName": "SEN_PlayBark_C'Default__SEN_PlayBark_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/QuestFlow/SideEffectNodes/SEN_PlayBark.1"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BarkRequestData": {
+        "BarkCategory": "EBarkCategory::Generic",
+        "BarkEmotion": {
+          "TagName": "Audio.Dialogue.Neutral"
+        }
+      },
+      "SpeakerTag": {
+        "TagName": "QuestFlow.Participant.Death"
+      }
+    }
+  },
+  {
+    "Type": "SEN_PlayBark_C",
+    "Name": "SEN_PlayBark_C_3",
+    "Outer": "QF_Death_PostQuestDialogue",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Quests/QuestFlow/SideEffectNodes/SEN_PlayBark.SEN_PlayBark_C'",
+    "Template": {
+      "ObjectName": "SEN_PlayBark_C'Default__SEN_PlayBark_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Quests/QuestFlow/SideEffectNodes/SEN_PlayBark.1"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BarkRequestData": {
+        "BarkCategory": "EBarkCategory::Generic",
+        "BarkEmotion": {
+          "TagName": "Audio.Dialogue.Misc.Sighing"
+        },
+        "EmotionSettings": {
+          "bAllowNeutralEmotions": false
+        }
+      },
+      "SpeakerTag": {
+        "TagName": "QuestFlow.Participant.Death"
+      }
+    }
+  }
+]

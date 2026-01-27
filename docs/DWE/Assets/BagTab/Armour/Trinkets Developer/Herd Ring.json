@@ -1,0 +1,10 @@
+{
+  "ItemData": "DX96203Z9RTWnbiguX1FYg",
+  "name": "Herd Ring",
+  "max_stack": 1,
+  "icon": "Herd Ring.png",
+  "description": "NO EFFECT",
+  "VitalShield": 0,
+  "BaseDurability": 1000,
+  "Weight": 2.0
+}

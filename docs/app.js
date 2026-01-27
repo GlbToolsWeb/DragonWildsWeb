@@ -128,6 +128,11 @@ const BAG_CATEGORY_CONFIG = [
     normal: "./DWE/UI/ItemBrowser/BagTabCategories/Weapons_Normal.png",
     selected: "./DWE/UI/ItemBrowser/BagTabCategories/Weapons_Selected.png",
   },
+  {
+    key: "Plans",
+    normal: "./DWE/UI/ItemBrowser/BagTabCategories/Plans_Vestiges_Normal.png",
+    selected: "./DWE/UI/ItemBrowser/BagTabCategories/Plans_Vestiges_Selected.png",
+  },
 ];
 
 const VITAL_SHIELD_CATEGORIES = new Set(["Armour", "Weapons", "Tools"]);
@@ -273,6 +278,9 @@ function renderItemBrowser() {
     items = items.filter((item) => {
       const category = item.category ?? "";
       const root = category.split("/")[0];
+      if (state.bagCategory === "Plans") {
+        return root === "Plans" || root === "Vestiges";
+      }
       return root === state.bagCategory;
     });
   }

@@ -1,0 +1,18 @@
+[
+  {
+    "Type": "SoundWave",
+    "Name": "AW_DragonVelgar_Tense_1",
+    "Class": "UScriptClass'SoundWave'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "NumChannels": 2,
+      "SampleRate": 48000,
+      "Duration": 6.0,
+      "TotalSamples": 288000.0
+    },
+    "CompressedFormatData": null,
+    "RawData": null,
+    "CompressedDataGuid": "00000000-37CFEE71-4466F909-8318B891",
+    "RunningPlatformData": null
+  }
+]

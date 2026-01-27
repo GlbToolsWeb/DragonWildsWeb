@@ -1,0 +1,120 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_1",
+    "Outer": "SM_Rock_Jumpable",
+    "Class": "UScriptClass'BodySetup'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Footstep",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "WorldActor",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Projectile_PathTrace",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Projectile_Arrow",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "FeetIK",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "AudioOcclusion",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      },
+      "CollisionTraceFlag": "ECollisionTraceFlag::CTF_UseComplexAsSimple"
+    },
+    "BodySetupGuid": "C945E504499B8B27B3704A8CFF96598B",
+    "CookedFormatData": {
+      "Chaos": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 2142,
+        "SizeOnDisk": 2142,
+        "OffsetInFile": "0x8C"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_2",
+    "Outer": "SM_Rock_Jumpable",
+    "Class": "UScriptClass'NavCollision'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "CookedFormatData": {
+      "NavCollision_Chaos": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 3262,
+        "SizeOnDisk": 3262,
+        "OffsetInFile": "0x36"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "SM_Rock_Jumpable",
+    "Class": "UScriptClass'StaticMesh'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "Material'WorldGridMaterial'",
+            "ObjectPath": "Engine/Content/EngineMaterials/WorldGridMaterial.0"
+          },
+          "MaterialSlotName": "WorldGridMaterial",
+          "ImportedMaterialSlotName": "WorldGridMaterial",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 579.7404,
+            "LocalUVDensities[1]": 636.8938,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 636.8938,
+      "LightMapResolution": 64,
+      "LightMapCoordinateIndex": 1,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": -7.6842194,
+          "Z": 87.00885
+        },
+        "BoxExtent": {
+          "X": 151.29697,
+          "Y": 147.50363,
+          "Z": 87.99695
+        },
+        "SphereRadius": 184.48461621064442
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'SM_Rock_Jumpable:BodySetup_1'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/AI/DragonVelgar/DamageBPS/SM_Rock_Jumpable.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'SM_Rock_Jumpable:NavCollision_2'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/AI/DragonVelgar/DamageBPS/SM_Rock_Jumpable.1"
+    },
+    "LightingGuid": "6EED7F4E-46BE9E64-37206886-0979F1D1",
+    "RenderData": null
+  }
+]

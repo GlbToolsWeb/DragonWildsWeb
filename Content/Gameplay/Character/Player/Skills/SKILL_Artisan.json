@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "SkillData",
+    "Name": "SKILL_Artisan",
+    "Class": "UScriptClass'SkillData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "73233E114CDC66133030CBB4585E0EB9",
+        "SourceString": "Artisan",
+        "LocalizedString": "Artisan"
+      },
+      "LevelUpDescriptionText": {
+        "TableId": "/Game/Gameplay/Character/Player/Skills/ST_SkillLevelUpInstructions.ST_SkillLevelUpInstructions",
+        "Key": "ArtisanLevelInstruction",
+        "SourceString": "Craft new weapons, armour or tools to level this skill. ",
+        "LocalizedString": "Craft new weapons, armour or tools to level this skill. "
+      },
+      "SkillType": "ESkill::Artisan",
+      "Icon": {
+        "ObjectName": "Texture2D'T_Notification_Skill_Crafting'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/T_Notification_Skill_Crafting.0"
+      },
+      "TagIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Artisan'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Artisan.0"
+      },
+      "DamageXPEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Damage'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Damage.0"
+        },
+        "RowName": "SkillDamage_Artisan"
+      },
+      "LevelUpSFX": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Mu_STNG_LvlUp_Crafting'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Music/Stings/LevelUp/MSS_Mu_STNG_LvlUp_Crafting.0"
+      },
+      "PersistenceID": "Wf3i7Ha-B06DH719j1vtBw",
+      "InternalName": "skill_artisan"
+    }
+  }
+]

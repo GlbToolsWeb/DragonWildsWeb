@@ -1,0 +1,132 @@
+[
+  {
+    "Type": "DominionSpellData",
+    "Name": "DA_StaffOfLight_Special",
+    "Class": "UScriptClass'DominionSpellData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Modules": {
+        "Modules": [
+          {
+            "Module": {
+              "ObjectName": "SpellModule_PlayMontage'DA_StaffOfLight_Special:SpellModule_PlayMontage_0'",
+              "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Specials/StaffOfLight/DA_StaffOfLight_Special.3"
+            }
+          },
+          {
+            "Module": {
+              "ObjectName": "SpellModule_Cast'DA_StaffOfLight_Special:SpellModule_Cast_0'",
+              "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Specials/StaffOfLight/DA_StaffOfLight_Special.1"
+            }
+          },
+          {
+            "Module": {
+              "ObjectName": "SpellModule_CostStamina'DA_StaffOfLight_Special:SpellModule_CostStamina_0'",
+              "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Specials/StaffOfLight/DA_StaffOfLight_Special.2"
+            }
+          },
+          {
+            "Module": {
+              "ObjectName": "SpellModule_SpawnActor'DA_StaffOfLight_Special:SpellModule_SpawnActor_1'",
+              "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Specials/StaffOfLight/DA_StaffOfLight_Special.4"
+            }
+          },
+          {
+            "Module": {
+              "ObjectName": "SpellModule_Transform'DA_StaffOfLight_Special:SpellModule_Transform_1'",
+              "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Specials/StaffOfLight/DA_StaffOfLight_Special.5"
+            }
+          }
+        ]
+      },
+      "PersistenceID": "WnwcF0IXF0f5zOmHixmVQA",
+      "InternalName": "special_staffoflight"
+    }
+  },
+  {
+    "Type": "SpellModule_Cast",
+    "Name": "SpellModule_Cast_0",
+    "Outer": "DA_StaffOfLight_Special",
+    "Class": "UScriptClass'SpellModule_Cast'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ModuleName": "Cast",
+      "Triggers": {
+        "PlayMontageRef": {
+          "ModuleName": "PlayMontage"
+        },
+        "AnimNotifyClass": {
+          "ObjectName": "BlueprintGeneratedClass'AnimNotify_AttackDamagePoint_C'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/AnimNotifies/AnimNotify_AttackDamagePoint.1"
+        }
+      }
+    }
+  },
+  {
+    "Type": "SpellModule_CostStamina",
+    "Name": "SpellModule_CostStamina_0",
+    "Outer": "DA_StaffOfLight_Special",
+    "Class": "UScriptClass'SpellModule_CostStamina'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Amount": 60.0,
+      "ModuleName": "CostStamina"
+    }
+  },
+  {
+    "Type": "SpellModule_PlayMontage",
+    "Name": "SpellModule_PlayMontage_0",
+    "Outer": "DA_StaffOfLight_Special",
+    "Class": "UScriptClass'SpellModule_PlayMontage'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_PlayerM_StaffOfLight_Special'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Staff/AM_PlayerM_StaffOfLight_Special.0"
+      },
+      "ModuleName": "PlayMontage",
+      "Triggers": {
+        "bHasStateTrigger": true
+      }
+    }
+  },
+  {
+    "Type": "SpellModule_SpawnActor",
+    "Name": "SpellModule_SpawnActor_1",
+    "Outer": "DA_StaffOfLight_Special",
+    "Class": "UScriptClass'SpellModule_SpawnActor'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ActorClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_StaffOfLight_Aura_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Specials/StaffOfLight/BP_StaffOfLight_Aura.0"
+      },
+      "SpawnMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "bShouldAttach": true,
+      "OptionalTransformModule": {
+        "ModuleName": "Transform"
+      },
+      "ModuleName": "SpawnActor",
+      "Triggers": {
+        "bHasStateTrigger": true,
+        "StateTrigger": "ESpellStateTrigger::FinishedCasting"
+      }
+    }
+  },
+  {
+    "Type": "SpellModule_Transform",
+    "Name": "SpellModule_Transform_1",
+    "Outer": "DA_StaffOfLight_Special",
+    "Class": "UScriptClass'SpellModule_Transform'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TraceProfile": {
+        "Name": "NoCollision"
+      },
+      "ModuleName": "Transform",
+      "Triggers": {
+        "bHasStateTrigger": true
+      }
+    }
+  }
+]

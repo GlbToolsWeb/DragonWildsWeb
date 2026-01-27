@@ -4,7 +4,6 @@
   "max_stack": 1,
   "icon": "Ring of Life.png",
   "description": "When close to DEATH, TELEPORTS you to your current BED",
-  "Equipment": "Jewellery",
   "VitalShield": 0,
   "BaseDurability": 1,
   "Weight": 1.0

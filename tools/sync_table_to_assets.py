@@ -17,6 +17,22 @@ def build_asset_index(assets_root: Path) -> dict[str, list[Path]]:
     return index
 
 
+def build_icon_exceptions(assets_root: Path) -> set[str]:
+    exceptions: set[str] = set()
+    exception_dirs = [
+        assets_root / "AmmoTab",
+        assets_root / "BagTab" / "Consumables" / "Burnt Food",
+    ]
+    for folder in exception_dirs:
+        if not folder.exists():
+            print(f"[WARN] Exception folder not found: {folder}")
+            continue
+        for path in folder.rglob("*.png"):
+            if path.is_file() and path.name.lower() != "desktop.ini":
+                exceptions.add(path.name.lower())
+    return exceptions
+
+
 def sync_table_to_assets(
     table_root: Path,
     assets_root: Path,
@@ -31,6 +47,7 @@ def sync_table_to_assets(
         return 1
 
     asset_index = build_asset_index(assets_root)
+    icon_exceptions = build_icon_exceptions(assets_root)
     table_files = [
         path
         for path in sorted(table_root.rglob("*"))
@@ -43,6 +60,7 @@ def sync_table_to_assets(
     deleted = 0
     missing = 0
     multi_match = 0
+    skipped_icons = 0
 
     for table_file in table_files:
         targets = asset_index.get(table_file.name.lower(), [])
@@ -53,6 +71,10 @@ def sync_table_to_assets(
         if len(targets) > 1:
             multi_match += 1
             print(f"[WARN] Multiple asset matches for: {table_file.name}")
+        if table_file.suffix.lower() == ".png" and table_file.name.lower() in icon_exceptions:
+            skipped_icons += len(targets)
+            print(f"[INFO] Skipping protected icon: {table_file.name}")
+            continue
         for target in targets:
             if dry_run:
                 print(f"[DRYRUN] {table_file} -> {target}")
@@ -74,6 +96,7 @@ def sync_table_to_assets(
         print(f"[INFO] Table files deleted: {deleted}")
     print(f"[INFO] Missing matches: {missing}")
     print(f"[INFO] Multiple matches: {multi_match}")
+    print(f"[INFO] Protected icons skipped: {skipped_icons}")
     return 0
 
 

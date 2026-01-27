@@ -1,0 +1,138 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GE_WardFruit_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'DominionGameplayEffectData'",
+      "ObjectPath": "/Script/Dominion"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'GE_WardFruit_C:OnPeriodicTick'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_WardFruit.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "DoubleProperty",
+        "Name": "VitalShieldToAdd",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      }
+    ],
+    "FuncMap": {
+      "OnPeriodicTick": {
+        "ObjectName": "Function'GE_WardFruit_C:OnPeriodicTick'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_WardFruit.1"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GE_WardFruit_C'Default__GE_WardFruit_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_WardFruit.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "OnPeriodicTick",
+    "Outer": "GE_WardFruit_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Object'DominionGameplayEffectData:OnPeriodicTick'",
+      "ObjectPath": "/Script/Dominion"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Instance",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'DominionGameplayEffect'",
+          "ObjectPath": "/Script/Dominion"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetOwner_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "K2Node_DynamicCast_AsSurvival_Core_Interface",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'SurvivalCoreInterface'",
+          "ObjectPath": "/Script/Dominion"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_AddVitalShield_Value_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_Const"
+  },
+  {
+    "Type": "GE_WardFruit_C",
+    "Name": "Default__GE_WardFruit_C",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Buffs/GE_WardFruit.GE_WardFruit_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "VitalShieldToAdd": 2.0,
+      "Name": {
+        "Namespace": "",
+        "Key": "E0D848E84370E00855A97D91981280A0",
+        "SourceString": "Ward Fruit",
+        "LocalizedString": "Ward Fruit"
+      },
+      "DevName": "ward_fruit",
+      "InstanceClass": {
+        "ObjectName": "Class'DominionGameplayEffect'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "bShowInHUD": true,
+      "Data": {
+        "DurationType": "EDominionGameplayEffectDurationType::Infinite",
+        "bCanTickPeriodically": true,
+        "PeriodicInterval": {
+          "Value": 5.0
+        }
+      }
+    }
+  }
+]

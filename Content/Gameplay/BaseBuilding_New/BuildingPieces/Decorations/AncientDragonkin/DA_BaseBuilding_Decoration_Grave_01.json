@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "BuildingPieceData",
+    "Name": "DA_BaseBuilding_Decoration_Grave_01",
+    "Class": "UScriptClass'BuildingPieceData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/BaseBuilding_New/BuildingPieces/ST_BuildingPieces.ST_BuildingPieces",
+        "Key": "Decoration.Grave01.Name",
+        "SourceString": "Grave 01",
+        "LocalizedString": "Grave 01"
+      },
+      "Description": {
+        "TableId": "/Game/Gameplay/BaseBuilding_New/BuildingPieces/ST_BuildingPieces.ST_BuildingPieces",
+        "Key": "Decoration.Grave01.Description",
+        "SourceString": "Be careful where you step, someone sleeps below. A decoration for the spookier home. ",
+        "LocalizedString": "Be careful where you step, someone sleeps below. A decoration for the spookier home. "
+      },
+      "DisplayIcon": {
+        "AssetPathName": "/Game/Art/UI/Icons/T_Quest_Velgar_Head.T_Quest_Velgar_Head",
+        "SubPathString": ""
+      },
+      "BuildableActor": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding_New/BuildingPieces/Decorations/AncientDragonkin/BP_BaseBuilding_Decoration_Grave_01.BP_BaseBuilding_Decoration_Grave_01_C",
+        "SubPathString": ""
+      },
+      "Requirements": [
+        {
+          "Amount": 20,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Stone'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Mineral/ITEM_Resources_Stone.0"
+          }
+        }
+      ],
+      "PieceTag": {
+        "TagName": "BaseBuilding.PieceType.Prop"
+      },
+      "BuildingStabilityProfile": {
+        "MaxStability": 1.0,
+        "MinStability": 0.9,
+        "VerticalLoss": 0.01,
+        "HorizontalLoss": 0.01
+      },
+      "BuildXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Building'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Building.0"
+        },
+        "RowName": "Build_Decoration_Tier2"
+      },
+      "PersistenceID": "uzrJoUzzDshB_Ouc7CCO5w"
+    }
+  }
+]

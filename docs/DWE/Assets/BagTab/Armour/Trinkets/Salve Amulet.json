@@ -4,7 +4,6 @@
   "max_stack": 1,
   "icon": "Salve Amulet.png",
   "description": "A powerful amulet made from a crystal that has absorbed the magical blessings of the River Salve.",
-  "Equipment": "Jewellery",
   "VitalShield": 0,
   "BaseDurability": 2500,
   "Weight": 2.0

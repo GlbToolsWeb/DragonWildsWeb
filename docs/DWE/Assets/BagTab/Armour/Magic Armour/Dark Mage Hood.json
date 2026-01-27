@@ -4,7 +4,6 @@
   "max_stack": 1,
   "icon": "Dark Mage Hood.png",
   "description": "A mystical hood, popular with edgier wizards. ",
-  "Equipment": "Head",
   "VitalShield": 0,
   "BaseDurability": 1500,
   "PowerLevel": 4,

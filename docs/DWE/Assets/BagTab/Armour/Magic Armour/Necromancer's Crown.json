@@ -4,7 +4,6 @@
   "max_stack": 1,
   "icon": "Necromancer's Crown.png",
   "description": "Magical headgear for those that rule over their undead minions.",
-  "Equipment": "Head",
   "VitalShield": 0,
   "BaseDurability": 1500,
   "PowerLevel": 5,

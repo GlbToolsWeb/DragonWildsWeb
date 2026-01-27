@@ -4,6 +4,5 @@
   "max_stack": 1,
   "icon": "Green Adventurer's Cape.png",
   "description": "A thick Green adventurer's cape.",
-  "Equipment": "Cape",
   "VitalShield": 0
 }

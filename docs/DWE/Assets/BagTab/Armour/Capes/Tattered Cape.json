@@ -4,6 +4,5 @@
   "max_stack": 1,
   "icon": "Tattered Cape.png",
   "description": "It provides some warmth... barely.",
-  "Equipment": "Cape",
   "VitalShield": 0
 }

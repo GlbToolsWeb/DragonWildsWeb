@@ -4,6 +4,5 @@
   "max_stack": 1,
   "icon": "Dragonbane Cape.png",
   "description": "A badge of honor for those who completed all challenges during the closed Alpha Test.",
-  "Equipment": "Cape",
   "VitalShield": 0
 }

@@ -1,0 +1,586 @@
+[
+  {
+    "Type": "ImpactPairingData",
+    "Name": "ADA_WildVineThornShot_ImpactPairingData",
+    "Class": "UScriptClass'ImpactPairingData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SourceToImpactFXMap": [
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Flesh",
+              "Audio.Cloth",
+              "Audio.Leather",
+              "Audio.Metal"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_Flesh_Remote'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_Flesh_Remote.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_WildJadeVine_ThornShot_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Character/WildJadeVine/ThornShot/NS_WildJadeVine_ThornShot_Impact.66"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Metal.Shield"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_MetalShield'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_MetalShield.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_WildJadeVine_ThornShot_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Character/WildJadeVine/ThornShot/NS_WildJadeVine_ThornShot_Impact.66"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Leather.Shield"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_LeatherShield'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_LeatherShield.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_WildJadeVine_ThornShot_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Character/WildJadeVine/ThornShot/NS_WildJadeVine_ThornShot_Impact.66"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Wood.Shield"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_WoodShield'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_WoodShield.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_WildJadeVine_ThornShot_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Character/WildJadeVine/ThornShot/NS_WildJadeVine_ThornShot_Impact.66"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Metal.Blade"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_WeapMetalBlade'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_WeapMetalBlade.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_WildJadeVine_ThornShot_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Character/WildJadeVine/ThornShot/NS_WildJadeVine_ThornShot_Impact.66"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Metal.BladeSmall"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_WeapSmallMetalBlade'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_WeapSmallMetalBlade.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_WildJadeVine_ThornShot_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Character/WildJadeVine/ThornShot/NS_WildJadeVine_ThornShot_Impact.66"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Metal.Bludgeon"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_WeapPole'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_WeapPole.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_Impact_Ranged_Metal'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Combat/Ranged/Impact/NS_Impact_Ranged_Metal.66"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Metal.BludgeonLarge"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_WeapPole'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_WeapPole.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_WildJadeVine_ThornShot_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Character/WildJadeVine/ThornShot/NS_WildJadeVine_ThornShot_Impact.66"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Metal.Chopper"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_WeapPole'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_WeapPole.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_WildJadeVine_ThornShot_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Character/WildJadeVine/ThornShot/NS_WildJadeVine_ThornShot_Impact.66"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Metal.ChopperLarge"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_WeapPole'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_WeapPole.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_WildJadeVine_ThornShot_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Character/WildJadeVine/ThornShot/NS_WildJadeVine_ThornShot_Impact.66"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Bone.Blade"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_WeapBone'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_WeapBone.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_WildJadeVine_ThornShot_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Character/WildJadeVine/ThornShot/NS_WildJadeVine_ThornShot_Impact.66"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Bone.BladeSmall"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_WeapBone'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_WeapBone.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_WildJadeVine_ThornShot_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Character/WildJadeVine/ThornShot/NS_WildJadeVine_ThornShot_Impact.66"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Bone.Chopper"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_WeapBone'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_WeapBone.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_WildJadeVine_ThornShot_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Character/WildJadeVine/ThornShot/NS_WildJadeVine_ThornShot_Impact.66"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Stone.Blade"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_WeapStone'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_WeapStone.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_WildJadeVine_ThornShot_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Character/WildJadeVine/ThornShot/NS_WildJadeVine_ThornShot_Impact.66"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Stone.Bludgeon"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_WeapStone'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_WeapStone.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_WildJadeVine_ThornShot_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Character/WildJadeVine/ThornShot/NS_WildJadeVine_ThornShot_Impact.66"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Stone.Chopper"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_WeapStone'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_WeapStone.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_WildJadeVine_ThornShot_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Character/WildJadeVine/ThornShot/NS_WildJadeVine_ThornShot_Impact.66"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Wood.Bludgeon"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_WeapWood'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_WeapWood.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_WildJadeVine_ThornShot_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Character/WildJadeVine/ThornShot/NS_WildJadeVine_ThornShot_Impact.66"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [],
+            "PhysicalMaterials": [
+              {
+                "ObjectName": "DominionPhysicalMaterial'Grass_Soft'",
+                "ObjectPath": "RSDragonwilds/Content/Audio/PhysMats/Grass_Soft.0"
+              }
+            ]
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_Grass_Remote'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_Grass_Remote.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_Impact_Ranged_Grass'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Combat/Ranged/Impact/NS_Impact_Ranged_Grass.51"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [],
+            "PhysicalMaterials": [
+              null,
+              {
+                "ObjectName": "DominionPhysicalMaterial'Gravel'",
+                "ObjectPath": "RSDragonwilds/Content/Audio/PhysMats/Gravel.0"
+              }
+            ]
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_Foliage_Remote'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_Foliage_Remote.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_Impact_Ranged_Wood'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Combat/Ranged/Impact/NS_Impact_Ranged_Wood.50"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [],
+            "PhysicalMaterials": [
+              {
+                "ObjectName": "DominionPhysicalMaterial'Metal'",
+                "ObjectPath": "RSDragonwilds/Content/Audio/PhysMats/Metal.0"
+              }
+            ]
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_Metal_Remote'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_Metal_Remote.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_Impact_Ranged_Metal'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Combat/Ranged/Impact/NS_Impact_Ranged_Metal.66"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [],
+            "PhysicalMaterials": [
+              {
+                "ObjectName": "DominionPhysicalMaterial'Mud_Shallow'",
+                "ObjectPath": "RSDragonwilds/Content/Audio/PhysMats/Mud_Shallow.0"
+              }
+            ]
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_Mud_Remote'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_Mud_Remote.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_Impact_Ranged_Mud'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Combat/Ranged/Impact/NS_Impact_Ranged_Mud.35"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [],
+            "PhysicalMaterials": [
+              {
+                "ObjectName": "DominionPhysicalMaterial'Rock'",
+                "ObjectPath": "RSDragonwilds/Content/Audio/PhysMats/Rock.0"
+              }
+            ]
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_Stone_Remote'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_Stone_Remote.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_Impact_Ranged_Rock'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Combat/Ranged/Impact/NS_Impact_Ranged_Rock.39"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [],
+            "PhysicalMaterials": [
+              {
+                "ObjectName": "DominionPhysicalMaterial'Wood_Boards_Tight'",
+                "ObjectPath": "RSDragonwilds/Content/Audio/PhysMats/Wood_Boards_Tight.0"
+              }
+            ]
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Arrow_Wood_Remote'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Ranged/Ranged_Impacts/MSS_Co_Arrow_Wood_Remote.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_Impact_Ranged_Wood'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Combat/Ranged/Impact/NS_Impact_Ranged_Wood.50"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Default"
+            ],
+            "PhysicalMaterials": [
+              {
+                "ObjectName": "DominionPhysicalMaterial'Default'",
+                "ObjectPath": "RSDragonwilds/Content/Audio/PhysMats/Default.0"
+              }
+            ]
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Cr_Co_WildVine_Spit'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Creatures/WildJadeVine/Combat/MSS_Cr_Co_WildVine_Spit.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_WildJadeVine_ThornShot_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Character/WildJadeVine/ThornShot/NS_WildJadeVine_ThornShot_Impact.66"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Metal.Armour"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Armour_Pierce'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Melee/Impacts_Armour/MSS_Co_Armour_Pierce.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_Impact_Ranged_Metal'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Combat/Ranged/Impact/NS_Impact_Ranged_Metal.66"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Splitbark"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_SplitbarkArmour_Pierce'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Melee/Impacts_Splitbark/MSS_Co_SplitbarkArmour_Pierce.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_WildJadeVine_ThornShot_Impact'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Character/WildJadeVine/ThornShot/NS_WildJadeVine_ThornShot_Impact.66"
+            },
+            "CritVFX": null
+          }
+        }
+      ],
+      "EffectSoundRule": "ESoundPlayRules::Additive"
+    }
+  }
+]

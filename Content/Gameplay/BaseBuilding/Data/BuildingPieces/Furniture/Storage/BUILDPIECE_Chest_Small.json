@@ -1,0 +1,71 @@
+[
+  {
+    "Type": "BuildingPieceData",
+    "Name": "BUILDPIECE_Chest_Small",
+    "Class": "UScriptClass'BuildingPieceData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DisplayName": {
+        "TableId": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces/Furniture/ST_BuildingPieces_Furniture.ST_BuildingPieces_Furniture",
+        "Key": "SmallChest.Name",
+        "SourceString": "Small Chest",
+        "LocalizedString": "Small Chest"
+      },
+      "Description": {
+        "TableId": "/Game/Gameplay/BaseBuilding/Data/BuildingPieces/Furniture/ST_BuildingPieces_Furniture.ST_BuildingPieces_Furniture",
+        "Key": "SmallChest.Description",
+        "SourceString": "A small chest to store items in.",
+        "LocalizedString": "A small chest to store items in."
+      },
+      "DisplayIcon": {
+        "AssetPathName": "/Game/Art/UI/Icons/Furniture_Storage/T_Icon_Storage_Chest_Sml_01v1.T_Icon_Storage_Chest_Sml_01v1",
+        "SubPathString": ""
+      },
+      "BuildableActor": {
+        "AssetPathName": "/Game/Gameplay/BaseBuilding/Actors/Props/BP_BaseBuilding_Chest_Small.BP_BaseBuilding_Chest_Small_C",
+        "SubPathString": ""
+      },
+      "Requirements": [
+        {
+          "Amount": 10,
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Wood_Ash'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Wood/ITEM_Resources_Wood_Ash.0"
+          }
+        },
+        {
+          "Amount": 4,
+          "ItemData": {
+            "ObjectName": "ItemData'ITEM_Resources_Thread_Linen'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Textiles/ITEM_Resources_Thread_Linen.0"
+          }
+        },
+        {
+          "Amount": 2,
+          "ItemData": {
+            "ObjectName": "FuelItemData'ITEM_Resources_Swamp_Tar'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Items/Resources/Mineral/ITEM_Resources_Swamp_Tar.0"
+          }
+        }
+      ],
+      "PieceTag": {
+        "TagName": "BaseBuilding.PieceType.Prop"
+      },
+      "BuildingStabilityProfile": {
+        "MaxStability": 1.0,
+        "MinStability": 0.9,
+        "VerticalLoss": 0.01,
+        "HorizontalLoss": 0.01
+      },
+      "BuildXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Building'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Building.0"
+        },
+        "RowName": "Build_Storage_Tier1"
+      },
+      "PersistenceID": "PzsvXL09Q0KYg23WaYfRcg",
+      "InternalName": "buildpiece_chest_small"
+    }
+  }
+]

@@ -4,7 +4,6 @@
   "max_stack": 1,
   "icon": "Green Dragonhide Coif.png",
   "description": "Lightweight Ranger headgear crafted from Green Dragonhide for Ranged users",
-  "Equipment": "Head",
   "VitalShield": 0,
   "BaseDurability": 1250,
   "PowerLevel": 5,

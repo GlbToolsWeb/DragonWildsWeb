@@ -1,0 +1,239 @@
+[
+  {
+    "Type": "ImpactPairingData",
+    "Name": "Unarmed_ImpactPairingData",
+    "Class": "UScriptClass'ImpactPairingData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SourceToImpactFXMap": [
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Default"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Im_Punch_Flesh_New'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Melee/Impacts_Flesh/MSS_Co_Im_Punch_Flesh_New.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_Impact_Wood'",
+              "ObjectPath": "RSDragonwilds/Content/Marketplace/Realistic_Pack/Niagara/Impact/NS_Impact_Wood.61"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Flesh",
+              "Audio.Cloth",
+              "Audio.Leather",
+              "Audio.Metal"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Im_Punch_Flesh_Old'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Melee/Impacts_Flesh/MSS_Co_Im_Punch_Flesh_Old.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": null,
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Metal.Shield"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_ShieldImpact_Generic_MetalShield'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Melee/Shields/MSS_Co_ShieldImpact_Generic_MetalShield.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_Block_Metal'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Combat/Melee/Block/NS_Block_Metal.60"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Wood.Shield",
+              "Audio.Leather.Shield"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_ShieldImpact_Generic_WoodShield'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Melee/Shields/MSS_Co_ShieldImpact_Generic_WoodShield.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": null,
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Chitin.AbyssalDemon"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Im_Punch_Flesh_New'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Melee/Impacts_Flesh/MSS_Co_Im_Punch_Flesh_New.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_Impact_Ranged_Dirt'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Combat/Ranged/Impact/NS_Impact_Ranged_Dirt.55"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Plant.Vine"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Im_Punch_Flesh_New'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Melee/Impacts_Flesh/MSS_Co_Im_Punch_Flesh_New.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_Impact_Ranged_Dirt'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Combat/Ranged/Impact/NS_Impact_Ranged_Dirt.55"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Stone",
+              "Audio.Bone"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Flesh_Stone'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Melee/Impacts_Flesh/MSS_Co_Flesh_Stone.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": null,
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Metal.Armour"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Armour_BludgeonSmall'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Melee/Impacts_Armour/MSS_Co_Armour_BludgeonSmall.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_Impact_Ranged_Dirt'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Combat/Ranged/Impact/NS_Impact_Ranged_Dirt.55"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Bone.Skeleton"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Flesh_Skeleton_Small'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Melee/Impacts_Flesh/MSS_Co_Flesh_Skeleton_Small.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": null,
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Spectral",
+              "Audio.AI.Skeleton.Spectral",
+              "Audio.AI.TerrorBird.Spectral",
+              "Audio.AI.BossDragon.Imaru.Spectral",
+              "Audio.AI.Wolf.Dragon.Spectral",
+              "Audio.AI.Wolf.Spectral",
+              "Audio.AI.Zombie.Spectral"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Spectral_ImpactSmall'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Melee/Impacts_Spectra/MSS_Co_Spectral_ImpactSmall.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": {
+              "ObjectName": "NiagaraSystem'NS_VFX_SpectralImpact'",
+              "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Combat/Melee/NS_VFX_SpectralImpact.47"
+            },
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Splitbark"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_SplitbarkArmour_BludgeonSmall'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Melee/Impacts_Splitbark/MSS_Co_SplitbarkArmour_BludgeonSmall.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": null,
+            "CritVFX": null
+          }
+        }
+      ]
+    }
+  }
+]

@@ -4,7 +4,6 @@
   "max_stack": 1,
   "icon": "Fallen Hoplite's Chest.png",
   "description": "Melee chest armour once belonging to a long dead Saradomin Hoplite.",
-  "Equipment": "Body",
   "VitalShield": 0,
   "BaseDurability": 1500,
   "PowerLevel": 5,

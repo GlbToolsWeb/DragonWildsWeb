@@ -4,7 +4,6 @@
   "max_stack": 1,
   "icon": "Inspiring Ring of Artisan.png",
   "description": "+5% Increased ARTISAN XP",
-  "Equipment": "Jewellery",
   "VitalShield": 0,
   "BaseDurability": 18000,
   "Weight": 1.0

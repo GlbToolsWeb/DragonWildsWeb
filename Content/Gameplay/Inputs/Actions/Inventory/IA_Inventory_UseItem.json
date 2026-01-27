@@ -1,0 +1,24 @@
+[
+  {
+    "Type": "InputAction",
+    "Name": "IA_Inventory_UseItem",
+    "Class": "UScriptClass'InputAction'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bConsumeInput": false,
+      "Triggers": [
+        {
+          "ObjectName": "InputTriggerPressed'IA_Inventory_UseItem:InputTriggerPressed_0'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Inputs/Actions/Inventory/IA_Inventory_UseItem.1"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "InputTriggerPressed",
+    "Name": "InputTriggerPressed_0",
+    "Outer": "IA_Inventory_UseItem",
+    "Class": "UScriptClass'InputTriggerPressed'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

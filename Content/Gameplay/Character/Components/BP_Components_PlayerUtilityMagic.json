@@ -1,0 +1,167 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Components_PlayerUtilityMagic_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'PlayerUtilityMagicComponent'",
+      "ObjectPath": "/Script/Dominion"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Components_PlayerUtilityMagic_C'Default__BP_Components_PlayerUtilityMagic_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Components/BP_Components_PlayerUtilityMagic.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Components_PlayerUtilityMagic_C",
+    "Name": "Default__BP_Components_PlayerUtilityMagic_C",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Character/Components/BP_Components_PlayerUtilityMagic.BP_Components_PlayerUtilityMagic_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AllUtilitySpells": [
+        {
+          "ObjectName": "UtilitySpellData'USD_Windstep'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Windstep/USD_Windstep.6"
+        },
+        {
+          "ObjectName": "UtilitySpellData'USD_Splinter'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Splinter/USD_Splinter.8"
+        },
+        {
+          "ObjectName": "UtilitySpellData'USD_AxtralProjection'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/AxtralProjection/USD_AxtralProjection.13"
+        },
+        {
+          "ObjectName": "UtilitySpellData'USD_EyeOfOculus'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/EyeOfOculus/USD_EyeOfOculus.4"
+        },
+        {
+          "ObjectName": "UtilitySpellData'USD_AccessPersonalChest'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/AccessPersonalChest/USD_AccessPersonalChest.4"
+        },
+        {
+          "ObjectName": "UtilitySpellData'USD_SummonShelter'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/SummonShelter/USD_SummonShelter.4"
+        },
+        {
+          "ObjectName": "UtilitySpellData'USD_DetectOre'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DetectOre/USD_DetectOre.4"
+        },
+        {
+          "ObjectName": "UtilitySpellData'USD_Treequipment'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Treequipment/USD_Treequipment.4"
+        },
+        {
+          "ObjectName": "UtilitySpellData'USD_MagicalMending'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/MagicalMending/USD_MagicalMending.4"
+        },
+        {
+          "ObjectName": "UtilitySpellData'USD_FerociousFurnace'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/FerociousFurnace/USD_FerociousFurnace.4"
+        },
+        {
+          "ObjectName": "UtilitySpellData'USD_Rocksplosion'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Rocksplosion/USD_Rocksplosion.4"
+        },
+        {
+          "ObjectName": "UtilitySpellData'USD_FireSpirit'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/FireSpirit/USD_FireSpirit.4"
+        },
+        {
+          "ObjectName": "UtilitySpellData'USD_EnchantChefsTools'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/EnchantChefsTools/USD_EnchantChefsTools.3"
+        },
+        {
+          "ObjectName": "UtilitySpellData'USD_InternalAlchemy'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/InternalAlchemy/USD_InternalAlchemy.4"
+        },
+        {
+          "ObjectName": "UtilitySpellData'USD_BonesToPeaches'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/BonestoPeaches/USD_BonesToPeaches.4"
+        },
+        {
+          "ObjectName": "UtilitySpellData'USD_DetectOreAlt'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/DetectOre/AlternativeRadar/USD_DetectOreAlt.4"
+        },
+        {
+          "ObjectName": "UtilitySpellData'USD_EnchantWeapon_Fire'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/EnchantWeapon/USD_EnchantWeapon_Fire.4"
+        },
+        {
+          "ObjectName": "UtilitySpellData'USD_EnchantWeapon_Air'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/EnchantWeapon/USD_EnchantWeapon_Air.4"
+        },
+        {
+          "ObjectName": "UtilitySpellData'USD_Whetstone'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Whetstone/USD_Whetstone.2"
+        },
+        {
+          "ObjectName": "UtilitySpellData'USD_TempestShield'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/TempestShield/USD_TempestShield.4"
+        },
+        {
+          "ObjectName": "UtilitySpellData'USD_Surge'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Surge/USD_Surge.5"
+        },
+        {
+          "ObjectName": "UtilitySpellData'USD_MagicFocus'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/MagicFocus/USD_MagicFocus.2"
+        },
+        {
+          "ObjectName": "UtilitySpellData'USD_Confuse'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Confuse/USD_Confuse.4"
+        },
+        {
+          "ObjectName": "UtilitySpellData'USD_CorruptionArrows'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/CorruptionArrows/USD_CorruptionArrows.4"
+        },
+        {
+          "ObjectName": "UtilitySpellData'USD_ShadowVeil'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/ShadowVeil/USD_ShadowVeil.4"
+        },
+        {
+          "ObjectName": "UtilitySpellData'USD_SnareTrap'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/SnareTrap/USD_SnareTrap.4"
+        },
+        {
+          "ObjectName": "UtilitySpellData'USD_WeaponPoison'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/WeaponPoison/USD_WeaponPoison.2"
+        },
+        {
+          "ObjectName": "UtilitySpellData'USD_WeaponBarbs'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/WeaponBarbs/USD_WeaponBarbs.2"
+        },
+        {
+          "ObjectName": "UtilitySpellData'USD_Harvest'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/USD_Harvest.9"
+        },
+        {
+          "ObjectName": "UtilitySpellData'USD_Humidify'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/PerkSpells/Farming/Humidify/USD_Humidify.16"
+        },
+        {
+          "ObjectName": "UtilitySpellData'USD_GetWaterFromWaterSource'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/UtilityMagic/WorldInteractionSpells/USD_GetWaterFromWaterSource.3"
+        }
+      ],
+      "SpellDamageXpEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Damage'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Damage.0"
+        },
+        "RowName": "SkillDamage_Magic"
+      }
+    }
+  }
+]

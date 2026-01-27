@@ -1,0 +1,137 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Components_PlayerCombatMagic_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'PlayerCombatMagicComponent'",
+      "ObjectPath": "/Script/Dominion"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Components_PlayerCombatMagic_C'Default__BP_Components_PlayerCombatMagic_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Components/BP_Components_PlayerCombatMagic.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Components_PlayerCombatMagic_C",
+    "Name": "Default__BP_Components_PlayerCombatMagic_C",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/Character/Components/BP_Components_PlayerCombatMagic.BP_Components_PlayerCombatMagic_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EquippedMagicAmmoToPrimaryStarterSpell": [
+        {
+          "Key": "MagicAmmoData'RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Air.ITEM_Rune_Air'",
+          "Value": {
+            "ObjectName": "DominionSpellData'DA_Spell_Primary_Air_01'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Combat/Air/DA_Spell_Primary_Air_01.1"
+          }
+        },
+        {
+          "Key": "MagicAmmoData'RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Fire.ITEM_Rune_Fire'",
+          "Value": {
+            "ObjectName": "DominionSpellData'DA_Spell_Primary_Fire_01'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Combat/Fire/DA_Spell_Primary_Fire_01.1"
+          }
+        }
+      ],
+      "EquippedMagicAmmoToSecondaryStarterSpell": [
+        {
+          "Key": "MagicAmmoData'RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Air.ITEM_Rune_Air'",
+          "Value": {
+            "ObjectName": "DominionSpellData'DA_Spell_Secondary_Air_HOLD'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Combat/Air/DA_Spell_Secondary_Air_HOLD.2"
+          }
+        },
+        {
+          "Key": "MagicAmmoData'RSDragonwilds/Content/Gameplay/Items/Resources/Magic/ITEM_Rune_Fire.ITEM_Rune_Fire'",
+          "Value": {
+            "ObjectName": "DominionSpellData'DA_Spell_Secondary_Fire_HOLD'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Combat/Fire/DA_Spell_Secondary_Fire_HOLD.1"
+          }
+        }
+      ],
+      "SequenceSpells": [
+        {
+          "ObjectName": "DominionSpellData'DA_Spell_Primary_Air_02'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Combat/Air/DA_Spell_Primary_Air_02.1"
+        },
+        {
+          "ObjectName": "DominionSpellData'DA_Spell_Primary_Air_03'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Combat/Air/DA_Spell_Primary_Air_03.1"
+        },
+        {
+          "ObjectName": "DominionSpellData'DA_Spell_Primary_Air_04'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Combat/Air/DA_Spell_Primary_Air_04.1"
+        },
+        {
+          "ObjectName": "DominionSpellData'DA_Spell_Primary_Fire_02'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Combat/Fire/DA_Spell_Primary_Fire_02.2"
+        },
+        {
+          "ObjectName": "DominionSpellData'DA_Spell_Primary_Fire_03'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Combat/Fire/DA_Spell_Primary_Fire_03.1"
+        },
+        {
+          "ObjectName": "DominionSpellData'DA_Spell_Primary_Fire_04'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Combat/Fire/DA_Spell_Primary_Fire_04.1"
+        }
+      ],
+      "OtherSpells": [
+        {
+          "ObjectName": "DominionSpellData'DA_AbyssalWhip_Special'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Specials/AbyssalWhip/DA_AbyssalWhip_Special.0"
+        },
+        {
+          "ObjectName": "DominionSpellData'DA_CrystalBow_Special'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Specials/CrystalBow/DA_CrystalBow_Special.1"
+        },
+        {
+          "ObjectName": "DominionSpellData'DA_StaffOfLight_Special'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Specials/StaffOfLight/DA_StaffOfLight_Special.0"
+        },
+        {
+          "ObjectName": "DominionSpellData'DA_Shovel_Dig'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Farming/Shovel/DA_Shovel_Dig.1"
+        },
+        {
+          "ObjectName": "DominionSpellData'DA_Container_UseOneCharge'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Farming/Container/DA_Container_UseOneCharge.1"
+        },
+        {
+          "ObjectName": "DominionSpellData'DA_Farming_TryPlantSeed'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Farming/Seeds/DA_Farming_TryPlantSeed.1"
+        },
+        {
+          "ObjectName": "DominionSpellData'DA_Farming_TreePlanting'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Farming/TreePlanting/DA_Farming_TreePlanting.1"
+        },
+        {
+          "ObjectName": "DominionSpellData'DA_WateringCan_UseOneCharge'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Farming/Container/DA_WateringCan_UseOneCharge.1"
+        },
+        null,
+        null
+      ],
+      "MagicEquipmentTags": [
+        "Item.Equipment.Weapon.Staff"
+      ],
+      "TargetingWidget": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Magic_TargetWidgetComponent_C'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/Spells/Combat/BP_Magic_TargetWidgetComponent.0"
+      },
+      "TargetIconTransitionDuration": 0.3,
+      "TargetIconLockOnDuration": 0.3
+    }
+  }
+]

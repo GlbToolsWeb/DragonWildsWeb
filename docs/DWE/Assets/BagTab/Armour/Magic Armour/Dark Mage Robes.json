@@ -4,7 +4,6 @@
   "max_stack": 1,
   "icon": "Dark Mage Robes.png",
   "description": "Magical armour for the edgier wizard.",
-  "Equipment": "Body",
   "VitalShield": 0,
   "BaseDurability": 1500,
   "PowerLevel": 4,

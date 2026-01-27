@@ -1,0 +1,80 @@
+[
+  {
+    "Type": "GE_Attack_ReduceStaminaCost_C",
+    "Name": "GE_Attack_ReduceStaminaCost_C_0",
+    "Outer": "SkillPerkModule_StatBuff_1",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Attack/GE_Attack_ReduceStaminaCost.GE_Attack_ReduceStaminaCost_C'",
+    "Template": {
+      "ObjectName": "GE_Attack_ReduceStaminaCost_C'Default__GE_Attack_ReduceStaminaCost_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Attack/GE_Attack_ReduceStaminaCost.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Data": {
+        "OverrideTooltipStatName": {
+          "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
+          "Key": "Attack.MinorNode.Stat1",
+          "SourceString": "Attack Stamina Costs",
+          "LocalizedString": "Attack Stamina Costs"
+        },
+        "StatValueType": "EStatValueType::AddPercent",
+        "AmountToModify": {
+          "Value": -0.01
+        }
+      }
+    }
+  },
+  {
+    "Type": "SkillPerkData",
+    "Name": "PerkV2_Attack_StaminaStat01",
+    "Class": "UScriptClass'SkillPerkData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PerkName": {
+        "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
+        "Key": "Attack.CombatProficiency.Name",
+        "SourceString": "Combat Proficiency",
+        "LocalizedString": "Combat Proficiency"
+      },
+      "PerkDescription": {
+        "CultureInvariantString": null
+      },
+      "SkillPerkImage": {
+        "AssetPathName": "/Game/Art/UI/Skills/2025/Skill_Tree_Icons/T_Icon_SkillTree_Attack.T_Icon_SkillTree_Attack",
+        "SubPathString": ""
+      },
+      "PerkModules": [
+        {
+          "ObjectName": "SkillPerkModule_StatBuff'PerkV2_Attack_StaminaStat01:SkillPerkModule_StatBuff_1'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/PerksV2/Attack/PerkV2_Attack_StaminaStat01.2"
+        }
+      ],
+      "PerkUnlockInfo": {
+        "AssociatedSkill": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Skills/SKILL_Attack.SKILL_Attack",
+          "SubPathString": ""
+        },
+        "RequiredSkillLevel": 2
+      },
+      "FeatureTag": {
+        "TagName": "Feature.AttackSkillPerks"
+      },
+      "PersistenceID": "7lqEiUjVIl_KSLKSAi8y_w",
+      "InternalName": "perk_attack_staminastat01"
+    }
+  },
+  {
+    "Type": "SkillPerkModule_StatBuff",
+    "Name": "SkillPerkModule_StatBuff_1",
+    "Outer": "PerkV2_Attack_StaminaStat01",
+    "Class": "UScriptClass'SkillPerkModule_StatBuff'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "GameplayEffectData": {
+        "ObjectName": "GE_Attack_ReduceStaminaCost_C'PerkV2_Attack_StaminaStat01:SkillPerkModule_StatBuff_1.GE_Attack_ReduceStaminaCost_C_0'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/PerksV2/Attack/PerkV2_Attack_StaminaStat01.0"
+      },
+      "ModifierAmount": -0.01
+    }
+  }
+]

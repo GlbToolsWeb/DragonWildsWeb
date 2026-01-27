@@ -4,7 +4,6 @@
   "max_stack": 1,
   "icon": "Amulet of Defence.png",
   "description": "Increased ARMOUR VALUE",
-  "Equipment": "Jewellery",
   "VitalShield": 0,
   "BaseDurability": 2500,
   "Weight": 2.0

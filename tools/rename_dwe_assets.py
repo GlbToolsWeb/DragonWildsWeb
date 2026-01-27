@@ -37,6 +37,11 @@ def main() -> int:
         default="Table",
         help="Root directory containing asset folders (default: Table).",
     )
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Print planned renames without changing files.",
+    )
     args = parser.parse_args()
 
     root = Path(args.root)
@@ -89,19 +94,27 @@ def main() -> int:
                 warnings += 1
                 print(f"[WARN] Missing name patched: {json_path} -> {name}")
 
-            base = sanitize_filename(name)
-            base = unique_base_name(base, used_names)
-
             icon_name = data.get("icon", "").strip()
             icon_path = folder / icon_name if icon_name else None
             icon_ext = Path(icon_name).suffix if icon_name else ".png"
+            current_json_stem = json_path.stem
+            current_icon_stem = Path(icon_name).stem if icon_name else None
+            used_names.discard(current_json_stem)
+            if current_icon_stem:
+                used_names.discard(current_icon_stem)
+
+            base = sanitize_filename(name)
+            base = unique_base_name(base, used_names)
             new_icon_name = f"{base}{icon_ext}"
             new_icon_path = folder / new_icon_name
 
             # Rename image if it exists.
             if icon_path and icon_path.exists():
                 if icon_path.name != new_icon_name:
-                    icon_path.rename(new_icon_path)
+                    if args.dry_run:
+                        print(f"[DRYRUN] {icon_path} -> {new_icon_path}")
+                    else:
+                        icon_path.rename(new_icon_path)
                     renamed_img += 1
                 data["icon"] = new_icon_name
             else:
@@ -112,12 +125,18 @@ def main() -> int:
             new_json_path = folder / new_json_name
 
             if json_path.name != new_json_name:
-                json_path.rename(new_json_path)
+                if args.dry_run:
+                    print(f"[DRYRUN] {json_path} -> {new_json_path}")
+                else:
+                    json_path.rename(new_json_path)
                 renamed_json += 1
 
-            new_json_path.write_text(
-                json.dumps(data, indent=2, ensure_ascii=True), encoding="utf-8"
-            )
+            if args.dry_run:
+                print(f"[DRYRUN] write {new_json_path}")
+            else:
+                new_json_path.write_text(
+                    json.dumps(data, indent=2, ensure_ascii=True), encoding="utf-8"
+                )
             total += 1
 
     print(f"[INFO] Root: {root}")

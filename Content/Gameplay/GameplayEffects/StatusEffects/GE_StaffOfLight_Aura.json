@@ -1,0 +1,61 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GE_StaffOfLight_Aura_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'DominionStatusEffectData'",
+      "ObjectPath": "/Script/Dominion"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GE_StaffOfLight_Aura_C'Default__GE_StaffOfLight_Aura_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/StatusEffects/GE_StaffOfLight_Aura.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GE_StaffOfLight_Aura_C",
+    "Name": "Default__GE_StaffOfLight_Aura_C",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/StatusEffects/GE_StaffOfLight_Aura.GE_StaffOfLight_Aura_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "VFX": {
+        "ObjectName": "NiagaraSystem'NS_Placeholder_Aura'",
+        "ObjectPath": "RSDragonwilds/Content/Art/VFX/Library/Placeholder/NS_Placeholder_Aura.29"
+      },
+      "Name": {
+        "Namespace": "",
+        "Key": "A86E272B4E5A1D0992BC348892CE267E",
+        "SourceString": "Aura Of Light",
+        "LocalizedString": "Aura Of Light"
+      },
+      "DevName": "ge_status_staffoflight_aura",
+      "bCaptureForTelemetry": true,
+      "AttributeToModify": {
+        "ObjectName": "Class'MeleeResistance'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "Data": {
+        "DurationType": "EDominionGameplayEffectDurationType::Infinite",
+        "Duration": 6.0,
+        "PeriodicInterval": {
+          "Value": 0.33
+        },
+        "bShowInTooltip": false,
+        "AmountToModify": {
+          "Value": 50.0
+        }
+      }
+    }
+  }
+]

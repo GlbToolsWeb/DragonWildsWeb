@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "SkillData",
+    "Name": "SKILL_Magic",
+    "Class": "UScriptClass'SkillData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "B9BFCD63421CA4D8C020B59BF70C50F2",
+        "SourceString": "Magic",
+        "LocalizedString": "Magic"
+      },
+      "LevelUpDescriptionText": {
+        "TableId": "/Game/Gameplay/Character/Player/Skills/ST_SkillLevelUpInstructions.ST_SkillLevelUpInstructions",
+        "Key": "MagicLevelInstruction",
+        "SourceString": "Defeat enemies with magic to level this skill.",
+        "LocalizedString": "Defeat enemies with magic to level this skill."
+      },
+      "SkillType": "ESkill::Magic",
+      "Icon": {
+        "ObjectName": "Texture2D'T_Notification_Skill_Magic'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/T_Notification_Skill_Magic.0"
+      },
+      "TagIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Magic'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Magic.0"
+      },
+      "DamageXPEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Damage'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Damage.0"
+        },
+        "RowName": "SkillDamage_Magic"
+      },
+      "StaminaCostModifierAttribute": {
+        "ObjectName": "Class'MagicAttackStaminaCostModifierAttribute'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "LevelUpSFX": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Mu_STNG_LvlUp_Magic'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Music/Stings/LevelUp/MSS_Mu_STNG_LvlUp_Magic.0"
+      },
+      "PersistenceID": "0hreSMRVXUihq9qjDO2CFA",
+      "InternalName": "skill_magic"
+    }
+  }
+]

@@ -4,7 +4,6 @@
   "max_stack": 1,
   "icon": "Wild Archer Cowl.png",
   "description": "A helmet worn by a Wild Knight archer.",
-  "Equipment": "Head",
   "VitalShield": 0,
   "BaseDurability": 1400,
   "PowerLevel": 4,

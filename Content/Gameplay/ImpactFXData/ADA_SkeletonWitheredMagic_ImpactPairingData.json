@@ -1,0 +1,426 @@
+[
+  {
+    "Type": "ImpactPairingData",
+    "Name": "ADA_SkeletonWitheredMagic_ImpactPairingData",
+    "Class": "UScriptClass'ImpactPairingData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SourceToImpactFXMap": [
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Flesh",
+              "Audio.Cloth",
+              "Audio.Leather",
+              "Audio.Metal"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Magic/MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": null,
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Metal.Shield"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Magic/MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": null,
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Leather.Shield"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Magic/MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": null,
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Wood.Shield"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Magic/MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": null,
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Metal.Blade"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Magic/MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": null,
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Metal.BladeSmall"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Magic/MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": null,
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Metal.Bludgeon"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Magic/MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": null,
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Metal.BludgeonLarge"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Magic/MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": null,
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Metal.Chopper"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Magic/MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": null,
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Metal.ChopperLarge"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Magic/MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": null,
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Bone.Blade"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Magic/MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": null,
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Bone.BladeSmall"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Magic/MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": null,
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Bone.Chopper"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Magic/MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": null,
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Stone.Blade"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Magic/MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": null,
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Stone.Bludgeon"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Magic/MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": null,
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Stone.Chopper"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Magic/MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": null,
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Wood.Bludgeon"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Magic/MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": null,
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [],
+            "PhysicalMaterials": [
+              {
+                "ObjectName": "DominionPhysicalMaterial'Grass_Soft'",
+                "ObjectPath": "RSDragonwilds/Content/Audio/PhysMats/Grass_Soft.0"
+              },
+              null,
+              {
+                "ObjectName": "DominionPhysicalMaterial'Gravel'",
+                "ObjectPath": "RSDragonwilds/Content/Audio/PhysMats/Gravel.0"
+              },
+              {
+                "ObjectName": "DominionPhysicalMaterial'Metal'",
+                "ObjectPath": "RSDragonwilds/Content/Audio/PhysMats/Metal.0"
+              },
+              {
+                "ObjectName": "DominionPhysicalMaterial'Mud_Shallow'",
+                "ObjectPath": "RSDragonwilds/Content/Audio/PhysMats/Mud_Shallow.0"
+              },
+              {
+                "ObjectName": "DominionPhysicalMaterial'Rock'",
+                "ObjectPath": "RSDragonwilds/Content/Audio/PhysMats/Rock.0"
+              },
+              {
+                "ObjectName": "DominionPhysicalMaterial'Wood_Boards_Tight'",
+                "ObjectPath": "RSDragonwilds/Content/Audio/PhysMats/Wood_Boards_Tight.0"
+              }
+            ]
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Magic/MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": null,
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Default"
+            ],
+            "PhysicalMaterials": [
+              {
+                "ObjectName": "DominionPhysicalMaterial'Default'",
+                "ObjectPath": "RSDragonwilds/Content/Audio/PhysMats/Default.0"
+              }
+            ]
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Magic/MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": null,
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Metal.Armour"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Magic/MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": {
+              "ObjectName": "DominionMetaSoundSource'MSS_Co_Armour_Pierce'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Combat/Melee/Impacts_Armour/MSS_Co_Armour_Pierce.0"
+            },
+            "VFX": null,
+            "CritVFX": null
+          }
+        },
+        {
+          "Key": {
+            "GameplayTags": [
+              "Audio.Splitbark"
+            ],
+            "PhysicalMaterials": []
+          },
+          "Value": {
+            "AudioEvent": {
+              "ObjectName": "DominionMetaSoundSource'MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo'",
+              "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/EnemyAI/SkeletonFaction/Skeleton_Magic/MSS_En_Magic_Skeleton_Cinderbolt_MagicImpact_Stereo.0"
+            },
+            "NonInstigatorAudioEvent": null,
+            "CritSweetener": null,
+            "VFX": null,
+            "CritVFX": null
+          }
+        }
+      ],
+      "EffectSoundRule": "ESoundPlayRules::Additive"
+    }
+  }
+]

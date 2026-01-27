@@ -1,0 +1,264 @@
+[
+  {
+    "Type": "DominionImpactFXData",
+    "Name": "ImpactFXData",
+    "Class": "UScriptClass'DominionImpactFXData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SourceToPairingDataMap": [
+        {
+          "Key": {
+            "TagName": "Audio.Metal.Blade"
+          },
+          "Value": {
+            "AssetPathName": "/Game/Gameplay/ImpactFXData/MetalBlade_ImpactPairingData.MetalBlade_ImpactPairingData",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Audio.Wood.Bludgeon"
+          },
+          "Value": {
+            "AssetPathName": "/Game/Gameplay/ImpactFXData/WoodBludgeon_ImpactPairingData.WoodBludgeon_ImpactPairingData",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Audio.Unarmed"
+          },
+          "Value": {
+            "AssetPathName": "/Game/Gameplay/ImpactFXData/Unarmed_ImpactPairingData.Unarmed_ImpactPairingData",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Audio.Stone.Bludgeon"
+          },
+          "Value": {
+            "AssetPathName": "/Game/Gameplay/ImpactFXData/StoneBludgeon_ImpactPairingData.StoneBludgeon_ImpactPairingData",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Audio.Metal"
+          },
+          "Value": {
+            "AssetPathName": "/Game/Gameplay/ImpactFXData/MetalBludgeon_ImpactPairingData.MetalBludgeon_ImpactPairingData",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Audio.Bone.Blade"
+          },
+          "Value": {
+            "AssetPathName": "/Game/Gameplay/ImpactFXData/BoneBlade_ImpactPairingData.BoneBlade_ImpactPairingData",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Audio.Stone.Blade"
+          },
+          "Value": {
+            "AssetPathName": "/Game/Gameplay/ImpactFXData/StoneBlade_ImpactPairingData.StoneBlade_ImpactPairingData",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Audio.Metal.Chopper"
+          },
+          "Value": {
+            "AssetPathName": "/Game/Gameplay/ImpactFXData/Metal_Chopper_ImpactPairingData.Metal_Chopper_ImpactPairingData",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Audio.Metal.BludgeonLarge"
+          },
+          "Value": {
+            "AssetPathName": "/Game/Gameplay/ImpactFXData/MetalBludgeonLarge_ImpactPairingData.MetalBludgeonLarge_ImpactPairingData",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Audio.Metal.BladeSmall"
+          },
+          "Value": {
+            "AssetPathName": "/Game/Gameplay/ImpactFXData/MetalSliceSmall_ImpactPairingData.MetalSliceSmall_ImpactPairingData",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Audio.Metal.Bludgeon"
+          },
+          "Value": {
+            "AssetPathName": "/Game/Gameplay/ImpactFXData/MetalBludgeon_ImpactPairingData.MetalBludgeon_ImpactPairingData",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Audio.Metal.ChopperLarge"
+          },
+          "Value": {
+            "AssetPathName": "/Game/Gameplay/ImpactFXData/MetalLarge_Chop_ImpactPairingData.MetalLarge_Chop_ImpactPairingData",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Audio.Bone.Chopper"
+          },
+          "Value": {
+            "AssetPathName": "/Game/Gameplay/ImpactFXData/BoneChopper_ImpactPairingData.BoneChopper_ImpactPairingData",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Audio.Stone.Chopper"
+          },
+          "Value": {
+            "AssetPathName": "/Game/Gameplay/ImpactFXData/StoneChopper_ImpactPairingData.StoneChopper_ImpactPairingData",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Audio.Wood.Bow"
+          },
+          "Value": {
+            "AssetPathName": "/Game/Gameplay/ImpactFXData/WoodBludgeon_ImpactPairingData.WoodBludgeon_ImpactPairingData",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Audio.Chitin.Slash"
+          },
+          "Value": {
+            "AssetPathName": "/Game/Gameplay/ImpactFXData/ChitinSlash_ImpactPairingData.ChitinSlash_ImpactPairingData",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Audio.Horn.Bludgeon"
+          },
+          "Value": {
+            "AssetPathName": "/Game/Gameplay/ImpactFXData/HornBludgeon_ImpactPairingData.HornBludgeon_ImpactPairingData",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Audio.Flesh"
+          },
+          "Value": {
+            "AssetPathName": "/Game/Gameplay/ImpactFXData/Unarmed_ImpactPairingData.Unarmed_ImpactPairingData",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Audio.Chitin"
+          },
+          "Value": {
+            "AssetPathName": "/Game/Gameplay/ImpactFXData/ChitinSlash_ImpactPairingData.ChitinSlash_ImpactPairingData",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Audio.Chitin.Orb"
+          },
+          "Value": {
+            "AssetPathName": "/Game/Gameplay/ImpactFXData/ChitinOrb_ImpactParingData.ChitinOrb_ImpactParingData",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Audio.Metal.Pickaxe"
+          },
+          "Value": {
+            "AssetPathName": "/Game/Gameplay/ImpactFXData/MetalPickaxe_ImpactPairingData.MetalPickaxe_ImpactPairingData",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Audio.Stone.Pickaxe"
+          },
+          "Value": {
+            "AssetPathName": "/Game/Gameplay/ImpactFXData/StonePickaxe_ImpactPairingData.StonePickaxe_ImpactPairingData",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Audio.Bone.BladeSmall"
+          },
+          "Value": {
+            "AssetPathName": "/Game/Gameplay/ImpactFXData/BoneBladeSmall_ImpactPairingData.BoneBladeSmall_ImpactPairingData",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Audio.Stone.BludgeonLarge"
+          },
+          "Value": {
+            "AssetPathName": "/Game/Gameplay/ImpactFXData/StoneBludgeonLarge_ImpactPairingData.StoneBludgeonLarge_ImpactPairingData",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Audio.Metal.BladeLarge"
+          },
+          "Value": {
+            "AssetPathName": "/Game/Gameplay/ImpactFXData/MetalBlade_ImpactPairingData.MetalBlade_ImpactPairingData",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Audio.Ammo.Arrow.Spectral"
+          },
+          "Value": {
+            "AssetPathName": "/Game/Gameplay/ImpactFXData/ADA_Arrow_Spectral_ImpactPairingData.ADA_Arrow_Spectral_ImpactPairingData",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Audio.Ammo.Arrow.Poison"
+          },
+          "Value": {
+            "AssetPathName": "/Game/Gameplay/ImpactFXData/ADA_Arrow_Poison_ImpactPairingData.ADA_Arrow_Poison_ImpactPairingData",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Audio.AI.Skeleton.Melee.ShieldHoplite"
+          },
+          "Value": {
+            "AssetPathName": "/Game/Gameplay/ImpactFXData/ADA_SkeletonShield_ImpactPairingData.ADA_SkeletonShield_ImpactPairingData",
+            "SubPathString": ""
+          }
+        }
+      ]
+    }
+  }
+]

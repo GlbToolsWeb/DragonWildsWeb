@@ -1,0 +1,53 @@
+[
+  {
+    "Type": "DominionInputMode",
+    "Name": "DIM_Gameplay",
+    "Class": "UScriptClass'DominionInputMode'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "InputConfig": "EDominionWidgetInputMode::Game",
+      "Mappings": [
+        {
+          "InputMapping": {
+            "ObjectName": "InputMappingContext'IMC_Camera'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_Camera.0"
+          },
+          "Priority": 0
+        },
+        {
+          "InputMapping": {
+            "ObjectName": "InputMappingContext'IMC_Movement'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_Movement.10"
+          },
+          "Priority": 0
+        },
+        {
+          "InputMapping": {
+            "ObjectName": "InputMappingContext'IMC_Combat'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_Combat.15"
+          },
+          "Priority": 1
+        },
+        {
+          "InputMapping": {
+            "ObjectName": "InputMappingContext'IMC_GameplayUI'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_GameplayUI.24"
+          },
+          "Priority": 2
+        },
+        {
+          "InputMapping": {
+            "ObjectName": "InputMappingContext'IMC_InventoryToggle'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_InventoryToggle.2"
+          },
+          "Priority": 0
+        }
+      ],
+      "bAllowInteraction": true,
+      "bCanHoldToAttackWhileModeActive": true,
+      "LegendWidgetType": "EInputLegendWidgetType::Gameplay",
+      "bEnableHorizontalMenuNavigationUsingGamepadDPad": true,
+      "bEnableQuickAccessNavigationHints": true
+    }
+  }
+]

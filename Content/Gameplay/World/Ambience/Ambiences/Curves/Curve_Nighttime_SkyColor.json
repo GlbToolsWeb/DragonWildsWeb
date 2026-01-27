@@ -1,0 +1,71 @@
+[
+  {
+    "Type": "CurveFloat",
+    "Name": "Curve_Nighttime_SkyColor",
+    "Class": "UScriptClass'CurveFloat'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": -0.18444441,
+            "Value": 1.2663321E-07,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.36038956,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.1351461
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.028003,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.1046309,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.24337928
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.8963872,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.0963871,
+            "Value": -2.6333003E-08,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0942809,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.3771236
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.8390712,
+            "Value": 0.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.06993453,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ],
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Cycle",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Cycle"
+      }
+    }
+  }
+]

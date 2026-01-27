@@ -1,0 +1,25 @@
+[
+  {
+    "Type": "EmoteData",
+    "Name": "DA_Emote_GrabAttention",
+    "Class": "UScriptClass'EmoteData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EmoteDisplayName": {
+        "Namespace": "",
+        "Key": "3E3009F047590C623C3EF19FA931F09E",
+        "SourceString": "Grab Attention",
+        "LocalizedString": "Grab Attention"
+      },
+      "EmoteIcon": {
+        "ObjectName": "Texture2D'T_Icon_Signal'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Emotes/T_Icon_Signal.0"
+      },
+      "EmoteMontage": {
+        "ObjectName": "AnimMontage'AM_PlayerM_Gesture_Beckon_01'",
+        "ObjectPath": "RSDragonwilds/Content/Art/Animation/PlayerM/Gesture/AM_PlayerM_Gesture_Beckon_01.0"
+      },
+      "PersistenceID": "k7YjokdFqvRzXzGMrCjYrg"
+    }
+  }
+]

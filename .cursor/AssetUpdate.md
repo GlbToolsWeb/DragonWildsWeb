@@ -22,6 +22,17 @@ sync it into `DWE/Assets/` so the web UI stays up to date.
      `python tools/sync_table_to_assets.py --table Table --assets DWE\Assets --delete-matched`
 4. Rebuild the web catalog (single file used by the UI):
    - `python tools/build_dwe_catalog.py`
+   - If the site runs from `docs/`, copy or regenerate to `docs/data/catalog.json`
+
+## Quick Update (Thorough)
+1. Build and rename the Table data:
+   - `python tools/build_item_tables.py --source Content\Gameplay\Items Content\Gameplay\Character\Player\Equipment --table Table --content-root Content`
+   - `python tools/rename_dwe_assets.py --root Table`
+2. Sync and isolate new items:
+   - `python tools/sync_table_to_assets.py --table Table --assets docs\DWE\Assets --delete-matched`
+3. Manually place remaining Table items into `docs/DWE/Assets`.
+4. Rebuild the catalog for both web roots:
+   - `python tools/build_dwe_catalog.py`
 
 ## Notes
 - The sync step matches files by exact filename (case-insensitive) and replaces

@@ -1,0 +1,69 @@
+[
+  {
+    "Type": "GE_RangedAttack_ProjectileRefund_C",
+    "Name": "GE_RangedAttack_ProjectileRefund_C_0",
+    "Outer": "SkillPerkModule_StatBuff_0",
+    "Class": "BlueprintGeneratedClass'RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Ranged/GE_RangedAttack_ProjectileRefund.GE_RangedAttack_ProjectileRefund_C'",
+    "Template": {
+      "ObjectName": "GE_RangedAttack_ProjectileRefund_C'Default__GE_RangedAttack_ProjectileRefund_C'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/GameplayEffects/Skills/Ranged/GE_RangedAttack_ProjectileRefund.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SkillPerkData",
+    "Name": "PerkV2_Ranged_ProjectileRefundStat36",
+    "Class": "UScriptClass'SkillPerkData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PerkName": {
+        "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
+        "Key": "Ranged.RangedProjectileRefundChance.Name",
+        "SourceString": "Ammo Recovery Chance",
+        "LocalizedString": "Ammo Recovery Chance"
+      },
+      "PerkDescription": {
+        "TableId": "/Game/Gameplay/Character/Player/PerksV2/ST_Skills_Perks.ST_Skills_Perks",
+        "Key": "Ranged.RangedProjectileRefundChance.Desc",
+        "SourceString": "Adds a chance to be able to retrieve your arrows or bolts from your enemy's loot when they die.",
+        "LocalizedString": "Adds a chance to be able to retrieve your arrows or bolts from your enemy's loot when they die."
+      },
+      "SkillPerkImage": {
+        "AssetPathName": "/Game/Art/UI/Skills/2025/Skill_Tree_Icons/T_Icon_SkillTree_Ranged.T_Icon_SkillTree_Ranged",
+        "SubPathString": ""
+      },
+      "PerkModules": [
+        {
+          "ObjectName": "SkillPerkModule_StatBuff'PerkV2_Ranged_ProjectileRefundStat36:SkillPerkModule_StatBuff_0'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/PerksV2/Ranged/PerkV2_Ranged_ProjectileRefundStat36.2"
+        }
+      ],
+      "PerkUnlockInfo": {
+        "AssociatedSkill": {
+          "AssetPathName": "/Game/Gameplay/Character/Player/Skills/SKILL_Ranged.SKILL_Ranged",
+          "SubPathString": ""
+        },
+        "RequiredSkillLevel": 49
+      },
+      "FeatureTag": {
+        "TagName": "Feature.RangedSkillPerks"
+      },
+      "PersistenceID": "fqp3xUHZ3Z63O9C8Do3VQA",
+      "InternalName": "perk_ranged_projectilerefundstat36"
+    }
+  },
+  {
+    "Type": "SkillPerkModule_StatBuff",
+    "Name": "SkillPerkModule_StatBuff_0",
+    "Outer": "PerkV2_Ranged_ProjectileRefundStat36",
+    "Class": "UScriptClass'SkillPerkModule_StatBuff'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "GameplayEffectData": {
+        "ObjectName": "GE_RangedAttack_ProjectileRefund_C'PerkV2_Ranged_ProjectileRefundStat36:SkillPerkModule_StatBuff_0.GE_RangedAttack_ProjectileRefund_C_0'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Character/Player/PerksV2/Ranged/PerkV2_Ranged_ProjectileRefundStat36.0"
+      },
+      "ModifierAmount": 0.0125
+    }
+  }
+]

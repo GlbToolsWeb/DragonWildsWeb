@@ -4,7 +4,6 @@
   "max_stack": 1,
   "icon": "Amulet of Strength.png",
   "description": "Increased MELEE DAMAGE",
-  "Equipment": "Jewellery",
   "VitalShield": 0,
   "BaseDurability": 2500,
   "Weight": 2.0

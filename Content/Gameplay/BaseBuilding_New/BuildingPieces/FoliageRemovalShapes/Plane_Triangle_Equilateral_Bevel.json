@@ -1,0 +1,119 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "Plane_Triangle_Equilateral_Bevel",
+    "Class": "UScriptClass'BodySetup'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Footstep",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "WorldActor",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Projectile_PathTrace",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Projectile_Arrow",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "FeetIK",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "AudioOcclusion",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      },
+      "CollisionTraceFlag": "ECollisionTraceFlag::CTF_UseComplexAsSimple"
+    },
+    "BodySetupGuid": "0E2C66684EC9C9CA7E6E7CBDD2EE3BD4",
+    "CookedFormatData": {
+      "Chaos": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 410,
+        "SizeOnDisk": 410,
+        "OffsetInFile": "0x8C"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_0",
+    "Outer": "Plane_Triangle_Equilateral_Bevel",
+    "Class": "UScriptClass'NavCollision'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "CookedFormatData": {
+      "NavCollision_Chaos": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 406,
+        "SizeOnDisk": 406,
+        "OffsetInFile": "0x36"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "Plane_Triangle_Equilateral_Bevel",
+    "Class": "UScriptClass'StaticMesh'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "Material'WorldGridMaterial'",
+            "ObjectPath": "Engine/Content/EngineMaterials/WorldGridMaterial.0"
+          },
+          "MaterialSlotName": "Material_0",
+          "ImportedMaterialSlotName": "Material_0",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 98.76197,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 98.76197,
+      "bGenerateMeshDistanceField": true,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": -14.441666,
+          "Z": 0.0
+        },
+        "BoxExtent": {
+          "X": 57.2,
+          "Y": 49.55833,
+          "Z": 0.0
+        },
+        "SphereRadius": 72.99991754742041
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'Plane_Triangle_Equilateral_Bevel:BodySetup_0'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/FoliageRemovalShapes/Plane_Triangle_Equilateral_Bevel.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'Plane_Triangle_Equilateral_Bevel:NavCollision_0'",
+      "ObjectPath": "RSDragonwilds/Content/Gameplay/BaseBuilding_New/BuildingPieces/FoliageRemovalShapes/Plane_Triangle_Equilateral_Bevel.1"
+    },
+    "LightingGuid": "DFBC72CC-4FC738BD-B38D65B2-5AFFA41A",
+    "RenderData": null
+  }
+]

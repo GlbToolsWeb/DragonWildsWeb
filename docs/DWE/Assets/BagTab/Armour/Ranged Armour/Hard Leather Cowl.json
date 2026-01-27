@@ -4,7 +4,6 @@
   "max_stack": 1,
   "icon": "Hard Leather Cowl.png",
   "description": "A durable helmet crafted from hard leather.",
-  "Equipment": "Head",
   "VitalShield": 0,
   "BaseDurability": 1250,
   "PowerLevel": 3,

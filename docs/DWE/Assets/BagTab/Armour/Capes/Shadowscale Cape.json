@@ -4,6 +4,5 @@
   "max_stack": 1,
   "icon": "Shadowscale Cape.png",
   "description": "A cape worn by those from the lands of death and decay.",
-  "Equipment": "Cape",
   "VitalShield": 0
 }

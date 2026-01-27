@@ -4,7 +4,6 @@
   "max_stack": 1,
   "icon": "Shadowscale Hood.png",
   "description": "Ranger Headgear worn by the Skeleton Archer's from Fellhollow.",
-  "Equipment": "Head",
   "VitalShield": 0,
   "BaseDurability": 1250,
   "PowerLevel": 5,

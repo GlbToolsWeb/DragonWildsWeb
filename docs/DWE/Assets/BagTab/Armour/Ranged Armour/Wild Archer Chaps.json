@@ -4,7 +4,6 @@
   "max_stack": 1,
   "icon": "Wild Archer Chaps.png",
   "description": "Durable leg armour worn by a Wild Knight archer.",
-  "Equipment": "Legs",
   "VitalShield": 0,
   "BaseDurability": 1400,
   "PowerLevel": 4,

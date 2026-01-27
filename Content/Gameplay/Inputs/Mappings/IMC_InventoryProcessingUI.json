@@ -1,0 +1,256 @@
+[
+  {
+    "Type": "DominionPlayerMappableKeySetting",
+    "Name": "DominionPlayerMappableKeySetting_0",
+    "Outer": "IMC_InventoryProcessingUI",
+    "Class": "UScriptClass'DominionPlayerMappableKeySetting'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AlternateInputMappingNames": [
+        "InvProcDestroyObjectPressedGamepad"
+      ],
+      "bHideFromList": true,
+      "InputType": "EKeyMappingSettingsInputType::KeyboardMouse",
+      "Name": "InvProcDestroyObjectPressed",
+      "DisplayName": {
+        "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+        "Key": "InventoryDestroyItem",
+        "SourceString": "Destroy Item",
+        "LocalizedString": "Destroy Item"
+      }
+    }
+  },
+  {
+    "Type": "DominionPlayerMappableKeySetting",
+    "Name": "DominionPlayerMappableKeySetting_1",
+    "Outer": "IMC_InventoryProcessingUI",
+    "Class": "UScriptClass'DominionPlayerMappableKeySetting'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AlternateInputMappingNames": [
+        "InvProcDestroyObjectPressed"
+      ],
+      "InputType": "EKeyMappingSettingsInputType::Gamepad",
+      "Name": "InvProcDestroyObjectPressedGamepad",
+      "DisplayName": {
+        "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+        "Key": "InventoryDestroyItem",
+        "SourceString": "Destroy Item",
+        "LocalizedString": "Destroy Item"
+      }
+    }
+  },
+  {
+    "Type": "DominionPlayerMappableKeySetting",
+    "Name": "DominionPlayerMappableKeySetting_4",
+    "Outer": "IMC_InventoryProcessingUI",
+    "Class": "UScriptClass'DominionPlayerMappableKeySetting'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bHideFromList": true,
+      "InputType": "EKeyMappingSettingsInputType::KeyboardMouse",
+      "Name": "InvProcGrantQuickTransfer",
+      "DisplayName": {
+        "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+        "Key": "InventoryQuickTransferGrant",
+        "SourceString": "Grant Quick Transfer",
+        "LocalizedString": "Grant Quick Transfer"
+      }
+    }
+  },
+  {
+    "Type": "DominionPlayerMappableKeySetting",
+    "Name": "DominionPlayerMappableKeySetting_5",
+    "Outer": "IMC_InventoryProcessingUI",
+    "Class": "UScriptClass'DominionPlayerMappableKeySetting'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AlternateInputMappingNames": [
+        "InvProcQuickTransfer"
+      ],
+      "InputType": "EKeyMappingSettingsInputType::Gamepad",
+      "Name": "InvProcQuickTransferGamepad",
+      "DisplayName": {
+        "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+        "Key": "InventoryQuickTransfer",
+        "SourceString": "Quick Transfer",
+        "LocalizedString": "Quick Transfer"
+      }
+    }
+  },
+  {
+    "Type": "DominionPlayerMappableKeySetting",
+    "Name": "DominionPlayerMappableKeySetting_6",
+    "Outer": "IMC_InventoryProcessingUI",
+    "Class": "UScriptClass'DominionPlayerMappableKeySetting'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AlternateInputMappingNames": [
+        "InvProcQuickTransferGamepad"
+      ],
+      "bHideFromList": true,
+      "InputType": "EKeyMappingSettingsInputType::KeyboardMouse",
+      "Name": "InvProcQuickTransfer",
+      "DisplayName": {
+        "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+        "Key": "InventoryQuickTransfer",
+        "SourceString": "Quick Transfer",
+        "LocalizedString": "Quick Transfer"
+      }
+    }
+  },
+  {
+    "Type": "DominionPlayerMappableKeySetting",
+    "Name": "DominionPlayerMappableKeySetting_7",
+    "Outer": "IMC_InventoryProcessingUI",
+    "Class": "UScriptClass'DominionPlayerMappableKeySetting'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bHideFromList": true,
+      "InputType": "EKeyMappingSettingsInputType::KeyboardMouse",
+      "Name": "InvProcMoveItemStart",
+      "DisplayName": {
+        "TableId": "/Game/UI/Settings/ST_Controls.ST_Controls",
+        "Key": "InventoryMoveItem",
+        "SourceString": "Move Item",
+        "LocalizedString": "Move Item"
+      }
+    }
+  },
+  {
+    "Type": "InputMappingContext",
+    "Name": "IMC_InventoryProcessingUI",
+    "Class": "UScriptClass'InputMappingContext'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Mappings": [
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_Inventory_DestroyObject_Held'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Inputs/Actions/Inventory/IA_Inventory_DestroyObject_Held.0"
+          },
+          "Key": {
+            "KeyName": "X"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::OverrideSettings",
+          "PlayerMappableKeySettings": {
+            "ObjectName": "DominionPlayerMappableKeySetting'IMC_InventoryProcessingUI:DominionPlayerMappableKeySetting_0'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_InventoryProcessingUI.0"
+          }
+        },
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_Inventory_DestroyObject_Held'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Inputs/Actions/Inventory/IA_Inventory_DestroyObject_Held.0"
+          },
+          "Key": {
+            "KeyName": "Gamepad_FaceButton_Left"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::OverrideSettings",
+          "PlayerMappableKeySettings": {
+            "ObjectName": "DominionPlayerMappableKeySetting'IMC_InventoryProcessingUI:DominionPlayerMappableKeySetting_1'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_InventoryProcessingUI.1"
+          }
+        },
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_Inventory_GrantQuickTransfer'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Inputs/Actions/Inventory/IA_Inventory_GrantQuickTransfer.0"
+          },
+          "Key": {
+            "KeyName": "LeftControl"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::OverrideSettings",
+          "PlayerMappableKeySettings": {
+            "ObjectName": "DominionPlayerMappableKeySetting'IMC_InventoryProcessingUI:DominionPlayerMappableKeySetting_4'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_InventoryProcessingUI.2"
+          }
+        },
+        {
+          "Triggers": [
+            {
+              "ObjectName": "InputTriggerPressed'IMC_InventoryProcessingUI:InputTriggerPressed_1'",
+              "ObjectPath": "RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_InventoryProcessingUI.8"
+            }
+          ],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_Inventory_QuickTransfer'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Inputs/Actions/Inventory/IA_Inventory_QuickTransfer.0"
+          },
+          "Key": {
+            "KeyName": "Gamepad_FaceButton_Bottom"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::OverrideSettings",
+          "PlayerMappableKeySettings": {
+            "ObjectName": "DominionPlayerMappableKeySetting'IMC_InventoryProcessingUI:DominionPlayerMappableKeySetting_5'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_InventoryProcessingUI.3"
+          }
+        },
+        {
+          "Triggers": [
+            {
+              "ObjectName": "InputTriggerChordAction'IMC_InventoryProcessingUI:InputTriggerChordAction_2'",
+              "ObjectPath": "RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_InventoryProcessingUI.7"
+            }
+          ],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_Inventory_QuickTransfer'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Inputs/Actions/Inventory/IA_Inventory_QuickTransfer.0"
+          },
+          "Key": {
+            "KeyName": "LeftMouseButton"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::OverrideSettings",
+          "PlayerMappableKeySettings": {
+            "ObjectName": "DominionPlayerMappableKeySetting'IMC_InventoryProcessingUI:DominionPlayerMappableKeySetting_6'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_InventoryProcessingUI.4"
+          }
+        },
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_Inventory_MoveItemStart'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Inputs/Actions/Inventory/IA_Inventory_MoveItemStart.0"
+          },
+          "Key": {
+            "KeyName": "LeftMouseButton"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::OverrideSettings",
+          "PlayerMappableKeySettings": {
+            "ObjectName": "DominionPlayerMappableKeySetting'IMC_InventoryProcessingUI:DominionPlayerMappableKeySetting_7'",
+            "ObjectPath": "RSDragonwilds/Content/Gameplay/Inputs/Mappings/IMC_InventoryProcessingUI.5"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "InputTriggerChordAction",
+    "Name": "InputTriggerChordAction_2",
+    "Outer": "IMC_InventoryProcessingUI",
+    "Class": "UScriptClass'InputTriggerChordAction'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ChordAction": {
+        "ObjectName": "InputAction'IA_Inventory_GrantQuickTransfer'",
+        "ObjectPath": "RSDragonwilds/Content/Gameplay/Inputs/Actions/Inventory/IA_Inventory_GrantQuickTransfer.0"
+      }
+    }
+  },
+  {
+    "Type": "InputTriggerPressed",
+    "Name": "InputTriggerPressed_1",
+    "Outer": "IMC_InventoryProcessingUI",
+    "Class": "UScriptClass'InputTriggerPressed'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

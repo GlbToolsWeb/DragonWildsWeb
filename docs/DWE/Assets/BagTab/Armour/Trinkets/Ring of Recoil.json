@@ -4,7 +4,6 @@
   "max_stack": 1,
   "icon": "Ring of Recoil.png",
   "description": "A PERCENTAGE of DAMAGE received is DEALT back to ATTACKERS",
-  "Equipment": "Jewellery",
   "VitalShield": 0,
   "BaseDurability": 2500,
   "Weight": 1.0

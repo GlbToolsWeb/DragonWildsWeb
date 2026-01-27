@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "SkillData",
+    "Name": "SKILL_Woodcutting",
+    "Class": "UScriptClass'SkillData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Name": {
+        "Namespace": "",
+        "Key": "3E51C72C442CAD76A059B48C794213BA",
+        "SourceString": "Woodcutting",
+        "LocalizedString": "Woodcutting"
+      },
+      "LevelUpDescriptionText": {
+        "TableId": "/Game/Gameplay/Character/Player/Skills/ST_SkillLevelUpInstructions.ST_SkillLevelUpInstructions",
+        "Key": "WoodcuttingLevelInstruction",
+        "SourceString": "Chop down trees, tear up saplings or collect logs from the floor to level this skill. ",
+        "LocalizedString": "Chop down trees, tear up saplings or collect logs from the floor to level this skill. "
+      },
+      "SkillType": "ESkill::Woodcutting",
+      "Icon": {
+        "ObjectName": "Texture2D'T_Notification_Skill_Woodcutting'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/T_Notification_Skill_Woodcutting.0"
+      },
+      "TagIcon": {
+        "ObjectName": "Texture2D'T_Icon_Tag_Skill_Woodcutting'",
+        "ObjectPath": "RSDragonwilds/Content/Art/UI/Skills/Icons/Tags/T_Icon_Tag_Skill_Woodcutting.0"
+      },
+      "DamageXPEvent": {
+        "DataTable": {
+          "ObjectName": "DataTable'DT_XPEvents_Damage'",
+          "ObjectPath": "RSDragonwilds/Content/Gameplay/Progress/XPEventTables/DT_XPEvents_Damage.0"
+        },
+        "RowName": "SkillDamage_Woodcutting"
+      },
+      "StaminaCostModifierAttribute": {
+        "ObjectName": "Class'LoggingStaminaCostModifierAttribute'",
+        "ObjectPath": "/Script/Dominion"
+      },
+      "LevelUpSFX": {
+        "ObjectName": "DominionMetaSoundSource'MSS_Mu_STNG_LvlUp_Survival'",
+        "ObjectPath": "RSDragonwilds/Content/Audio/MetasoundSources/Music/Stings/LevelUp/MSS_Mu_STNG_LvlUp_Survival.0"
+      },
+      "PersistenceID": "4zYUGF5u_0KbMLkWJmmBbQ",
+      "InternalName": "skill_woodcutting"
+    }
+  }
+]

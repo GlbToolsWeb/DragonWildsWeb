@@ -4,7 +4,6 @@
   "max_stack": 1,
   "icon": "Bronze Platebody.png",
   "description": "A heavy chestplate made from bronze.",
-  "Equipment": "Body",
   "VitalShield": 0,
   "BaseDurability": 1250,
   "PowerLevel": 3,

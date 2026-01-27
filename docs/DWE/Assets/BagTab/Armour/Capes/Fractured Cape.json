@@ -4,6 +4,5 @@
   "max_stack": 1,
   "icon": "Fractured Cape.png",
   "description": "A cloak warning against the danger of hubris. ",
-  "Equipment": "Cape",
   "VitalShield": 0
 }

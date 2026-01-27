@@ -4,7 +4,6 @@
   "max_stack": 1,
   "icon": "Green Dragonhide Body.png",
   "description": "Ranged body armour crafted from Green Dragonhide. Form fitting yet intimidating.",
-  "Equipment": "Body",
   "VitalShield": 0,
   "BaseDurability": 1250,
   "PowerLevel": 5,

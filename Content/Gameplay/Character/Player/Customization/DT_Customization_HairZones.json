@@ -1,0 +1,280 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Customization_HairZones",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Object'PlayerHairZoneCustomizationMeshData'",
+        "ObjectPath": "/Script/Dominion"
+      }
+    },
+    "Rows": {
+      "Zone1_None": {
+        "HairZone": "EHairZone::Zone1",
+        "ZoneStyleIndex": -1,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "Zone1_1": {
+        "HairZone": "EHairZone::Zone1",
+        "ZoneStyleIndex": 0,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Hair/U_MED_HighPony_01/SK_U_MED_HighPony_01.SK_U_MED_HighPony_01",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/ABP_Player_HairZone_CopyPose.ABP_Player_HairZone_CopyPose_C",
+          "SubPathString": ""
+        }
+      },
+      "Zone1_2": {
+        "HairZone": "EHairZone::Zone1",
+        "ZoneStyleIndex": 1,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Hair/U_MED_Dreadlocks_01/SK_U_MED_Dreadlocks_01.SK_U_MED_Dreadlocks_01",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/ABP_Player_HairZone_CopyPose.ABP_Player_HairZone_CopyPose_C",
+          "SubPathString": ""
+        }
+      },
+      "Zone1_3": {
+        "HairZone": "EHairZone::Zone1",
+        "ZoneStyleIndex": 2,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Hair/U_MED_Mohawk_01/SK_U_MED_Mohawk_01.SK_U_MED_Mohawk_01",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/ABP_Player_HairZone_CopyPose.ABP_Player_HairZone_CopyPose_C",
+          "SubPathString": ""
+        }
+      },
+      "Zone1_4": {
+        "HairZone": "EHairZone::Zone1",
+        "ZoneStyleIndex": 3,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Hair/U_MED_BraidedPony_01/SK_U_MED_BraidedPony_01.SK_U_MED_BraidedPony_01",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/ABP_Player_HairZone_CopyPose.ABP_Player_HairZone_CopyPose_C",
+          "SubPathString": ""
+        }
+      },
+      "Zone1_5": {
+        "HairZone": "EHairZone::Zone1",
+        "ZoneStyleIndex": 4,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Hair/U_MED_Bun_01/SK_U_MED_Bun_01.SK_U_MED_Bun_01",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/ABP_Player_HairZone_CopyPose.ABP_Player_HairZone_CopyPose_C",
+          "SubPathString": ""
+        }
+      },
+      "Zone2_None": {
+        "HairZone": "EHairZone::Zone2",
+        "ZoneStyleIndex": -1,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "Zone2_1": {
+        "HairZone": "EHairZone::Zone1",
+        "ZoneStyleIndex": 0,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Hair/U_MED_PonyTail_01/SK_U_MED_PonyTail_01.SK_U_MED_PonyTail_01",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/ABP_Player_HairZone_CopyPose.ABP_Player_HairZone_CopyPose_C",
+          "SubPathString": ""
+        }
+      },
+      "Zone2_2": {
+        "HairZone": "EHairZone::Zone1",
+        "ZoneStyleIndex": 1,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Hair/U_MED_CaesarCut_01/SK_U_MED_CaesarCut_01.SK_U_MED_CaesarCut_01",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/ABP_Player_HairZone_CopyPose.ABP_Player_HairZone_CopyPose_C",
+          "SubPathString": ""
+        }
+      },
+      "Zone3_None": {
+        "HairZone": "EHairZone::Zone3",
+        "ZoneStyleIndex": -1,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "Zone3_1": {
+        "HairZone": "EHairZone::Zone1",
+        "ZoneStyleIndex": 0,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Hair/U_MED_BowlCut_01/SK_U_MED_BowlCut_01.SK_U_MED_BowlCut_01",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/ABP_Player_HairZone_CopyPose.ABP_Player_HairZone_CopyPose_C",
+          "SubPathString": ""
+        }
+      },
+      "Zone3_2": {
+        "HairZone": "EHairZone::Zone1",
+        "ZoneStyleIndex": 1,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Hair/U_MED_CrownBraid_01/SK_U_MED_CrownBraid_01.SK_U_MED_CrownBraid_01",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/ABP_Player_HairZone_CopyPose.ABP_Player_HairZone_CopyPose_C",
+          "SubPathString": ""
+        }
+      },
+      "Zone3_3": {
+        "HairZone": "EHairZone::Zone1",
+        "ZoneStyleIndex": 2,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/Hair/U_MED_LongHair_01/SK_U_MED_LongHair_01.SK_U_MED_LongHair_01",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "/Game/Art/Skeleton/Player/ABP_Player_HairZone_CopyPose.ABP_Player_HairZone_CopyPose_C",
+          "SubPathString": ""
+        }
+      },
+      "Zone3_4": {
+        "HairZone": "EHairZone::Zone3",
+        "ZoneStyleIndex": 3,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "Zone4_None": {
+        "HairZone": "EHairZone::Zone4",
+        "ZoneStyleIndex": -1,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "Zone4_1": {
+        "HairZone": "EHairZone::Zone4",
+        "ZoneStyleIndex": 0,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "Zone4_2": {
+        "HairZone": "EHairZone::Zone4",
+        "ZoneStyleIndex": 1,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "Zone4_3": {
+        "HairZone": "EHairZone::Zone4",
+        "ZoneStyleIndex": 2,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "Zone4_4": {
+        "HairZone": "EHairZone::Zone4",
+        "ZoneStyleIndex": 3,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "Zone4_5": {
+        "HairZone": "EHairZone::Zone4",
+        "ZoneStyleIndex": 4,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "Zone5_None": {
+        "HairZone": "EHairZone::Zone5",
+        "ZoneStyleIndex": -1,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "Zone5_1": {
+        "HairZone": "EHairZone::Zone5",
+        "ZoneStyleIndex": 0,
+        "SoftSkeletalMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SoftAnimBlueprintClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

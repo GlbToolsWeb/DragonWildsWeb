@@ -4,7 +4,6 @@
   "max_stack": 1,
   "icon": "Paladin's Platebody.png",
   "description": "A heavy chestplate worn by the Paladin's of Saradomin.",
-  "Equipment": "Body",
   "VitalShield": 0,
   "BaseDurability": 1500,
   "PowerLevel": 4,
