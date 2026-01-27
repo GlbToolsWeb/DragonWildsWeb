@@ -32,7 +32,8 @@ body {
   overflow-x: hidden;
 }
 
-body.item-editor-page {
+body.item-editor-page,
+body.recipe-unlocker-page {
   background: url("./homepage/assets/wRCp6WWIvVBrLPnGPgxE7adJ6U.jpg") center/cover
     no-repeat fixed;
 }
@@ -100,6 +101,11 @@ body.item-editor-page {
   align-items: start;
   width: min(1500px, 100%);
   margin: 0 auto;
+}
+
+.recipe-unlocker-page .page-layout {
+  grid-template-columns: 1fr;
+  justify-items: center;
 }
 
 .top-header {
@@ -482,7 +488,8 @@ body.item-editor-page {
 .item-grid--browser,
 .item-grid--tabbed,
 .item-grid--action,
-.item-grid--personal {
+.item-grid--personal,
+.item-grid--recipes {
   grid-template-columns: repeat(8, var(--slot-size));
 }
 
@@ -496,6 +503,11 @@ body.item-editor-page {
 
 .item-grid--browser {
   grid-template-rows: repeat(4, var(--slot-size));
+  width: calc((var(--slot-size) * 8) + (var(--slot-gap) * 7));
+}
+
+.item-grid--recipes {
+  grid-template-rows: repeat(8, var(--slot-size));
   width: calc((var(--slot-size) * 8) + (var(--slot-gap) * 7));
 }
 
@@ -621,6 +633,23 @@ body.item-editor-page {
   transform: translate(-50%, -50%);
   pointer-events: none;
   z-index: 2;
+}
+
+.recipe-slot .item-icon {
+  width: 52px;
+  height: 52px;
+}
+
+.recipe-unlocked {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  right: 4px;
+  bottom: 4px;
+  object-fit: contain;
+  pointer-events: none;
+  z-index: 3;
+  opacity: 0.9;
 }
 
 .item-count {

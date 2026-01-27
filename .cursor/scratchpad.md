@@ -14,6 +14,8 @@ Planner update: requested review of `.cursor/` docs to identify any relevant inf
 Planner update: new homepage work will replace site `index.html` using `HomePage/ExampleIndex.html` as the starting point, with local copies of hosted images/assets where feasible.
 Planner update: create a fidelity-focused rebuild plan for a hand-written HTML/CSS/JS version of the homepage.
 Planner update: build a reusable Framer-based template page from `HomePage/ExamplePage.html`, applying the same localization and cleanup steps used for `docs/index.html`.
+Planner update: start a new Recipe Unlocker tool to catalog all recipes and highlight unlocked ones from `RecipesUnlocked` in player JSON.
+Planner update: recipe catalog should retain both `PersistenceID` (for injection) and `Name` (for display).
 
 ## Key Challenges and Analysis
 - Inventory slot ranges differ by section and enforce item types.
@@ -34,6 +36,11 @@ New constraint: hand-written rebuild must preserve visual fidelity across breakp
 New constraint: we should lock a reference viewport and compare before expanding to other breakpoints.
 New constraint: `HomePage/ExamplePage.html` includes tracking scripts, external fonts, and remote Framer assets (icons/OG/preview images) that must be localized or removed.
 New constraint: future pages should be created from a single template to reduce divergence; template should be documented and reusable.
+New constraint: recipe catalog should preserve `RECIPE_*.json` data while supporting UI-friendly lookup by `PersistenceID` and `RowName` categories.
+New constraint: recipe UI needs item icons for `ItemsCreated` and tooltip data for `ItemsConsumed` (item icons + counts).
+New constraint: unlocked state is derived from player JSON `RecipesUnlocked`, so we need an ID mapping strategy and overlay assets (e.g., `docs/homepage/assets/checked.png`).
+New constraint: recipe icons and ingredient tooltips should resolve from gameplay item data (same source as item table builder), not from DWE assets.
+New constraint: ingredient/tooltips likely require joining recipe `ItemData` references to parsed `ITEM_*.json` metadata.
 
 ## High-level Task Breakdown
 1. Inspect character file structure and confirm slot rules.
@@ -59,6 +66,11 @@ New constraint: future pages should be created from a single template to reduce 
 21. Define a standard page template structure and asset path conventions for future pages.
 22. Localize ExamplePage assets, scripts, and metadata into `docs/`.
 23. Publish the first template-based page and document the workflow.
+24. Build recipe catalog index from `Recipes/RECIPE_*.json` for UI consumption.
+25. Define recipe UI layout (8x8 grid) with unlocked overlay support.
+26. Parse player JSON `RecipesUnlocked` to mark unlocked recipes.
+27. Add tooltip UI for recipe cost (ItemsConsumed).
+28. Build item lookup for recipe outputs/inputs from `Gameplay` item definitions to resolve icons/names.
 
 ## Page Template Plan (Planner)
 1. Inventory external URLs in `HomePage/ExamplePage.html` (scripts, fonts, images, search index).
@@ -134,6 +146,11 @@ New constraint: future pages should be created from a single template to reduce 
 - [ ] Define reusable page template and asset conventions
 - [ ] Localize ExamplePage assets and metadata into `docs/`
 - [ ] Document template page workflow
+- [ ] Build recipe catalog index for recipe unlocker
+- [ ] Define recipe UI layout and grid/overlay behavior
+- [ ] Map recipe data to item icons (ItemsCreated/ItemsConsumed)
+- [ ] Parse `RecipesUnlocked` and display unlocked overlay
+- [ ] Build item lookup from gameplay items for recipe tooltips
 
 ## Current Status / Progress Tracking
 Planning phase: documentation initialized, slot rules documented, and item table approach drafted. Initial GUID format analysis completed. Item table plan pending. Familiarization pass started in Planner mode.
@@ -259,6 +276,9 @@ Executor update: added the editor logo line and tagline to `docs/item-editor.htm
 Executor update: converted the item editor tagline into a toggleable dropdown.
 Executor update: reviewed `.cursor` documentation (index, README, DeveloperGuide, scratchpad) for familiarization.
 Executor update: restored item editor modal markup (count/alert) so double-click quantity dialog works.
+Executor update: reviewed `.cursor` documentation (index, README, DeveloperGuide, scratchpad) for project familiarization.
+Planner update: recipe unlocker tool requirements captured; next step is to normalize recipe data for UI and unlocked overlay behavior.
+Planner update: recipe data should be enriched by joining `RECIPE_*.json` inputs/outputs to gameplay item metadata for icons/names.
 
 ## Executor's Feedback or Assistance Requests
 - Please confirm where the `.cursor/` documentation should live if not at the workspace root.
