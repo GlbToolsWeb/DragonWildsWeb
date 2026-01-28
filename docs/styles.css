@@ -33,7 +33,8 @@ body {
 }
 
 body.item-editor-page,
-body.recipe-unlocker-page {
+body.recipe-unlocker-page,
+body.spell-editor-page {
   background: url("./homepage/assets/wRCp6WWIvVBrLPnGPgxE7adJ6U.jpg") center/cover
     no-repeat fixed;
 }
@@ -106,6 +107,248 @@ body.recipe-unlocker-page {
 .recipe-unlocker-page .page-layout {
   grid-template-columns: 1fr;
   justify-items: center;
+}
+
+.spell-editor-page .page-layout {
+  grid-template-columns: repeat(2, minmax(320px, 1fr));
+  align-items: start;
+}
+
+.spell-editor-panel {
+  width: min(900px, 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 24px 24px 24px 80px;
+}
+
+.spell-editor-panel .panel-title {
+  text-align: center;
+  width: 100%;
+}
+
+.panel-title--center {
+  text-align: center;
+}
+
+.spell-browser {
+  width: min(760px, 100%);
+}
+
+.spell-grid-slot .item-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.spell-grid-slot .spell-tag-icon {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  pointer-events: none;
+  z-index: 3;
+}
+
+.spellbook-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  margin: 40px 0 10px;
+}
+
+.spell-slot.has-spell .spell-slot__placeholder {
+  opacity: 0.2;
+}
+
+.spell-slot__icon {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+}
+
+.spell-slot.has-spell .spell-slot__icon {
+  opacity: 1;
+}
+
+.spell-wheel {
+  position: relative;
+  width: min(80vw, 720px);
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  --slot-distance: clamp(110px, 18vw, 170px);
+  overflow: visible;
+  margin-top: 32px;
+}
+
+.spell-wheel__layer {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  pointer-events: none;
+}
+
+.spell-wheel__base {
+  z-index: 1;
+  transform: scale(1.4);
+  opacity: 0.2;
+}
+
+.spell-wheel__circle {
+  z-index: 0;
+  transform: scale(.9);
+  opacity: 0.1;
+}
+
+.spell-wheel__symbol {
+  z-index: -1;
+  transform: scale(.6);
+  opacity: 0.3;
+}
+
+.spell-wheel__lines {
+  z-index: 4;
+  width: 80%;
+  height: 80%;
+  inset: auto;
+  left: 50%;
+  top: 10%;
+  transform: translateX(-50%) scale(1.6);
+}
+
+.spell-wheel__inner-top {
+  z-index: 6;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  transform: scale(1.2);
+}
+
+.spell-wheel__center-bg {
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  transform: scale(.61);
+}
+
+.spell-wheel__title {
+  position: absolute;
+  z-index: 7;
+  font-family: "Crimson Pro", serif;
+  font-size: clamp(16px, 2vw, 22px);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #f5f1e8;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+  background: url("./homepage/assets/text_bg.png") center/contain no-repeat;
+  padding: 10px 18px;
+}
+
+.spell-slot {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: clamp(170px, 26vw, 260px);
+  height: clamp(260px, 40vw, 380px);
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transform: translate(-50%, -100%) rotate(var(--angle));
+  transform-origin: 50% 100%;
+  z-index: 3;
+}
+
+.spell-slot__segment {
+  width: 100%;
+  height: 100%;
+  opacity: .3;
+  object-fit: contain;
+  pointer-events: none;
+}
+
+.spell-slot::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("./spelleditor/T_Segment_Highlight.png") center/contain no-repeat;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+  pointer-events: none;
+}
+
+.spell-slot:hover::after {
+  opacity: 1;
+}
+
+.spell-slot__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: clamp(54px, 8vw, 84px);
+  height: clamp(54px, 8vw, 84px);
+  transform: translate(-50%, 20%)
+    translateY(calc(-1 * var(--slot-distance)))
+    rotate(calc(-1 * var(--angle)));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: auto;
+}
+
+.spell-slot__shadow {
+  position: absolute;
+  inset: -12%;
+  width: 124%;
+  height: 124%;
+  object-fit: contain;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.spell-slot.has-spell .spell-slot__shadow {
+  opacity: .1;
+}
+
+.spell-slot__tag {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  pointer-events: none;
+  z-index: 3;
+  opacity: 0;
+}
+
+.spell-slot.has-spell .spell-slot__tag {
+  opacity: 1;
+}
+
+.spell-slot__placeholder,
+.spell-slot__icon {
+  width: 100%;
+  height: 100%;
+  opacity: .8;
+  object-fit: contain;
+  pointer-events: none;
+}
+
+.spell-slot__icon {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  z-index: 2;
 }
 
 .top-header {
@@ -486,6 +729,7 @@ body.recipe-unlocker-page {
 }
 
 .item-grid--browser,
+.item-grid--spells,
 .item-grid--tabbed,
 .item-grid--action,
 .item-grid--personal,
@@ -503,6 +747,11 @@ body.recipe-unlocker-page {
 
 .item-grid--browser {
   grid-template-rows: repeat(4, var(--slot-size));
+  width: calc((var(--slot-size) * 8) + (var(--slot-gap) * 7));
+}
+
+.item-grid--spells {
+  grid-template-rows: repeat(5, var(--slot-size));
   width: calc((var(--slot-size) * 8) + (var(--slot-gap) * 7));
 }
 
