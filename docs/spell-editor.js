@@ -175,7 +175,13 @@ function renderWheel() {
       icon.src = spell ? iconPath(spell.spell_icon) : "";
     }
     if (tag) {
-      tag.src = spell && spell.spell_tag_icon ? iconPath(spell.spell_tag_icon) : "";
+      if (spell && spell.spell_tag_icon) {
+        tag.src = iconPath(spell.spell_tag_icon);
+        tag.classList.remove("hidden");
+      } else {
+        tag.removeAttribute("src");
+        tag.classList.add("hidden");
+      }
     }
   });
 }
